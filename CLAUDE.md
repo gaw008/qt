@@ -11,7 +11,7 @@ This repository contains a quantitative trading system with the following struct
 
 ## Main System Overview (quant_system_full)
 
-A comprehensive multi-factor quantitative trading system with live trading capabilities via Tiger Brokers API, intelligent stock selection, and automated portfolio management.
+An **investment-grade** multi-factor quantitative trading system with institutional-quality risk management, three-phase backtesting validation (2006-2025), and live trading capabilities via Tiger Brokers API. The system features Expected Shortfall (ES) @ 97.5% risk management, adaptive execution algorithms, factor crowding detection, and comprehensive compliance monitoring.
 
 ### Core Components
 
@@ -163,26 +163,31 @@ python quick_start.py
   - Earnings Momentum: Growth and earnings surprises
 - **Risk Filters**: Market cap, liquidity, volatility constraints
 
-#### 4. Portfolio Management
-- **Multi-Stock Tracking**: Handles portfolios of 20+ positions
-- **Position Sizing**: Risk-based allocation algorithms
-- **Rebalancing**: Automated periodic portfolio optimization
-- **Performance Monitoring**: Real-time P&L and risk metrics
+#### 4. Investment-Grade Portfolio Management
+- **Multi-Stock Tracking**: Handles portfolios of 20+ positions with institutional controls
+- **ES@97.5% Risk Management**: Expected Shortfall replaces VaR for tail risk measurement
+- **Position Sizing**: Risk-based allocation with drawdown budgeting and capacity analysis
+- **Rebalancing**: Automated periodic optimization with transaction cost modeling
+- **Performance Monitoring**: Real-time P&L, ES@97.5%, factor crowding, and attribution analysis
+- **Compliance Monitoring**: Automated regulatory compliance with 8+ core rules
 
-#### 5. Trade Execution
-- **Tiger API Integration**: Direct connection to Tiger Brokers
-- **Order Types**: Market, limit, stop-loss orders
-- **Execution Engine**: `bot/execution_tiger.py` with retry logic
-- **Transaction Logging**: Complete audit trail of all trades
+#### 5. Adaptive Trade Execution
+- **Tiger API Integration**: Direct connection to Tiger Brokers with enhanced monitoring
+- **Smart Execution**: Adaptive participation rate optimization based on market conditions
+- **Order Types**: Market, limit, stop-loss with Implementation Shortfall analysis
+- **Cost Attribution**: Real-time transaction cost analysis vs VWAP/TWAP/arrival price
+- **Execution Engine**: `bot/adaptive_execution_engine.py` with market impact modeling
+- **Transaction Logging**: Complete audit trail with cost breakdown and performance attribution
 
-#### 6. System Control & Monitoring
-- **React Frontend**: Modern trading UI at http://localhost:3000+
-- **Streamlit Dashboard**: Management interface at http://localhost:8501
-- **API Backend**: RESTful API at http://localhost:8000
-- **WebSocket Updates**: Real-time data via WS at ws://localhost:8000/ws
-- **Kill Switch**: Emergency stop functionality
-- **Health Monitoring**: System diagnostics and self-healing
-- **Alert System**: `bot/intelligent_alert_system_c1.py`
+#### 6. Investment-Grade Control & Monitoring
+- **React Frontend**: Modern trading UI at http://localhost:3000+ with real-time ES@97.5% monitoring
+- **Streamlit Dashboard**: Management interface at http://localhost:8501 with compliance alerts
+- **API Backend**: RESTful API at http://localhost:8000 with institutional endpoints
+- **WebSocket Updates**: Real-time data via WS at ws://localhost:8000/ws including risk metrics
+- **Kill Switch**: Emergency stop with compliance notifications and audit logging
+- **Real-time Monitor**: `bot/real_time_monitor.py` with 17 institutional-quality metrics
+- **Health Monitoring**: System diagnostics, self-healing, and factor crowding detection
+- **Alert System**: `bot/intelligent_alert_system_c1.py` with compliance escalation
 
 ### React Frontend Architecture
 
@@ -192,7 +197,7 @@ The modern React + TypeScript frontend provides a comprehensive trading interfac
 - **Index** (`/`) - Dashboard overview with portfolio summary
 - **Markets** (`/markets`) - Market data, heatmaps, and real-time quotes
 - **Trading** (`/trade`) - Order placement, position management, and execution
-- **Risk** (`/risk`) - Risk metrics, VaR calculations, and exposure analysis
+- **Risk** (`/risk`) - Risk metrics, ES@97.5% calculations, factor crowding, and exposure analysis
 - **AI Center** (`/ai`) - AI training status, model performance, and analytics
 - **Strategies** (`/strategies`) - Strategy selection, weights, and performance
 - **Screener** (`/screener`) - Stock screening with multi-factor criteria
@@ -269,6 +274,16 @@ MAX_CONCURRENT_REQUESTS=10
 - **Documentation**: Multiple `*_GUIDE.md` files
 
 ## Advanced Features
+
+### Investment-Grade Risk Management & Validation
+- **Enhanced Risk Manager**: `bot/enhanced_risk_manager.py` - ES@97.5% with tail dependence analysis
+- **Transaction Cost Analyzer**: `bot/transaction_cost_analyzer.py` - Market impact & capacity modeling
+- **Purged K-Fold Validator**: `bot/purged_kfold_validator.py` - Time series cross-validation
+- **Factor Crowding Detector**: `bot/factor_crowding_detector.py` - HHI, Gini, correlation analysis
+- **Adaptive Execution Engine**: `bot/adaptive_execution_engine.py` - Smart participation rates
+- **Real-time Monitor**: `bot/real_time_monitor.py` - 17 institutional metrics
+- **Compliance System**: `bot/compliance_monitoring_system.py` - Automated regulatory compliance
+- **Backtesting Framework**: Three-phase validation (2006-2016, 2017-2020, 2021-2025)
 
 ### AI/ML Integration
 - **AI Learning Engine**: `bot/ai_learning_engine.py`

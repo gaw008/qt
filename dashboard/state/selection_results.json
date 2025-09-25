@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-09-09T23:26:02.639375",
+  "strategy_type": "streaming_risk_integrated",
+  "selected_stocks": [
+    {
+      "symbol": "AAPL",
+      "score": 0.0,
+      "rank": 1,
+      "action": "buy",
+      "confidence": 0.0,
+      "metrics": {
+        "weight": 0.2
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "score": 0.0,
+      "rank": 2,
+      "action": "buy",
+      "confidence": 0.0,
+      "metrics": {
+        "weight": 0.2
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "score": 0.0,
+      "rank": 3,
+      "action": "buy",
+      "confidence": 0.0,
+      "metrics": {
+        "weight": 0.2
+      }
+    },
+    {
+      "symbol": "AMZN",
+      "score": 0.0,
+      "rank": 4,
+      "action": "buy",
+      "confidence": 0.0,
+      "metrics": {
+        "weight": 0.2
+      }
+    },
+    {
+      "symbol": "META",
+      "score": 0.0,
+      "rank": 5,
+      "action": "buy",
+      "confidence": 0.0,
+      "metrics": {
+        "weight": 0.2
+      }
+    }
+  ],
+  "selection_count": 5
+}

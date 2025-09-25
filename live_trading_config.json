@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-31T16:35:30.638937",
+  "capital_allocation": {
+    "total_capital": 2020.6,
+    "ml_system": {
+      "allocation_percent": 0.7,
+      "allocated_capital": 1414.4199999999998,
+      "description": "Ultra ML Trading System - 70% allocation"
+    },
+    "traditional_system": {
+      "allocation_percent": 0.3,
+      "allocated_capital": 606.18,
+      "description": "Traditional Technical Analysis - 30% allocation"
+    }
+  },
+  "status": "LIVE_TRADING",
+  "mode": "PRODUCTION"
+}
