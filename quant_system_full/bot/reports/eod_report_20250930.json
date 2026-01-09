@@ -1,0 +1,24 @@
+{
+  "report_date": "2025-09-30",
+  "generated_at": "2025-09-30T08:38:39.263901",
+  "summary": {
+    "total_alerts": 0,
+    "critical_alerts": 0,
+    "high_alerts": 0,
+    "current_health": {
+      "portfolio_es_975": 0.013082971209768424,
+      "current_drawdown": -0.017432439591448246,
+      "risk_budget_utilization": 0.11621626394298831,
+      "daily_transaction_costs": 0.002,
+      "factor_hhi": 0.24444444444444438,
+      "active_positions": 5
+    }
+  },
+  "daily_statistics": {
+    "error": "Insufficient data for daily statistics"
+  },
+  "alerts": [],
+  "recommendations": [
+    "System operating within normal parameters"
+  ]
+}

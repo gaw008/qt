@@ -1,0 +1,51 @@
+{
+  "decision_system": {
+    "enabled": true,
+    "base_threshold": 65,
+    "cooldown_minutes": 20,
+    "max_daily_loss": 2000,
+    "max_trades_per_symbol_day": 2,
+    "max_trades_per_day": 20
+  },
+  "trigger_gate": {
+    "volume_zscore_threshold": 2.5,
+    "volume_ratio_threshold": 2.0,
+    "cooldown_seconds": 1800
+  },
+  "cost_benefit_gate": {
+    "edge_multiple": 2.5,
+    "edge_atr_factor": 0.7,
+    "fee_per_share": 0.005,
+    "min_order_fee": 1.0
+  },
+  "exit_manager": {
+    "stop_loss_atr_multiple": 1.0,
+    "take_profit_atr_multiple": 1.5,
+    "time_stop_minutes": 30
+  },
+  "stock_selection": {
+    "entry_threshold": 70,
+    "exit_threshold": 60,
+    "min_adv": 20000000,
+    "min_price": 5.0,
+    "max_spread_pct": 0.5,
+    "min_atr_pct": 0.5,
+    "max_atr_pct": 5.0
+  },
+  "directional_scorer": {
+    "stability_weight": 0.25,
+    "volume_weight": 0.45,
+    "price_action_weight": 0.30
+  },
+  "adaptive_learning": {
+    "enabled": true,
+    "update_frequency": "daily",
+    "min_trades_for_learning": 20
+  },
+  "vix_thresholds": {
+    "20": 0,
+    "25": 5,
+    "30": 10,
+    "default": 15
+  }
+}

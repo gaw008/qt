@@ -1,0 +1,6 @@
+MLflow Setup Log
+Timestamp: 2025-09-17T20:44:20.056541
+Experiment: quant_trading_improvements
+Run ID: d8ca4db6cb6549eeb8d4e064787f6f75
+Tracking URI: file:///C:/quant_system_v2/quant_system_full/mlruns
+Setup completed successfully.

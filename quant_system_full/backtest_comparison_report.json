@@ -1,0 +1,165 @@
+{
+  "backtest_period": {
+    "start_date": "2024-01-01T00:00:00",
+    "end_date": "2024-06-30T00:00:00",
+    "days": 181
+  },
+  "universe_size": 10,
+  "original_strategy": {
+    "selections": [
+      {
+        "symbol": "AARD",
+        "score": 55.333333333333336,
+        "avg_score": 47.833333333333336,
+        "strategy_count": 3
+      },
+      {
+        "symbol": "AAON",
+        "score": 54.53714977411399,
+        "avg_score": 47.03714977411399,
+        "strategy_count": 3
+      },
+      {
+        "symbol": "AACI",
+        "score": 47.384015630904564,
+        "avg_score": 39.884015630904564,
+        "strategy_count": 3
+      },
+      {
+        "symbol": "AAPL",
+        "score": 46.688681538172695,
+        "avg_score": 39.188681538172695,
+        "strategy_count": 3
+      },
+      {
+        "symbol": "AAOI",
+        "score": 44.86871821740784,
+        "avg_score": 37.36871821740784,
+        "strategy_count": 3
+      },
+      {
+        "symbol": "AAL",
+        "score": 34.38210586489829,
+        "avg_score": 26.882105864898296,
+        "strategy_count": 3
+      }
+    ],
+    "metrics": {
+      "total_return": -0.01530053539450057,
+      "sharpe_ratio": -0.7203415341664846,
+      "max_drawdown": -0.10447376486371822,
+      "win_rate": 0.3333333333333333,
+      "avg_gain": 0.006335276248357395,
+      "avg_loss": -0.026118441215929555,
+      "num_selections": 6,
+      "volatility": 0.021240668028680302
+    }
+  },
+  "improved_strategy": {
+    "selections": [
+      {
+        "symbol": "AAL",
+        "score": 46.90227402504801,
+        "action": "watch",
+        "reasoning": "Moderate potential (score: 46.9); attractive valuation",
+        "strategy": "ImprovedValueMomentumV2",
+        "style": "value"
+      },
+      {
+        "symbol": "AAL",
+        "score": 44.00000000000001,
+        "action": "avoid",
+        "reasoning": "Insufficient value appeal (score: 44.0)",
+        "strategy": "DefensiveValue",
+        "style": "value"
+      },
+      {
+        "symbol": "AAOI",
+        "score": 38.37852157281388,
+        "action": "avoid",
+        "reasoning": "Weak profile (score: 38.4)",
+        "strategy": "ImprovedValueMomentumV2",
+        "style": "value"
+      },
+      {
+        "symbol": "AAPL",
+        "score": 34.00000000000001,
+        "action": "avoid",
+        "reasoning": "Insufficient value appeal (score: 34.0); attractive dividend (42.00%)",
+        "strategy": "DefensiveValue",
+        "style": "value"
+      },
+      {
+        "symbol": "AAON",
+        "score": 30.000000000000007,
+        "action": "avoid",
+        "reasoning": "Insufficient value appeal (score: 30.0); attractive dividend (40.00%)",
+        "strategy": "DefensiveValue",
+        "style": "value"
+      },
+      {
+        "symbol": "AAPL",
+        "score": 24.463086793979024,
+        "action": "avoid",
+        "reasoning": "Weak profile (score: 24.5); high P/E (37.2)",
+        "strategy": "ImprovedValueMomentumV2",
+        "style": "value"
+      },
+      {
+        "symbol": "AARD",
+        "score": 24.09675511528992,
+        "action": "avoid",
+        "reasoning": "Weak profile (score: 24.1)",
+        "strategy": "ImprovedValueMomentumV2",
+        "style": "value"
+      },
+      {
+        "symbol": "AAON",
+        "score": 17.73184004085952,
+        "action": "avoid",
+        "reasoning": "Weak profile (score: 17.7); high P/E (67.7)",
+        "strategy": "ImprovedValueMomentumV2",
+        "style": "value"
+      },
+      {
+        "symbol": "AARD",
+        "score": 92.20962655448446,
+        "action": "strong_buy",
+        "reasoning": "Strong sustained momentum (score: 92.2); strong volume confirmation",
+        "strategy": "BalancedMomentum",
+        "style": "momentum"
+      },
+      {
+        "symbol": "AAPL",
+        "score": 87.39052551590102,
+        "action": "strong_buy",
+        "reasoning": "Strong sustained momentum (score: 87.4); strong volume confirmation",
+        "strategy": "BalancedMomentum",
+        "style": "momentum"
+      }
+    ],
+    "metrics": {
+      "total_return": -0.007137293642431925,
+      "sharpe_ratio": -0.1359376906458424,
+      "max_drawdown": -0.2643136097062746,
+      "win_rate": 0.5,
+      "avg_gain": 0.03845656622936574,
+      "avg_loss": -0.0527311535142296,
+      "num_selections": 14,
+      "volatility": 0.05250415545918512
+    }
+  },
+  "comparison": {
+    "return_improvement": 0.008163241752068645,
+    "sharpe_improvement": 0.5844038435206422,
+    "drawdown_improvement": -0.15983984484255637,
+    "win_rate_improvement": 0.16666666666666669,
+    "better_metrics": {
+      "return": true,
+      "sharpe": true,
+      "drawdown": false,
+      "win_rate": true
+    }
+  },
+  "timestamp": "2025-10-11T11:19:55.185432"
+}

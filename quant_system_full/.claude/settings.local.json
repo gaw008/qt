@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.tradeup.com)",
+      "WebFetch(domain:quant.itigerup.com)",
+      "Bash(git config:*)",
+      "Bash(git commit:*)",
+      "Bash(python test:*)",
+      "Bash(pip install:*)",
+      "Bash(git add:*)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

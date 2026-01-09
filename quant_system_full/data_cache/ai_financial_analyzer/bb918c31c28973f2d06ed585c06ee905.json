@@ -1,0 +1,264 @@
+{
+  "symbol": "AAPL",
+  "company_name": "Apple Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "financial_health": {
+    "symbol": "AAPL",
+    "overall_score": 5.05,
+    "liquidity": {
+      "name": "Liquidity",
+      "score": 2.0,
+      "weight": 0.15,
+      "description": "Company's ability to meet short-term obligations",
+      "key_metrics": [
+        "Current Ratio"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "solvency": {
+      "name": "Solvency",
+      "score": 1.0,
+      "weight": 0.15,
+      "description": "Company's ability to meet long-term obligations",
+      "key_metrics": [
+        "Debt-to-Equity"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "profitability": {
+      "name": "Profitability",
+      "score": 10.0,
+      "weight": 0.2,
+      "description": "Company's ability to generate profits",
+      "key_metrics": [
+        "ROE",
+        "ROA",
+        "Profit Margin"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "efficiency": {
+      "name": "Efficiency",
+      "score": 6.0,
+      "weight": 0.1,
+      "description": "How efficiently the company uses its assets",
+      "key_metrics": [
+        "Asset Turnover"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "growth": {
+      "name": "Growth",
+      "score": 6.0,
+      "weight": 0.15,
+      "description": "Company's growth trajectory and potential",
+      "key_metrics": [
+        "Revenue Growth"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "valuation": {
+      "name": "Valuation",
+      "score": 2.0,
+      "weight": 0.1,
+      "description": "Current valuation attractiveness",
+      "key_metrics": [
+        "P/E Ratio",
+        "P/B Ratio"
+      ],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "earnings_quality": {
+      "name": "Earnings Quality",
+      "score": 6.0,
+      "weight": 0.05,
+      "description": "Assessment of earnings quality",
+      "key_metrics": [],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "management_effectiveness": {
+      "name": "Management Effectiveness",
+      "score": 6.0,
+      "weight": 0.05,
+      "description": "Assessment of management effectiveness",
+      "key_metrics": [],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "competitive_position": {
+      "name": "Competitive Position",
+      "score": 6.0,
+      "weight": 0.03,
+      "description": "Assessment of competitive position",
+      "key_metrics": [],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "financial_flexibility": {
+      "name": "Financial Flexibility",
+      "score": 6.0,
+      "weight": 0.02,
+      "description": "Assessment of financial flexibility",
+      "key_metrics": [],
+      "strengths": [],
+      "weaknesses": [],
+      "trend": "stable"
+    },
+    "health_grade": "C-",
+    "risk_level": "high",
+    "investment_horizon": "medium-term",
+    "timestamp": "2025-08-31T23:22:38.722452",
+    "confidence_level": 0.75
+  },
+  "peer_analysis": {
+    "symbol": "AAPL",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "peer_companies": [],
+    "valuation_metrics": {},
+    "profitability_metrics": {},
+    "growth_metrics": {},
+    "financial_strength_metrics": {},
+    "overall_valuation_rank": null,
+    "overall_quality_rank": null,
+    "overall_growth_rank": null,
+    "competitive_advantages": [],
+    "competitive_disadvantages": [],
+    "timestamp": "2025-08-31T23:22:38.722452",
+    "confidence_level": 0.5
+  },
+  "valuation_analysis": {
+    "symbol": "AAPL",
+    "current_price": 232.14,
+    "dcf_model": null,
+    "pe_multiple_model": {
+      "model_name": "P/E Multiple",
+      "estimated_value": 131.80000056776083,
+      "current_price": 232.14,
+      "upside_downside_pct": -43.22391635747358,
+      "confidence": 0.6,
+      "key_assumptions": {
+        "industry_pe": 20
+      },
+      "sensitivity_analysis": {}
+    },
+    "ev_ebitda_model": null,
+    "pb_multiple_model": null,
+    "peg_model": null,
+    "dividend_discount_model": null,
+    "analyst_target_avg": null,
+    "analyst_target_median": null,
+    "analyst_target_high": null,
+    "analyst_target_low": null,
+    "fair_value_estimate": null,
+    "valuation_range_low": null,
+    "valuation_range_high": null,
+    "investment_recommendation": "sell",
+    "price_target": null,
+    "upside_potential_pct": -43.22391635747358,
+    "valuation_risks": [],
+    "key_catalysts": [],
+    "timestamp": "2025-08-31T23:22:38.722452",
+    "confidence_level": 0.6
+  },
+  "risk_assessment": {
+    "symbol": "AAPL",
+    "overall_risk_level": "medium",
+    "risk_score": 75.0,
+    "financial_risks": [
+      {
+        "category": "financial",
+        "risk_name": "High Debt Levels",
+        "severity": "high",
+        "probability": 0.7,
+        "impact_description": "High debt levels may limit financial flexibility",
+        "mitigation_strategies": [
+          "Debt reduction plan",
+          "Improve cash flow generation"
+        ],
+        "timeframe": "medium-term"
+      }
+    ],
+    "operational_risks": [],
+    "market_risks": [],
+    "regulatory_risks": [],
+    "esg_risks": [],
+    "volatility_percentile": null,
+    "beta": 1.165,
+    "max_drawdown_12m": null,
+    "sharpe_ratio": null,
+    "expected_return": null,
+    "risk_adjusted_return": null,
+    "bear_case_scenario": "",
+    "stress_test_results": {},
+    "timestamp": "2025-08-31T23:22:38.722452",
+    "confidence_level": 0.7
+  },
+  "growth_analysis": {
+    "symbol": "AAPL",
+    "revenue_growth": {
+      "metric_name": "Revenue Growth",
+      "historical_1y": 0.096,
+      "historical_3y_cagr": null,
+      "historical_5y_cagr": null,
+      "forward_1y_est": null,
+      "forward_3y_est": null,
+      "consistency_score": 0.6
+    },
+    "earnings_growth": {
+      "metric_name": "Earnings Growth",
+      "historical_1y": 0.121,
+      "historical_3y_cagr": null,
+      "historical_5y_cagr": null,
+      "forward_1y_est": null,
+      "forward_3y_est": null,
+      "consistency_score": 0.6
+    },
+    "fcf_growth": null,
+    "dividend_growth": null,
+    "book_value_growth": null,
+    "organic_growth_drivers": [],
+    "inorganic_growth_drivers": [],
+    "total_addressable_market": null,
+    "market_share": null,
+    "market_growth_rate": null,
+    "competitive_moat_strength": "moderate",
+    "growth_sustainability_score": 6.0,
+    "growth_stage": "mature",
+    "timestamp": "2025-08-31T23:22:38.722452",
+    "confidence_level": 0.6
+  },
+  "ai_insights": null,
+  "investment_recommendation": "sell",
+  "target_price": 131.80000056776083,
+  "upside_potential": -43.22391635747358,
+  "key_investment_highlights": [],
+  "key_investment_risks": [],
+  "overall_quality_score": 5.05,
+  "overall_value_score": 10,
+  "overall_growth_score": 6.0,
+  "overall_risk_score": 2.5,
+  "analysis_timestamp": "2025-08-31T23:22:38.722452",
+  "data_sources": [
+    "yfinance"
+  ],
+  "analysis_completeness": 0.8,
+  "overall_confidence": 0.75
+}

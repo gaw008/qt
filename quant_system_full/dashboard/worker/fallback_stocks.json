@@ -1,0 +1,28 @@
+{
+  "fallback_strategies": {
+    "selection_error": {
+      "description": "High-quality stocks from yesterday's successful selections",
+      "stocks": ["TROW", "TASK", "TVTX", "GPC", "REVG", "SVV", "STX", "HPE", "JOYY", "FTI", "LITE", "SNDK", "MLTX", "FERG", "AGNC"],
+      "score": 85.0,
+      "action": "strong_buy"
+    },
+    "emergency": {
+      "description": "Large-cap tech stocks for emergency fallback",
+      "stocks": ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"],
+      "score": 80.0,
+      "action": "buy"
+    }
+  },
+  "config": {
+    "use_fallback_on_error": true,
+    "max_fallback_stocks": 15,
+    "min_fallback_score": 75.0,
+    "log_fallback_usage": true
+  },
+  "metadata": {
+    "created": "2024-09-06",
+    "version": "1.0",
+    "last_updated": "2024-09-06",
+    "description": "Configurable fallback stocks for quantitative trading system"
+  }
+}

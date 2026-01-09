@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-09-16T00:14:49.106278",
+  "analysis_type": "simplified_multifactor",
+  "results": [
+    {
+      "symbol": "AAPL",
+      "price": 236.7,
+      "change_5d": 1.0,
+      "rsi": 60.05,
+      "roc": 2.69,
+      "vol_ratio": 0.9,
+      "price_ma_ratio": 1.02,
+      "composite_score": 0.537
+    },
+    {
+      "symbol": "MSFT",
+      "price": 515.36,
+      "change_5d": 3.4,
+      "rsi": 58.32,
+      "roc": 1.7,
+      "vol_ratio": 0.82,
+      "price_ma_ratio": 1.02,
+      "composite_score": 0.539
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 251.61,
+      "change_5d": 5.0,
+      "rsi": 88.52,
+      "roc": 21.38,
+      "vol_ratio": 1.54,
+      "price_ma_ratio": 1.141,
+      "composite_score": 0.438
+    },
+    {
+      "symbol": "NVDA",
+      "price": 177.75,
+      "change_5d": 4.1,
+      "rsi": 55.41,
+      "roc": -2.11,
+      "vol_ratio": 0.8,
+      "price_ma_ratio": 1.012,
+      "composite_score": 0.555
+    },
+    {
+      "symbol": "TSLA",
+      "price": 410.04,
+      "change_5d": 18.18,
+      "rsi": 77.78,
+      "roc": 17.29,
+      "vol_ratio": 1.93,
+      "price_ma_ratio": 1.181,
+      "composite_score": 0.559
+    }
+  ]
+}

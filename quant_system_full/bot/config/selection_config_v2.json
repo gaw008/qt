@@ -1,0 +1,104 @@
+{
+  "version": "2.0.0",
+  "description": "Improved selection strategy configuration - fully independent module",
+  "last_updated": "2025-01-11",
+
+  "enable_improved_strategies": false,
+  "fallback_on_error": true,
+
+  "weighted_scoring": {
+    "enabled": true,
+    "description": "Multi-strategy weighted scoring with 4 independent strategies",
+    "weights": {
+      "momentum": 0.40,
+      "value": 0.30,
+      "technical": 0.15,
+      "earnings": 0.15
+    },
+    "strategies": {
+      "momentum": {
+        "momentum_6m_weight": 0.5,
+        "momentum_12m_weight": 0.3,
+        "momentum_3m_weight": 0.2,
+        "require_sustained_volume": true,
+        "volume_consistency_window": 60
+      },
+      "value": {
+        "value_weight": 0.6,
+        "momentum_weight": 0.4,
+        "max_rsi_threshold": 80,
+        "max_acceptable_pe": 30
+      },
+      "technical": {
+        "sma_short": 20,
+        "sma_long": 50,
+        "bb_period": 20,
+        "bb_std": 2.0,
+        "volume_threshold": 1.5
+      },
+      "earnings": {
+        "earnings_growth_weight": 0.4,
+        "surprise_weight": 0.3,
+        "revision_weight": 0.3,
+        "min_earnings_growth": 0.1
+      }
+    }
+  },
+
+  "improved_value_momentum": {
+    "value_weight": 0.6,
+    "momentum_weight": 0.4,
+    "momentum_period_long": 252,
+    "momentum_period_skip": 21,
+    "max_rsi_threshold": 80,
+    "max_acceptable_pe": 30,
+    "min_pb_for_bonus": 1.5
+  },
+
+  "defensive_value": {
+    "pe_weight": 0.4,
+    "pb_weight": 0.3,
+    "dividend_yield_weight": 0.2,
+    "debt_weight": 0.1,
+    "max_pe": 20,
+    "min_dividend_yield": 0.01
+  },
+
+  "balanced_momentum": {
+    "momentum_6m_weight": 0.5,
+    "momentum_12m_weight": 0.3,
+    "momentum_3m_weight": 0.2,
+    "require_sustained_volume": true,
+    "volume_consistency_window": 60
+  },
+
+  "risk_management": {
+    "stop_loss_percentage": 0.08,
+    "trailing_stop_percentage": 0.12,
+    "profit_lock_percentage": 0.15,
+    "max_single_position": 0.15,
+    "max_sector_exposure": 0.35,
+    "min_portfolio_stocks": 15
+  },
+
+  "market_regime": {
+    "enable_regime_filter": true,
+    "reduce_exposure_in_bear": true,
+    "bear_market_max_stocks": 5,
+    "vix_threshold_high": 25.0,
+    "vix_threshold_low": 15.0
+  },
+
+  "portfolio_construction": {
+    "force_diversification": true,
+    "value_allocation": 0.4,
+    "momentum_allocation": 0.3,
+    "balanced_allocation": 0.3
+  },
+
+  "logging": {
+    "log_file": "logs/improved_strategies_v2.log",
+    "log_level": "DEBUG",
+    "enable_detailed_logging": true
+  }
+}

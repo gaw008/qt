@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Performance Report - {{report_date}}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(33, 147, 176, 0.3);
+        }
+        
+        .header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        
+        .header .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .header .stat-item {
+            text-align: center;
+        }
+        
+        .header .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: block;
+        }
+        
+        .header .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+        
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        
+        .section h2 {
+            color: #1a365d;
+            font-size: 2rem;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #2193b0;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #2d3748;
+            font-size: 1.5rem;
+            margin: 25px 0 20px;
+        }
+        
+        .performance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 25px 0;
+        }
+        
+        .performance-card {
+            background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .performance-card:hover {
+            border-color: #2193b0;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .performance-card.positive {
+            border-left: 5px solid #48bb78;
+        }
+        
+        .performance-card.negative {
+            border-left: 5px solid #f56565;
+        }
+        
+        .performance-card.neutral {
+            border-left: 5px solid #ed8936;
+        }
+        
+        .performance-value {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        
+        .performance-value.positive { color: #38a169; }
+        .performance-value.negative { color: #e53e3e; }
+        .performance-value.neutral { color: #dd6b20; }
+        
+        .performance-label {
+            font-size: 1rem;
+            color: #4a5568;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+        
+        .performance-change {
+            font-size: 0.9rem;
+            margin-top: 8px;
+            font-weight: 600;
+        }
+        
+        .holdings-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95rem;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .holdings-table th {
+            background: #1a365d;
+            color: white;
+            padding: 18px 15px;
+            text-align: left;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .holdings-table td {
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: middle;
+        }
+        
+        .holdings-table tr:hover {
+            background-color: #f7fafc;
+        }
+        
+        .holdings-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .symbol-cell {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #1a365d;
+        }
+        
+        .allocation-bar {
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 5px 0;
+        }
+        
+        .allocation-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #2193b0, #6dd5ed);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        
+        .pnl-positive { color: #38a169; font-weight: 600; }
+        .pnl-negative { color: #e53e3e; font-weight: 600; }
+        .pnl-neutral { color: #4a5568; font-weight: 600; }
+        
+        .chart-container {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            min-height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px dashed #cbd5e0;
+            color: #718096;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .risk-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .risk-metric {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .risk-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1a365d;
+            margin-bottom: 8px;
+        }
+        
+        .risk-label {
+            font-size: 0.9rem;
+            color: #4a5568;
+            font-weight: 600;
+        }
+        
+        .risk-status {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-top: 8px;
+        }
+        
+        .risk-low { background: #c6f6d5; color: #22543d; }
+        .risk-moderate { background: #feebc8; color: #9c4221; }
+        .risk-high { background: #fed7d7; color: #742a2a; }
+        
+        .benchmark-comparison {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .benchmark-item {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .benchmark-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+        
+        .benchmark-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .benchmark-diff {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .attribution-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .attribution-table th {
+            background: #2d3748;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .attribution-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .contribution-positive { color: #38a169; font-weight: 600; }
+        .contribution-negative { color: #e53e3e; font-weight: 600; }
+        
+        .insights-list {
+            background: #f8fafc;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #2193b0;
+        }
+        
+        .insights-list ul {
+            list-style: none;
+        }
+        
+        .insights-list li {
+            margin: 15px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .insights-list li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #2193b0;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .footer {
+            background: #1a365d;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 768px) {
+            .performance-grid,
+            .risk-metrics,
+            .benchmark-comparison {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .holdings-table {
+                font-size: 0.85rem;
+            }
+            
+            .holdings-table th,
+            .holdings-table td {
+                padding: 10px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Portfolio Performance Report</h1>
+            <div class="subtitle">Comprehensive Analysis & Insights</div>
+            <div class="summary-stats">
+                <div class="stat-item">
+                    <span class="stat-value" style="color: {% if total_return_pct >= 0 %}#68d391{% else %}#fc8181{% endif %};">
+                        {{total_return_pct}}%
+                    </span>
+                    <div class="stat-label">Total Return</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${{portfolio_value|number_format}}</span>
+                    <div class="stat-label">Portfolio Value</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">{{active_positions}}</span>
+                    <div class="stat-label">Active Positions</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">{{period_days}} Days</span>
+                    <div class="stat-label">Analysis Period</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Performance Overview</h2>
+            <div class="performance-grid">
+                <div class="performance-card {% if daily_return >= 0 %}positive{% else %}negative{% endif %}">
+                    <div class="performance-value {% if daily_return >= 0 %}positive{% else %}negative{% endif %}">
+                        {{daily_return}}%
+                    </div>
+                    <div class="performance-label">Daily Return</div>
+                    <div class="performance-change">
+                        ${{"${:+,.2f}".format(daily_pnl)}} P&L
+                    </div>
+                </div>
+                
+                <div class="performance-card {% if weekly_return >= 0 %}positive{% else %}negative{% endif %}">
+                    <div class="performance-value {% if weekly_return >= 0 %}positive{% else %}negative{% endif %}">
+                        {{weekly_return}}%
+                    </div>
+                    <div class="performance-label">Weekly Return</div>
+                    <div class="performance-change">
+                        vs. {{prev_week_return}}% last week
+                    </div>
+                </div>
+                
+                <div class="performance-card {% if monthly_return >= 0 %}positive{% else %}negative{% endif %}">
+                    <div class="performance-value {% if monthly_return >= 0 %}positive{% else %}negative{% endif %}">
+                        {{monthly_return}}%
+                    </div>
+                    <div class="performance-label">Monthly Return</div>
+                    <div class="performance-change">
+                        vs. {{prev_month_return}}% last month
+                    </div>
+                </div>
+                
+                <div class="performance-card {% if ytd_return >= 0 %}positive{% else %}negative{% endif %}">
+                    <div class="performance-value {% if ytd_return >= 0 %}positive{% else %}negative{% endif %}">
+                        {{ytd_return}}%
+                    </div>
+                    <div class="performance-label">Year-to-Date</div>
+                    <div class="performance-change">
+                        {{trading_days}} trading days
+                    </div>
+                </div>
+            </div>
+            
+            <h3>Portfolio Value Chart</h3>
+            <div class="chart-container">
+                [Portfolio Value Over Time - Interactive Chart]
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Current Holdings</h2>
+            <table class="holdings-table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Company</th>
+                        <th>Shares</th>
+                        <th>Current Price</th>
+                        <th>Market Value</th>
+                        <th>% of Portfolio</th>
+                        <th>Cost Basis</th>
+                        <th>Unrealized P&L</th>
+                        <th>Return %</th>
+                        <th>Factor Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for holding in holdings %}
+                    <tr>
+                        <td class="symbol-cell">{{holding.symbol}}</td>
+                        <td>{{holding.company_name}}</td>
+                        <td>{{holding.shares|number_format}}</td>
+                        <td>${{holding.current_price}}</td>
+                        <td>${{holding.market_value|number_format}}</td>
+                        <td>
+                            {{holding.portfolio_pct}}%
+                            <div class="allocation-bar">
+                                <div class="allocation-fill" style="width: {{holding.portfolio_pct}}%;"></div>
+                            </div>
+                        </td>
+                        <td>${{holding.cost_basis}}</td>
+                        <td class="{% if holding.unrealized_pnl >= 0 %}pnl-positive{% else %}pnl-negative{% endif %}">
+                            ${{"${:+,.2f}".format(holding.unrealized_pnl)}}
+                        </td>
+                        <td class="{% if holding.return_pct >= 0 %}pnl-positive{% else %}pnl-negative{% endif %}">
+                            {{holding.return_pct}}%
+                        </td>
+                        <td>{{holding.current_factor_score}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Risk Analysis</h2>
+            <div class="risk-metrics">
+                <div class="risk-metric">
+                    <div class="risk-value">{{portfolio_beta}}</div>
+                    <div class="risk-label">Portfolio Beta</div>
+                    <div class="risk-status risk-{% if portfolio_beta < 1 %}low{% elif portfolio_beta < 1.5 %}moderate{% else %}high{% endif %}">
+                        {% if portfolio_beta < 1 %}Conservative{% elif portfolio_beta < 1.5 %}Moderate{% else %}Aggressive{% endif %}
+                    </div>
+                </div>
+                
+                <div class="risk-metric">
+                    <div class="risk-value">{{volatility}}%</div>
+                    <div class="risk-label">Volatility (30D)</div>
+                    <div class="risk-status risk-{% if volatility < 15 %}low{% elif volatility < 25 %}moderate{% else %}high{% endif %}">
+                        {% if volatility < 15 %}Low{% elif volatility < 25 %}Moderate{% else %}High{% endif %}
+                    </div>
+                </div>
+                
+                <div class="risk-metric">
+                    <div class="risk-value">{{sharpe_ratio}}</div>
+                    <div class="risk-label">Sharpe Ratio</div>
+                    <div class="risk-status risk-{% if sharpe_ratio > 1 %}low{% elif sharpe_ratio > 0.5 %}moderate{% else %}high{% endif %}">
+                        {% if sharpe_ratio > 1 %}Excellent{% elif sharpe_ratio > 0.5 %}Good{% else %}Poor{% endif %}
+                    </div>
+                </div>
+                
+                <div class="risk-metric">
+                    <div class="risk-value">{{max_drawdown}}%</div>
+                    <div class="risk-label">Max Drawdown</div>
+                    <div class="risk-status risk-{% if max_drawdown|abs < 10 %}low{% elif max_drawdown|abs < 20 %}moderate{% else %}high{% endif %}">
+                        {% if max_drawdown|abs < 10 %}Low{% elif max_drawdown|abs < 20 %}Moderate{% else %}High{% endif %}
+                    </div>
+                </div>
+            </div>
+            
+            <h3>Risk Decomposition Chart</h3>
+            <div class="chart-container">
+                [Risk Attribution by Position - Treemap Visualization]
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Benchmark Comparison</h2>
+            <div class="benchmark-comparison">
+                {% for benchmark in benchmarks %}
+                <div class="benchmark-item">
+                    <div class="benchmark-name">{{benchmark.name}}</div>
+                    <div class="benchmark-value {% if benchmark.return >= 0 %}pnl-positive{% else %}pnl-negative{% endif %}">
+                        {{benchmark.return}}%
+                    </div>
+                    <div class="benchmark-diff {% if benchmark.alpha >= 0 %}pnl-positive{% else %}pnl-negative{% endif %}">
+                        Alpha: {{benchmark.alpha}}%
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <h3>Relative Performance Chart</h3>
+            <div class="chart-container">
+                [Portfolio vs. Benchmarks - Cumulative Return Chart]
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Performance Attribution</h2>
+            <table class="attribution-table">
+                <thead>
+                    <tr>
+                        <th>Factor</th>
+                        <th>Contribution</th>
+                        <th>Weight</th>
+                        <th>Performance</th>
+                        <th>Attribution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for factor in factor_attribution %}
+                    <tr>
+                        <td><strong>{{factor.name}}</strong></td>
+                        <td class="{% if factor.contribution >= 0 %}contribution-positive{% else %}contribution-negative{% endif %}">
+                            {{factor.contribution}}%
+                        </td>
+                        <td>{{factor.weight}}%</td>
+                        <td class="{% if factor.performance >= 0 %}contribution-positive{% else %}contribution-negative{% endif %}">
+                            {{factor.performance}}%
+                        </td>
+                        <td>{{factor.attribution}}%</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Key Insights & Recommendations</h2>
+            <div class="insights-list">
+                <h3>Performance Insights</h3>
+                <ul>
+                    {% for insight in performance_insights %}
+                    <li>{{insight}}</li>
+                    {% endfor %}
+                </ul>
+                
+                <h3>Risk Insights</h3>
+                <ul>
+                    {% for insight in risk_insights %}
+                    <li>{{insight}}</li>
+                    {% endfor %}
+                </ul>
+                
+                <h3>Action Items</h3>
+                <ul>
+                    {% for action in action_items %}
+                    <li>{{action}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Report Period:</strong> {{start_date}} to {{end_date}}</p>
+            <p><strong>Generated:</strong> {{generation_time}} | <strong>Data Sources:</strong> {{data_sources|join(', ')}}</p>
+            <p><strong>Disclaimer:</strong> Past performance does not guarantee future results. This report is for informational purposes only.</p>
+        </div>
+    </div>
+</body>
+</html>

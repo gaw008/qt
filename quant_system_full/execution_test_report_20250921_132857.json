@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-09-21T13:28:57.887551",
+  "execution_time_seconds": 0.998325,
+  "total_tests": 5,
+  "passed_tests": 4,
+  "success_rate": 0.8,
+  "overall_success": false,
+  "test_results": [
+    {
+      "test_name": "database_initialization",
+      "success": false,
+      "execution_time_ms": 7.949099992401898,
+      "metrics": {},
+      "error_message": "[WinError 32] \u53e6\u4e00\u4e2a\u7a0b\u5e8f\u6b63\u5728\u4f7f\u7528\u6b64\u6587\u4ef6\uff0c\u8fdb\u7a0b\u65e0\u6cd5\u8bbf\u95ee\u3002: 'bot\\\\data_cache\\\\test_execution.db'"
+    },
+    {
+      "test_name": "risk_configuration",
+      "success": true,
+      "execution_time_ms": 0.15079999866429716,
+      "metrics": {
+        "config_loaded": true,
+        "config_valid": true,
+        "es_limit": 0.03150000000000001,
+        "position_limit": 0.08
+      },
+      "error_message": null
+    },
+    {
+      "test_name": "mock_execution_engine",
+      "success": true,
+      "execution_time_ms": 153.20729999803007,
+      "metrics": {
+        "orders_processed": 10,
+        "total_orders": 10,
+        "success_rate": 1.0,
+        "avg_processing_time_ms": 15.320729999803007
+      },
+      "error_message": null
+    },
+    {
+      "test_name": "performance_validation",
+      "success": true,
+      "execution_time_ms": 770.940000002156,
+      "metrics": {
+        "avg_latency_ms": 15.41618399991421,
+        "max_latency_ms": 16.946999996434897,
+        "min_latency_ms": 13.579999998910353,
+        "target_avg_ms": 50.0,
+        "target_max_ms": 100.0,
+        "meets_performance_target": true,
+        "test_iterations": 50
+      },
+      "error_message": null
+    },
+    {
+      "test_name": "risk_validation",
+      "success": true,
+      "execution_time_ms": 61.21889999485575,
+      "metrics": {
+        "validation_accuracy": 1.0,
+        "correct_validations": 4,
+        "total_validations": 4,
+        "avg_validation_time_ms": 15.291899999283487,
+        "max_validation_time_ms": 15.928699998767115,
+        "meets_accuracy_target": true,
+        "meets_time_target": true
+      },
+      "error_message": null
+    }
+  ]
+}

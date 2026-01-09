@@ -1,0 +1,103 @@
+{
+  "report_date": "2025-09-20",
+  "generated_at": "2025-09-20T13:52:14.013071",
+  "portfolio_value": 1000000.0,
+  "daily_return": 0.01044129726906352,
+  "ytd_return": 0.0058861114598820485,
+  "sharpe_ratio": 0.018179886515253242,
+  "max_drawdown": -0.30045328263221915,
+  "attribution": {
+    "total_return": 0.01044129726906352,
+    "benchmark_return": 0.0009455076734112897,
+    "active_return": 0.00949578959565223,
+    "asset_allocation": 0.002,
+    "stock_selection": 0.00749578959565223,
+    "interaction_effect": 0.0001,
+    "information_ratio": 0.058867192821072445,
+    "tracking_error": 0.412690955166535,
+    "beta": -0.09809355457920649,
+    "factor_returns": {
+      "market": 0.001,
+      "value": 0.0005,
+      "momentum": 0.0008,
+      "quality": 0.0003,
+      "volatility": -0.0002,
+      "size": 0.0001
+    },
+    "specific_return": 0.00913129726906352
+  },
+  "risk_metrics": {
+    "total_risk": 0.0,
+    "systematic_risk": 0.0,
+    "specific_risk": 0.0,
+    "factor_contributions": {},
+    "concentration_risk": 0.0,
+    "diversification_ratio": 1.0,
+    "expected_shortfall_975": 0.0,
+    "conditional_var_95": 0.0,
+    "maximum_drawdown": 0.0
+  },
+  "transaction_analysis": {
+    "total_transaction_costs": 0.0025,
+    "cost_breakdown": {
+      "market_impact": 0.0015,
+      "spread": 0.0008,
+      "timing": 0.0002,
+      "fees": 0.0
+    },
+    "implementation_shortfall": 0.0012,
+    "vwap_performance": -0.0008,
+    "current_capacity_utilization": 0.01,
+    "estimated_max_capacity": 100000000,
+    "capacity_constraints": [],
+    "fill_rates": {
+      "market_orders": 1.0,
+      "limit_orders": 0.95,
+      "stop_orders": 0.98
+    },
+    "slippage_analysis": {
+      "average_slippage": 0.0008,
+      "worst_slippage": 0.0025,
+      "best_execution": -0.0005
+    }
+  },
+  "alerts": [],
+  "recommendations": [
+    "Low information ratio - consider reducing active risk"
+  ],
+  "positions": {
+    "AAPL": {
+      "shares": 100,
+      "value": 15000,
+      "weight": 0.15
+    },
+    "GOOGL": {
+      "shares": 50,
+      "value": 12000,
+      "weight": 0.12
+    },
+    "MSFT": {
+      "shares": 80,
+      "value": 24000,
+      "weight": 0.24
+    },
+    "TSLA": {
+      "shares": 30,
+      "value": 6000,
+      "weight": 0.06
+    },
+    "NVDA": {
+      "shares": 40,
+      "value": 16000,
+      "weight": 0.16
+    }
+  },
+  "factor_exposures": {
+    "market": 0.95,
+    "value": 0.15,
+    "momentum": 0.25,
+    "quality": 0.2,
+    "volatility": -0.1,
+    "size": 0.05
+  }
+}

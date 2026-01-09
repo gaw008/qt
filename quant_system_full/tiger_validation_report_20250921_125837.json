@@ -1,0 +1,229 @@
+{
+  "validation_timestamp": "2025-09-21T12:58:37.879490",
+  "readiness_status": "NOT_READY",
+  "summary": {
+    "total_tests": 30,
+    "passed": 22,
+    "failed": 5,
+    "warnings": 3
+  },
+  "test_results": [
+    {
+      "test_name": "DRY_RUN Mode",
+      "status": "WARNING",
+      "message": "System is in DRY_RUN mode. Set DRY_RUN=false for live trading.",
+      "details": {
+        "current_value": "true"
+      },
+      "timestamp": "2025-09-21 12:58:34.571580"
+    },
+    {
+      "test_name": "Environment Variables",
+      "status": "PASS",
+      "message": "All required variables present",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:34.571580"
+    },
+    {
+      "test_name": "Private Key Security",
+      "status": "WARNING",
+      "message": "Private key file has overly permissive permissions",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:34.572580"
+    },
+    {
+      "test_name": "Tiger Credentials",
+      "status": "PASS",
+      "message": "Credentials format validated",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:34.572580"
+    },
+    {
+      "test_name": "Quote Client",
+      "status": "FAIL",
+      "message": "Quote client test failed: 'QuoteClient' object has no attribute 'get_trade_tick'",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:34.572580"
+    },
+    {
+      "test_name": "Trade Client",
+      "status": "PASS",
+      "message": "Trade client connection successful",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:34.783687"
+    },
+    {
+      "test_name": "Account Status",
+      "status": "FAIL",
+      "message": "Could not retrieve account information",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:35.582242"
+    },
+    {
+      "test_name": "Trading Permissions",
+      "status": "PASS",
+      "message": "Trading permissions verified (can access positions)",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:36.098536"
+    },
+    {
+      "test_name": "US Market Access",
+      "status": "PASS",
+      "message": "US market configured as primary market",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:36.099536"
+    },
+    {
+      "test_name": "Account Balance",
+      "status": "FAIL",
+      "message": "Could not retrieve account balance information",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:36.241073"
+    },
+    {
+      "test_name": "Real-time Ticks",
+      "status": "FAIL",
+      "message": "Tick data failed: 'QuoteClient' object has no attribute 'get_trade_tick'",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:36.954333"
+    },
+    {
+      "test_name": "Real-time Quotes",
+      "status": "FAIL",
+      "message": "Quote data failed: code=4 msg=4000:permission denied(Current user and device do not have permissions in the US market)",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.155792"
+    },
+    {
+      "test_name": "Order System",
+      "status": "PASS",
+      "message": "Order system available (DRY_RUN mode)",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.155792"
+    },
+    {
+      "test_name": "Order Query",
+      "status": "PASS",
+      "message": "Order query successful, found 100 orders",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.572964"
+    },
+    {
+      "test_name": "Order Types",
+      "status": "PASS",
+      "message": "Market and limit order types available",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.572964"
+    },
+    {
+      "test_name": "Risk Limits",
+      "status": "PASS",
+      "message": "Risk limits configured",
+      "details": {
+        "max_portfolio_volatility": 0.2,
+        "max_position_weight": 0.1,
+        "daily_loss_limit": 0.05,
+        "position_loss_limit": 0.15
+      },
+      "timestamp": "2025-09-21 12:58:37.573970"
+    },
+    {
+      "test_name": "Enhanced Risk Manager",
+      "status": "PASS",
+      "message": "Enhanced risk management system available",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.871489"
+    },
+    {
+      "test_name": "ES@97.5% Risk Metric",
+      "status": "PASS",
+      "message": "Expected Shortfall risk calculations configured",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.871489"
+    },
+    {
+      "test_name": "Kill Switch",
+      "status": "PASS",
+      "message": "Kill switch enabled in configuration",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.871489"
+    },
+    {
+      "test_name": "Emergency Token",
+      "status": "PASS",
+      "message": "Emergency stop token configured",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.871489"
+    },
+    {
+      "test_name": "Kill Switch",
+      "status": "PASS",
+      "message": "Kill switch enabled",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.871489"
+    },
+    {
+      "test_name": "Alert System",
+      "status": "PASS",
+      "message": "Intelligent alert system module available",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.878481"
+    },
+    {
+      "test_name": "TLS Security",
+      "status": "PASS",
+      "message": "TLS encryption enabled",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Admin Token",
+      "status": "PASS",
+      "message": "Strong admin token configured",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Audit Logging",
+      "status": "PASS",
+      "message": "Audit logging enabled",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Live Trading Config",
+      "status": "WARNING",
+      "message": "Could not load live trading config: [Errno 2] No such file or directory: 'live_trading_config.json'",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Market Timezone",
+      "status": "PASS",
+      "message": "Correct timezone configured for US markets",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Data Source",
+      "status": "PASS",
+      "message": "Data source configured: auto",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Selection System",
+      "status": "PASS",
+      "message": "Stock selection configured: 500 universe, 20 selections",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    },
+    {
+      "test_name": "Task Scheduling",
+      "status": "PASS",
+      "message": "Appropriate intervals: trading=15s, monitoring=60s",
+      "details": null,
+      "timestamp": "2025-09-21 12:58:37.879490"
+    }
+  ]
+}

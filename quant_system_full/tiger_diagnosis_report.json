@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-09-28T22:04:28.936871",
+  "diagnosis_results": {
+    "config_loaded": true,
+    "connection_test": false,
+    "account_check": true
+  },
+  "primary_issue": "API access not properly configured",
+  "error_code": "1000",
+  "error_message": "common param error(failed to get developer information)",
+  "next_steps": [
+    "Contact Tiger Brokers to verify API access",
+    "Check developer portal for account status",
+    "Verify Tiger ID and private key accuracy",
+    "Ensure account has trading permissions"
+  ]
+}

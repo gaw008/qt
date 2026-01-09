@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-09-21T11:43:48.727870",
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 1,
+  "success_rate": 0.9230769230769231,
+  "test_details": {
+    "failures": [],
+    "errors": [
+      "(<__main__.TestIntegratedPerformanceFramework testMethod=test_parallel_backtest_execution>, 'Traceback (most recent call last):\\n  File \"C:\\\\quant_system_v2\\\\quant_system_full\\\\test_performance_optimization_framework.py\", line 466, in test_parallel_backtest_execution\\n    results = executor.execute_parallel_backtest(\\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \"C:\\\\quant_system_v2\\\\quant_system_full\\\\bot\\\\performance_backtesting_engine.py\", line 470, in execute_parallel_backtest\\n    processed_stocks = sum(len(chunks[:i+1]))\\n                       ^^^^^^^^^^^^^^^^^^^^^^\\nTypeError: \\'int\\' object is not iterable\\n')"
+    ]
+  }
+}

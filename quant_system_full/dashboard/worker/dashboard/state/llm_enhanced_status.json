@@ -1,0 +1,247 @@
+{
+  "enabled": true,
+  "mode": "full",
+  "base_results": [
+    {
+      "symbol": "RIGL",
+      "score": 85.07902378310072,
+      "avg_score": 85.07902378310072,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 85.1 (from 2 strategies); Momentum: 92.7; Value: 55.0",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 92.72166718499149,
+        "value": 54.98392818184022
+      }
+    },
+    {
+      "symbol": "ERO",
+      "score": 82.87065585033977,
+      "avg_score": 82.87065585033977,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.9 (from 3 strategies); Momentum: 95.5; Technical: 62.0",
+      "strategy_count": 3,
+      "component_scores": {
+        "momentum": 95.5,
+        "value": 46.45109308389963,
+        "technical": 62.0
+      }
+    },
+    {
+      "symbol": "ATRA",
+      "score": 82.73899492343564,
+      "avg_score": 82.73899492343564,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.7 (from 2 strategies); Momentum: 96.9; Value: 48.3",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 96.93301590291489,
+        "value": 48.276314270449475
+      }
+    },
+    {
+      "symbol": "CGAU",
+      "score": 82.5108138464118,
+      "avg_score": 82.5108138464118,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.5 (from 2 strategies); Momentum: 91.2; Value: 51.7",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 91.20489354384024,
+        "value": 51.714760714792845
+      }
+    },
+    {
+      "symbol": "NBR",
+      "score": 82.37603818090037,
+      "avg_score": 82.37603818090037,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.4 (from 2 strategies); Momentum: 94.0; Value: 49.6",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 94.0,
+        "value": 49.62673030150062
+      }
+    },
+    {
+      "symbol": "CBL",
+      "score": 81.15090109366672,
+      "avg_score": 81.15090109366672,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 81.2 (from 2 strategies); Momentum: 98.0; Value: 44.9",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 98.01884875603088,
+        "value": 44.905602652090614
+      }
+    },
+    {
+      "symbol": "UVE",
+      "score": 81.13947527429784,
+      "avg_score": 81.13947527429784,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 81.1 (from 3 strategies); Momentum: 97.0; Technical: 59.0",
+      "strategy_count": 3,
+      "component_scores": {
+        "momentum": 97.0,
+        "value": 43.315792123829745,
+        "technical": 59.0
+      }
+    },
+    {
+      "symbol": "SD",
+      "score": 80.22549771350847,
+      "avg_score": 80.22549771350847,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 80.2 (from 2 strategies); Momentum: 95.5; Value: 45.0",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 95.5,
+        "value": 45.04249618918079
+      }
+    }
+  ],
+  "enhanced_results": [
+    {
+      "symbol": "RIGL",
+      "score": 85.07902378310072,
+      "avg_score": 85.07902378310072,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 85.1 (from 2 strategies); Momentum: 92.7; Value: 55.0",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 92.72166718499149,
+        "value": 54.98392818184022
+      },
+      "llm_metadata": {
+        "deep": {
+          "timestamp": "2026-01-02T02:31:29.650836"
+        }
+      }
+    },
+    {
+      "symbol": "ERO",
+      "score": 82.87065585033977,
+      "avg_score": 82.87065585033977,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.9 (from 3 strategies); Momentum: 95.5; Technical: 62.0",
+      "strategy_count": 3,
+      "component_scores": {
+        "momentum": 95.5,
+        "value": 46.45109308389963,
+        "technical": 62.0
+      }
+    },
+    {
+      "symbol": "ATRA",
+      "score": 82.73899492343564,
+      "avg_score": 82.73899492343564,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.7 (from 2 strategies); Momentum: 96.9; Value: 48.3",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 96.93301590291489,
+        "value": 48.276314270449475
+      },
+      "llm_metadata": {
+        "deep": {
+          "timestamp": "2026-01-02T02:31:30.145547"
+        }
+      }
+    },
+    {
+      "symbol": "CGAU",
+      "score": 82.5108138464118,
+      "avg_score": 82.5108138464118,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.5 (from 2 strategies); Momentum: 91.2; Value: 51.7",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 91.20489354384024,
+        "value": 51.714760714792845
+      }
+    },
+    {
+      "symbol": "NBR",
+      "score": 82.37603818090037,
+      "avg_score": 82.37603818090037,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 82.4 (from 2 strategies); Momentum: 94.0; Value: 49.6",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 94.0,
+        "value": 49.62673030150062
+      },
+      "llm_metadata": {
+        "deep": {
+          "timestamp": "2026-01-02T02:31:30.425142"
+        }
+      }
+    },
+    {
+      "symbol": "CBL",
+      "score": 81.15090109366672,
+      "avg_score": 81.15090109366672,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 81.2 (from 2 strategies); Momentum: 98.0; Value: 44.9",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 98.01884875603088,
+        "value": 44.905602652090614
+      },
+      "llm_metadata": {
+        "deep": {
+          "timestamp": "2026-01-02T02:31:30.426157"
+        }
+      }
+    },
+    {
+      "symbol": "UVE",
+      "score": 81.13947527429784,
+      "avg_score": 81.13947527429784,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 81.1 (from 3 strategies); Momentum: 97.0; Technical: 59.0",
+      "strategy_count": 3,
+      "component_scores": {
+        "momentum": 97.0,
+        "value": 43.315792123829745,
+        "technical": 59.0
+      },
+      "llm_metadata": {
+        "deep": {
+          "timestamp": "2026-01-02T02:31:30.427151"
+        }
+      }
+    },
+    {
+      "symbol": "SD",
+      "score": 80.22549771350847,
+      "avg_score": 80.22549771350847,
+      "action": "strong_buy",
+      "reasoning": "Multi-strategy score: 80.2 (from 2 strategies); Momentum: 95.5; Value: 45.0",
+      "strategy_count": 2,
+      "component_scores": {
+        "momentum": 95.5,
+        "value": 45.04249618918079
+      },
+      "llm_metadata": {
+        "deep": {
+          "timestamp": "2026-01-02T02:31:30.428150"
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "execution_time": 0.784314,
+    "base_count": 8,
+    "enhanced_count": 8,
+    "cost_usd": 0.013237249999999999,
+    "llm_calls": 4,
+    "total_input_tokens": 12189,
+    "total_output_tokens": 5095,
+    "cache_hits": 0,
+    "cache_misses": 0
+  },
+  "errors": [],
+  "timestamp": "2026-01-02T02:31:30.428150"
+}

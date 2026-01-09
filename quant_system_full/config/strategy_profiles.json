@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "A": {
+      "name": "Strategy A - Open Only",
+      "description": "Daily selection, open-only rebalance, no intraday trading.",
+      "env_overrides": {
+        "INTRADAY_TRADING_ENABLED": "false",
+        "SELECTION_RESULT_SIZE": "10",
+        "SELECTION_MIN_SCORE": "80.0",
+        "SELECTION_MIN_MARKET_CAP": "100000000",
+        "SELECTION_MAX_MARKET_CAP": "5000000000000",
+        "SELECTION_MIN_VOLUME": "50000",
+        "SELECTION_MIN_PRICE": "1.0",
+        "SELECTION_MAX_PRICE": "2000.0",
+        "MIN_MARKET_CAP": "100000000",
+        "MAX_MARKET_CAP": "5000000000000",
+        "MIN_DAILY_VOLUME": "50000",
+        "MIN_STOCK_PRICE": "1.0",
+        "MAX_STOCK_PRICE": "2000.0"
+      }
+    },
+    "B": {
+      "name": "Strategy B - Intraday Coordinated",
+      "description": "Daily selection pool + intraday 5-minute execution with cost controls.",
+      "env_overrides": {
+        "INTRADAY_TRADING_ENABLED": "true",
+        "INTRADAY_TASK_INTERVAL": "60",
+        "INTRADAY_WATCHLIST_SIZE": "30",
+        "SELECTION_RESULT_SIZE": "30",
+        "SELECTION_MIN_SCORE": "70.0",
+        "SELECTION_MIN_MARKET_CAP": "1000000000",
+        "SELECTION_MAX_MARKET_CAP": "5000000000000",
+        "SELECTION_MIN_VOLUME": "1000000",
+        "SELECTION_MIN_PRICE": "5.0",
+        "SELECTION_MAX_PRICE": "2000.0",
+        "MIN_MARKET_CAP": "1000000000",
+        "MAX_MARKET_CAP": "5000000000000",
+        "MIN_DAILY_VOLUME": "1000000",
+        "MIN_STOCK_PRICE": "5.0",
+        "MAX_STOCK_PRICE": "2000.0"
+      }
+    }
+  }
+}

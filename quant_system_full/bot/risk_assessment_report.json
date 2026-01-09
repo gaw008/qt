@@ -1,0 +1,100 @@
+{
+  "report_timestamp": "2025-09-30T08:36:38.242139",
+  "risk_manager_config": {
+    "es_confidence_level": 0.975,
+    "drawdown_tiers": {
+      "tier_1": 0.08,
+      "tier_2": 0.12,
+      "tier_3": 0.15
+    },
+    "current_regime": "VOLATILE"
+  },
+  "current_status": {
+    "current_regime": "VOLATILE",
+    "active_tier": 3,
+    "current_drawdown": 0.0,
+    "alert_summary": {
+      "critical": 1,
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "recent_alerts": [
+      {
+        "timestamp": "2025-09-30T08:36:38.242139",
+        "level": "MEDIUM",
+        "category": "Concentration Risk",
+        "message": "Maximum position weight (0.150) exceeds limit (0.080)",
+        "suggested_actions": [
+          "reduce_concentrated_positions",
+          "rebalance_portfolio"
+        ]
+      },
+      {
+        "timestamp": "2025-09-30T08:36:38.242139",
+        "level": "MEDIUM",
+        "category": "Sector Risk",
+        "message": "Maximum sector weight (0.270) exceeds limit (0.250)",
+        "suggested_actions": [
+          "diversify_sectors",
+          "reduce_sector_exposure"
+        ]
+      },
+      {
+        "timestamp": "2025-09-30T08:36:38.242139",
+        "level": "CRITICAL",
+        "category": "Drawdown Budget",
+        "message": "Drawdown tier 3 activated: 0.434",
+        "suggested_actions": [
+          "reduce_position_size_50%",
+          "close_high_correlation_positions",
+          "emergency_risk_off"
+        ]
+      }
+    ],
+    "risk_metrics_trend": []
+  },
+  "all_alerts": [
+    {
+      "timestamp": "2025-09-30T08:36:38.242139",
+      "level": "MEDIUM",
+      "category": "Concentration Risk",
+      "message": "Maximum position weight (0.150) exceeds limit (0.080)",
+      "metric_value": 0.15,
+      "limit_value": 0.08000000000000002,
+      "suggested_actions": [
+        "reduce_concentrated_positions",
+        "rebalance_portfolio"
+      ]
+    },
+    {
+      "timestamp": "2025-09-30T08:36:38.242139",
+      "level": "MEDIUM",
+      "category": "Sector Risk",
+      "message": "Maximum sector weight (0.270) exceeds limit (0.250)",
+      "metric_value": 0.27,
+      "limit_value": 0.25,
+      "suggested_actions": [
+        "diversify_sectors",
+        "reduce_sector_exposure"
+      ]
+    },
+    {
+      "timestamp": "2025-09-30T08:36:38.242139",
+      "level": "CRITICAL",
+      "category": "Drawdown Budget",
+      "message": "Drawdown tier 3 activated: 0.434",
+      "metric_value": 0.4337363136190831,
+      "limit_value": 0.08,
+      "suggested_actions": [
+        "reduce_position_size_50%",
+        "close_high_correlation_positions",
+        "emergency_risk_off"
+      ]
+    }
+  ],
+  "performance_metrics": {
+    "total_periods": 0,
+    "risk_metrics_count": 0
+  }
+}

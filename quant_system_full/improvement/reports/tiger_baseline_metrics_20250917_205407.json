@@ -1,0 +1,37 @@
+{
+  "tiger_baseline_metrics": {
+    "account": {
+      "account_id": "41169270",
+      "account_type": "LIVE",
+      "currency": "USD"
+    },
+    "portfolio": {
+      "total_value": 12003.59,
+      "cash_balance": 2103.83,
+      "buying_power": 0.0,
+      "positions_count": 2,
+      "positions_value": 0.0
+    },
+    "performance": {
+      "total_pnl": 0.0,
+      "day_pnl": 0.0,
+      "unrealized_pnl": 0.0,
+      "realized_pnl": 0.0,
+      "win_rate": 50.0,
+      "profit_loss_ratio": 0.8702412089508864
+    },
+    "risk": {
+      "margin_used": 0.0,
+      "margin_available": 0.0,
+      "maintenance_margin": 0.0
+    },
+    "trading": {
+      "orders_today": 51,
+      "trades_count": 0
+    },
+    "metadata": {
+      "analysis_period_days": 30,
+      "timestamp": "2025-09-17T20:54:07.016515"
+    }
+  }
+}

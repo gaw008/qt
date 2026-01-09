@@ -1,0 +1,8 @@
+{
+  "commission_per_share": 0.005,
+  "min_commission": 1.0,
+  "fee_per_order": 0.0,
+  "slippage_bps": 5.0,
+  "max_daily_cost_pct": 0.003,
+  "max_daily_cost_usd": 0.0
+}

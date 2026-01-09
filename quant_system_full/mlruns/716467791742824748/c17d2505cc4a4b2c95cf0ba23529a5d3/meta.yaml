@@ -1,0 +1,14 @@
+artifact_uri: c:\quant_system_v2\quant_system_full\mlruns\artifacts/c17d2505cc4a4b2c95cf0ba23529a5d3/artifacts
+end_time: 1758167028935
+entry_point_name: ''
+experiment_id: '716467791742824748'
+lifecycle_stage: active
+run_id: c17d2505cc4a4b2c95cf0ba23529a5d3
+run_name: baseline_setup_test
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758167028828
+status: 4
+tags: []
+user_id: wgy20

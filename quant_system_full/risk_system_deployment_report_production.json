@@ -1,0 +1,91 @@
+{
+  "deployment_info": {
+    "timestamp": "2025-09-28T22:26:50.515398",
+    "environment": "PRODUCTION",
+    "deployment_success": false,
+    "deployment_status": {
+      "initialized": true,
+      "validated": true,
+      "performance_tested": true,
+      "integration_tested": true,
+      "production_ready": false
+    }
+  },
+  "configuration_summary": {
+    "environment": "PRODUCTION",
+    "calibration_timestamp": "2025-09-28T22:26:50.515398",
+    "key_limits": {
+      "es_975_daily": "3.2%",
+      "max_position": "8.0%",
+      "tier_3_drawdown": "15.0%",
+      "hhi_critical": "30.0%"
+    },
+    "performance_targets": {
+      "es_calculation_ms": "<50ms",
+      "cache_size": 500,
+      "worker_threads": 2
+    },
+    "monitoring": {
+      "update_frequency": "30s",
+      "dashboard_refresh": "5s"
+    }
+  },
+  "performance_benchmarks": {
+    "100": {
+      "es_calculation_ms": "76.74ms (target: 50ms)",
+      "drawdown_monitoring_ms": "1.65ms (target: 30ms)",
+      "factor_crowding_ms": "8.09ms (target: 75ms)",
+      "concurrent_assessment_ms": "0.29ms (target: 150ms)"
+    },
+    "500": {
+      "es_calculation_ms": "0.00ms (target: 50ms)",
+      "drawdown_monitoring_ms": "0.00ms (target: 30ms)",
+      "factor_crowding_ms": "0.07ms (target: 75ms)",
+      "concurrent_assessment_ms": "0.17ms (target: 150ms)"
+    },
+    "1000": {
+      "es_calculation_ms": "0.00ms (target: 50ms)",
+      "drawdown_monitoring_ms": "0.00ms (target: 30ms)",
+      "factor_crowding_ms": "0.13ms (target: 75ms)",
+      "concurrent_assessment_ms": "0.22ms (target: 150ms)"
+    },
+    "2500": {
+      "es_calculation_ms": "0.00ms (target: 50ms)",
+      "drawdown_monitoring_ms": "0.00ms (target: 30ms)",
+      "factor_crowding_ms": "0.31ms (target: 75ms)",
+      "concurrent_assessment_ms": "0.45ms (target: 150ms)"
+    }
+  },
+  "integration_test_results": {
+    "Normal Trading": {
+      "result": "EMERGENCY",
+      "appropriate": false,
+      "emergency_stop": false
+    },
+    "High Volatility": {
+      "result": "EMERGENCY",
+      "appropriate": true,
+      "emergency_stop": false
+    },
+    "Crisis Scenario": {
+      "result": "EMERGENCY",
+      "appropriate": true,
+      "emergency_stop": true
+    }
+  },
+  "production_readiness": {
+    "configuration_valid": true,
+    "performance_targets_met": true,
+    "integration_tests_passed": true,
+    "overall_ready": false
+  },
+  "recommendations": [
+    "Optimize es_calculation_ms performance for portfolio size 100",
+    "Review system behavior for scenario: Normal Trading",
+    "Verify Tiger API connectivity and credentials",
+    "Test emergency stop procedures",
+    "Setup monitoring alerts and dashboards",
+    "Schedule regular risk system health checks",
+    "Document operational procedures"
+  ]
+}

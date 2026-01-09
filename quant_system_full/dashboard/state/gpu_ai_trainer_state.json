@@ -1,0 +1,18 @@
+{
+  "training_progress": {
+    "status": "failed",
+    "current_epoch": 0,
+    "total_epochs": 0,
+    "current_loss": 0.0,
+    "validation_accuracy": 0.0,
+    "win_rate": 0.0,
+    "return_rate": 0.0,
+    "sharpe_ratio": 0.0,
+    "training_time_elapsed": 0,
+    "estimated_time_remaining": 0,
+    "last_updated": "2025-08-31T02:21:13.527224",
+    "error_message": "No training data could be collected from any symbols"
+  },
+  "use_gpu": false,
+  "last_saved": "2025-08-31T02:29:37.596455"
+}

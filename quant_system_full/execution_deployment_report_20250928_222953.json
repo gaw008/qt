@@ -1,0 +1,44 @@
+{
+  "deployment_summary": {
+    "success": true,
+    "timestamp": "2025-09-28T22:29:53.310878",
+    "components_deployed": 1,
+    "error_message": null
+  },
+  "components": [
+    "enhanced_risk_manager"
+  ],
+  "performance_metrics": {
+    "execution_latency_ms": 0.000800006091594696,
+    "risk_validation_ms": 14.699699939228594,
+    "cost_calculation_ms": 0.001800013706088066,
+    "memory_usage_mb": 157.19921875
+  },
+  "validation_results": {
+    "adaptive_engine_ready": false,
+    "tiger_api_ready": false,
+    "cost_analyzer_ready": false,
+    "risk_manager_ready": true,
+    "e2e_workflow": true,
+    "config_valid": true,
+    "emergency_stop_functional": true,
+    "position_tracking_accurate": true,
+    "error_handling_robust": true
+  },
+  "configuration": {
+    "max_execution_latency_ms": 100.0,
+    "max_risk_validation_ms": 50.0,
+    "max_cost_calculation_ms": 25.0,
+    "max_order_size_pct": 0.08,
+    "max_participation_rate": 0.3,
+    "default_urgency": "medium",
+    "enable_pretrade_validation": true,
+    "enable_posttrade_monitoring": true,
+    "max_position_correlation": 0.75,
+    "impact_decay_halflife_minutes": 15.0,
+    "liquidity_buffer_pct": 0.1,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 1.0,
+    "connection_timeout_seconds": 30.0
+  }
+}

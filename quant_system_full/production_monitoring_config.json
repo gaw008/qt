@@ -1,0 +1,20 @@
+{
+  "deployment_timestamp": "2025-09-28T22:26:50.515398",
+  "environment": "PRODUCTION",
+  "monitoring_enabled": true,
+  "alert_thresholds": {
+    "high_risk_score": 75.0,
+    "critical_risk_score": 90.0,
+    "max_es_975": 0.03150000000000001,
+    "max_drawdown": 0.15
+  },
+  "update_frequencies": {
+    "risk_metrics": 30,
+    "portfolio_status": 60,
+    "dashboard_refresh": 5
+  },
+  "performance_targets": {
+    "es_calculation_ms": 50.0,
+    "concurrent_assessment_ms": 150.0
+  }
+}

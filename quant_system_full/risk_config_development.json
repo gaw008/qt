@@ -1,0 +1,75 @@
+{
+  "calibration_info": {
+    "environment": "DEVELOPMENT",
+    "calibration_timestamp": "2025-09-21T13:18:46.779610",
+    "version": "1.0"
+  },
+  "es_limits": {
+    "es_95_daily": 0.025,
+    "es_975_daily": 0.042,
+    "es_99_daily": 0.045,
+    "es_95_weekly": 0.055,
+    "es_975_weekly": 0.075,
+    "es_99_weekly": 0.095,
+    "regime_multipliers": {
+      "NORMAL": 1.0,
+      "VOLATILE": 0.8,
+      "TRENDING": 1.1,
+      "CRISIS": 0.6
+    }
+  },
+  "drawdown_config": {
+    "tier_1_threshold": 0.078,
+    "tier_2_threshold": 0.1,
+    "tier_3_threshold": 0.15,
+    "max_drawdown_limit": 0.2,
+    "tier_1_actions": [
+      "increase_monitoring_frequency",
+      "review_position_correlation",
+      "prepare_hedging_strategies"
+    ],
+    "tier_2_actions": [
+      "reduce_position_sizes_15pct",
+      "increase_stop_loss_tightness",
+      "reduce_new_position_allocation"
+    ],
+    "tier_3_actions": [
+      "reduce_position_sizes_30pct",
+      "close_most_correlated_positions",
+      "increase_cash_allocation_20pct",
+      "implement_portfolio_hedging"
+    ]
+  },
+  "position_limits": {
+    "max_single_position_pct": 0.08,
+    "warning_position_pct": 0.06,
+    "max_sector_allocation_pct": 0.25,
+    "max_position_correlation": 0.75,
+    "max_adv_participation_pct": 0.1,
+    "max_market_impact_bps": 20
+  },
+  "factor_limits": {
+    "hhi_warning_threshold": 0.2,
+    "hhi_critical_threshold": 0.3,
+    "gini_warning_threshold": 0.55,
+    "gini_critical_threshold": 0.7,
+    "min_effective_breadth": 8.0,
+    "max_factor_exposure": 2.5
+  },
+  "performance_config": {
+    "max_es_calculation_ms": 50.0,
+    "max_drawdown_calculation_ms": 30.0,
+    "max_crowding_calculation_ms": 75.0,
+    "cache_size": 100,
+    "cache_ttl_seconds": 30,
+    "max_worker_threads": 4,
+    "memory_threshold_mb": 400.0
+  },
+  "monitoring_config": {
+    "risk_metrics_update_frequency": 30,
+    "portfolio_status_update_frequency": 60,
+    "high_risk_score_threshold": 75.0,
+    "critical_risk_score_threshold": 90.0,
+    "dashboard_refresh_seconds": 5
+  }
+}

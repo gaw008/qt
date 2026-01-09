@@ -1,0 +1,72 @@
+{
+  "enabled": false,
+  "mode": "full",
+  "base_results": [
+    {
+      "symbol": "AAPL",
+      "avg_score": 85.0,
+      "strategies": {
+        "value_momentum": 80,
+        "technical_breakout": 90
+      },
+      "actions": [
+        "buy",
+        "buy"
+      ],
+      "combined_reasoning": "Strong fundamentals with technical breakout"
+    },
+    {
+      "symbol": "MSFT",
+      "avg_score": 78.0,
+      "strategies": {
+        "value_momentum": 75,
+        "technical_breakout": 81
+      },
+      "actions": [
+        "buy",
+        "hold"
+      ],
+      "combined_reasoning": "Good value with moderate technical strength"
+    }
+  ],
+  "enhanced_results": [
+    {
+      "symbol": "AAPL",
+      "avg_score": 85.0,
+      "strategies": {
+        "value_momentum": 80,
+        "technical_breakout": 90
+      },
+      "actions": [
+        "buy",
+        "buy"
+      ],
+      "combined_reasoning": "Strong fundamentals with technical breakout"
+    },
+    {
+      "symbol": "MSFT",
+      "avg_score": 78.0,
+      "strategies": {
+        "value_momentum": 75,
+        "technical_breakout": 81
+      },
+      "actions": [
+        "buy",
+        "hold"
+      ],
+      "combined_reasoning": "Good value with moderate technical strength"
+    }
+  ],
+  "metrics": {
+    "execution_time": 0.0,
+    "base_count": 2,
+    "enhanced_count": 2,
+    "cost_usd": 0.0,
+    "llm_calls": 0,
+    "cache_hits": 0
+  },
+  "errors": [
+    "LLM enhancement is disabled or not configured"
+  ],
+  "timestamp": "2025-10-12T19:35:26.062583"
+}

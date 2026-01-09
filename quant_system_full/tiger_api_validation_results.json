@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-09-28T22:05:59.190402",
+  "tiger_api_status": "AUTHENTICATION_FAILED",
+  "authentication": "FAILED",
+  "account_access": "unknown",
+  "buying_power": null,
+  "market_data_access": "unknown",
+  "errors": [
+    "Tiger authentication failed: code=1000 msg=common param error(failed to get developer information)"
+  ],
+  "recommendations": [
+    "Contact Tiger Brokers to verify API access permissions",
+    "Check if your Tiger account is approved for API trading",
+    "Verify Tiger ID and private key are correct",
+    "Ensure account has completed API application process"
+  ]
+}

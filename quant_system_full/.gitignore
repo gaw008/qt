@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE specific
+.cursor/
+
+# Build artifacts
+/openapi-java-sdk/target/
+
+# Logs
+*.log
+dashboard/nul
+nul

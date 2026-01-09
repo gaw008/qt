@@ -1,0 +1,31 @@
+{
+  "training_progress": {
+    "status": "completed",
+    "current_epoch": 100,
+    "total_epochs": 100,
+    "current_loss": 0.0,
+    "validation_accuracy": 0.8999999999999999,
+    "win_rate": 0.62,
+    "return_rate": 0.2,
+    "sharpe_ratio": 1.4,
+    "training_time_elapsed": 198,
+    "estimated_time_remaining": 0,
+    "last_updated": "2025-08-31T01:18:09.558267",
+    "error_message": null
+  },
+  "strategy_weights": [],
+  "hyperparams": {
+    "learning_rate": 0.01,
+    "regularization": 0.1,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "feature_fraction": 0.9,
+    "bagging_fraction": 0.8,
+    "min_child_samples": 20,
+    "num_iterations": 1000,
+    "early_stopping_rounds": 100,
+    "auto_tune": false
+  },
+  "current_variant": "A",
+  "last_saved": "2025-08-31T01:18:16.559699"
+}

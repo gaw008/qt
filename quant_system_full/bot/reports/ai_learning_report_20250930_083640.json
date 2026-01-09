@@ -1,0 +1,25 @@
+{
+  "report_timestamp": "2025-09-30T08:36:40.731016",
+  "system_summary": {
+    "total_models": 0,
+    "active_models": 0,
+    "average_r2_score": 0.0,
+    "average_sharpe_ratio": 0.0,
+    "average_hit_rate": 0.0
+  },
+  "model_performance": [],
+  "feature_rankings": [],
+  "ensemble_status": {
+    "total_weight": 0,
+    "model_count": 0,
+    "weight_distribution": {}
+  },
+  "learning_metrics": {
+    "total_models_trained": 0,
+    "active_models_count": 0,
+    "average_model_performance": 0.0,
+    "ensemble_stability": 0.0,
+    "feature_drift_alerts": 0,
+    "retraining_frequency": 0.0
+  }
+}

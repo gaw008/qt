@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-01-02T02:31:30.431147",
+  "total_stocks_evaluated": 8,
+  "min_score_threshold": 80.0,
+  "strategy_weights": {
+    "momentum": 0.4,
+    "value": 0.3,
+    "technical": 0.15,
+    "earnings": 0.15
+  },
+  "all_stocks": [
+    {
+      "rank": 1,
+      "symbol": "RIGL",
+      "avg_score": 85.08,
+      "strategy_count": 2,
+      "action": "strong_buy",
+      "component_scores": {
+        "momentum": 92.72166718499149,
+        "value": 54.98392818184022
+      },
+      "reasoning": "Multi-strategy score: 85.1 (from 2 strategies); Momentum: 92.7; Value: 55.0",
+      "passes_threshold": 

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-09-07T13:48:18.814749",
+  "batch_completed": 3,
+  "total_batches": 5,
+  "progress_percentage": 60.0,
+  "stocks_processed": 300,
+  "candidates_in_pool": 0,
+  "min_threshold": 0.0,
+  "avg_batch_time": 23.87139828999837,
+  "top_20_current": [],
+  "stats": {
+    "batches_without_improvement": 3,
+    "best_score_seen": 0.0,
+    "early_stop_risk": 0.6
+  }
+}

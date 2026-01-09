@@ -1,0 +1,226 @@
+{
+  "analysis_timestamp": "2025-09-21T11:47:41.633051",
+  "bottlenecks": [
+    {
+      "operation_name": "io_intensive",
+      "analysis_timestamp": "2025-09-21 11:47:41.632050",
+      "bottleneck_type": "cpu",
+      "severity": "critical",
+      "impact_score": 100.0,
+      "description": "Low CPU efficiency (0.0%) indicates I/O or synchronization bottlenecks",
+      "affected_functions": [],
+      "performance_impact": "CPU underutilization reduces processing throughput by ~100%",
+      "optimization_recommendations": [
+        "Investigate I/O blocking operations that prevent CPU utilization",
+        "Consider asynchronous processing for I/O-bound operations",
+        "Review database query performance and connection pooling",
+        "Check for network latency issues in data fetching",
+        "Consider parallel processing for CPU-intensive calculations"
+      ],
+      "estimated_improvement": "Potential 30-70% performance gain"
+    },
+    {
+      "operation_name": "io_intensive",
+      "analysis_timestamp": "2025-09-21 11:47:41.632050",
+      "bottleneck_type": "io",
+      "severity": "critical",
+      "impact_score": 100.0,
+      "description": "High I/O wait time (100.0%) indicates storage or network bottlenecks",
+      "affected_functions": [],
+      "performance_impact": "I/O bottlenecks account for ~100% of execution time",
+      "optimization_recommendations": [
+        "Implement data caching to reduce repeated I/O operations",
+        "Optimize database queries and add appropriate indexes",
+        "Consider using faster storage (SSD) for data cache",
+        "Implement connection pooling for database access",
+        "Use batch processing to reduce I/O overhead",
+        "Consider data compression to reduce I/O volume"
+      ],
+      "estimated_improvement": "Potential 40-80% performance gain"
+    },
+    {
+      "operation_name": "memory_intensive",
+      "analysis_timestamp": "2025-09-21 11:47:41.633051",
+      "bottleneck_type": "cpu",
+      "severity": "critical",
+      "impact_score": 100.0,
+      "description": "Low CPU efficiency (0.0%) indicates I/O or synchronization bottlenecks",
+      "affected_functions": [],
+      "performance_impact": "CPU underutilization reduces processing throughput by ~100%",
+      "optimization_recommendations": [
+        "Investigate I/O blocking operations that prevent CPU utilization",
+        "Consider asynchronous processing for I/O-bound operations",
+        "Review database query performance and connection pooling",
+        "Check for network latency issues in data fetching",
+        "Consider parallel processing for CPU-intensive calculations"
+      ],
+      "estimated_improvement": "Potential 30-70% performance gain"
+    },
+    {
+      "operation_name": "memory_intensive",
+      "analysis_timestamp": "2025-09-21 11:47:41.633051",
+      "bottleneck_type": "io",
+      "severity": "critical",
+      "impact_score": 100.0,
+      "description": "High I/O wait time (100.0%) indicates storage or network bottlenecks",
+      "affected_functions": [],
+      "performance_impact": "I/O bottlenecks account for ~100% of execution time",
+      "optimization_recommendations": [
+        "Implement data caching to reduce repeated I/O operations",
+        "Optimize database queries and add appropriate indexes",
+        "Consider using faster storage (SSD) for data cache",
+        "Implement connection pooling for database access",
+        "Use batch processing to reduce I/O overhead",
+        "Consider data compression to reduce I/O volume"
+      ],
+      "estimated_improvement": "Potential 40-80% performance gain"
+    }
+  ],
+  "recommendations": {
+    "status": "optimization_needed",
+    "total_bottlenecks": 4,
+    "critical_bottlenecks": 4,
+    "estimated_improvement": "80-240% performance improvement",
+    "recommendations": [
+      {
+        "priority": "critical",
+        "title": "Critical Performance Issues",
+        "description": "These issues require immediate attention",
+        "actions": [
+          "Address cpu bottleneck in io_intensive",
+          "Expected impact: Potential 30-70% performance gain",
+          "Address io bottleneck in io_intensive",
+          "Expected impact: Potential 40-80% performance gain",
+          "Address cpu bottleneck in memory_intensive",
+          "Expected impact: Potential 30-70% performance gain",
+          "Address io bottleneck in memory_intensive",
+          "Expected impact: Potential 40-80% performance gain"
+        ]
+      },
+      {
+        "priority": "high",
+        "title": "CPU Utilization Optimization",
+        "description": "Improve CPU efficiency and reduce I/O blocking",
+        "actions": [
+          "Implement asynchronous I/O operations",
+          "Add connection pooling for database access",
+          "Review and optimize blocking operations",
+          "Consider parallel processing for independent tasks",
+          "Profile and optimize hot code paths"
+        ],
+        "estimated_effort": "Medium",
+        "expected_impact": "High"
+      },
+      {
+        "priority": "high",
+        "title": "I/O Performance Optimization",
+        "description": "Reduce I/O overhead and improve data access patterns",
+        "actions": [
+          "Implement intelligent data caching strategy",
+          "Optimize database queries and add indexes",
+          "Use batch processing for data operations",
+          "Consider faster storage solutions (SSD)",
+          "Implement data compression for large datasets",
+          "Add connection pooling and query optimization"
+        ],
+        "estimated_effort": "Medium-High",
+        "expected_impact": "Very High"
+      },
+      {
+        "priority": "low",
+        "title": "System-Wide Optimizations",
+        "description": "General system improvements and monitoring",
+        "actions": [
+          "Implement comprehensive performance monitoring",
+          "Add automated bottleneck detection",
+          "Create performance regression testing",
+          "Establish performance baselines and alerts",
+          "Document optimization procedures",
+          "Regular performance review and tuning"
+        ],
+        "estimated_effort": "Low-Medium",
+        "expected_impact": "Long-term Improvement"
+      }
+    ]
+  },
+  "performance_summaries": {
+    "cpu_intensive": {
+      "operation_count": 1,
+      "wall_time": {
+        "total": 0.01199960708618164,
+        "average": 0.01199960708618164,
+        "median": 0.01199960708618164,
+        "std_dev": 0,
+        "min": 0.01199960708618164,
+        "max": 0.01199960708618164
+      },
+      "cpu_time": {
+        "total": 0.015625,
+        "average": 0.015625,
+        "cpu_efficiency": 1.3021259686071924
+      },
+      "io_wait_time": {
+        "total": -0.0036253929138183594,
+        "average": -0.0036253929138183594,
+        "io_ratio": -0.30212596860719254
+      },
+      "memory": {
+        "peak_mb": 157.36328125,
+        "average_mb": 157.36328125,
+        "std_dev_mb": 0
+      }
+    },
+    "io_intensive": {
+      "operation_count": 1,
+      "wall_time": {
+        "total": 2.000863552093506,
+        "average": 2.000863552093506,
+        "median": 2.000863552093506,
+        "std_dev": 0,
+        "min": 2.000863552093506,
+        "max": 2.000863552093506
+      },
+      "cpu_time": {
+        "total": 0.0,
+        "average": 0.0,
+        "cpu_efficiency": 0.0
+      },
+      "io_wait_time": {
+        "total": 2.000863552093506,
+        "average": 2.000863552093506,
+        "io_ratio": 1.0
+      },
+      "memory": {
+        "peak_mb": 157.3671875,
+        "average_mb": 157.3671875,
+        "std_dev_mb": 0
+      }
+    },
+    "memory_intensive": {
+      "operation_count": 1,
+      "wall_time": {
+        "total": 0.013505935668945312,
+        "average": 0.013505935668945312,
+        "median": 0.013505935668945312,
+        "std_dev": 0,
+        "min": 0.013505935668945312,
+        "max": 0.013505935668945312
+      },
+      "cpu_time": {
+        "total": 0.0,
+        "average": 0.0,
+        "cpu_efficiency": 0.0
+      },
+      "io_wait_time": {
+        "total": 0.013505935668945312,
+        "average": 0.013505935668945312,
+        "io_ratio": 1.0
+      },
+      "memory": {
+        "peak_mb": 164.078125,
+        "average_mb": 164.078125,
+        "std_dev_mb": 0
+      }
+    }
+  }
+}

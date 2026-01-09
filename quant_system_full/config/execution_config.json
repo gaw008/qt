@@ -1,0 +1,57 @@
+{
+  "participation_rates": {
+    "low_urgency": {
+      "min": 0.05,
+      "max": 0.10,
+      "default": 0.08
+    },
+    "medium_urgency": {
+      "min": 0.10,
+      "max": 0.20,
+      "default": 0.15
+    },
+    "high_urgency": {
+      "min": 0.20,
+      "max": 0.30,
+      "default": 0.25
+    },
+    "urgent": {
+      "min": 0.30,
+      "max": 0.50,
+      "default": 0.35
+    }
+  },
+  "market_impact": {
+    "linear_coefficient": 0.15,
+    "permanent_impact": 0.30,
+    "volatility_adjustment": 0.25
+  },
+  "cost_attribution": {
+    "spread_weight": 0.40,
+    "impact_weight": 0.45,
+    "timing_weight": 0.15
+  },
+  "risk_controls": {
+    "max_single_order_size": 0.02,
+    "max_participation_rate": 0.50,
+    "volatility_threshold": 0.35,
+    "spread_threshold": 0.005
+  },
+  "algorithm_selection": {
+    "twap_min_duration": 300,
+    "vwap_min_volume": 10000,
+    "is_alpha_decay": 0.1
+  },
+  "es_integration": {
+    "enable_pretrade_es_check": true,
+    "es_975_threshold": 0.032,
+    "emergency_stop_es": 0.050,
+    "real_time_monitoring": true
+  },
+  "execution_optimization": {
+    "enable_adaptive_participation": true,
+    "market_condition_adjustment": true,
+    "cost_minimization_target": "implementation_shortfall",
+    "benchmark_type": "arrival_price"
+  }
+}

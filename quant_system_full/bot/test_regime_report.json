@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-21T11:14:41.547031",
+    "classifier_config": {},
+    "ensemble_weights": {
+      "hmm": 0.4,
+      "threshold": 0.3,
+      "ml": 0.3
+    }
+  },
+  "current_state": {
+    "current_regime": "NORMAL",
+    "confidence": 0.5700000000000001,
+    "probabilities": {
+      "normal": 0.5700000000000001,
+      "volatile": 0.28500000000000003,
+      "crisis": 0.14500000000000002
+    },
+    "indicators": {
+      "vix_level": 25.515450548194856,
+      "volatility_percentile": 67.3480289985843,
+      "correlation_level": 0.01751286853855099,
+      "fear_index": -0.2757725274097428
+    },
+    "recent_distribution": {
+      "NORMAL": 1,
+      "VOLATILE": 0,
+      "CRISIS": 0
+    },
+    "recent_transitions": 0,
+    "last_update": "2025-09-21T11:14:41.553023",
+    "models_fitted": {
+      "hmm": false,
+      "ml": false,
+      "threshold": true
+    }
+  },
+  "transitions": []
+}
