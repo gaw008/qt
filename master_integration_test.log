@@ -1,0 +1,64 @@
+2025-09-28 22:50:46,272 [INFO] __main__: Master Integration Test Runner Initialized
+2025-09-28 22:50:46,272 [INFO] __main__: Max parallel tests: 4
+2025-09-28 22:50:46,272 [INFO] __main__: Total test suites: 5
+2025-09-28 22:50:46,272 [INFO] __main__: ====================================================================================================
+2025-09-28 22:50:46,272 [INFO] __main__: MASTER INTEGRATION TEST SUITE EXECUTION
+2025-09-28 22:50:46,272 [INFO] __main__: Comprehensive Professional Trading System Validation
+2025-09-28 22:50:46,272 [INFO] __main__: ====================================================================================================
+2025-09-28 22:50:46,272 [INFO] __main__: Test Start Time: 2025-09-28 22:50:46
+2025-09-28 22:50:46,310 [INFO] __main__: Platform: Windows-11-10.0.26100-SP0
+2025-09-28 22:50:46,310 [INFO] __main__: Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-09-28 22:50:46,310 [INFO] __main__: ====================================================================================================
+2025-09-28 22:50:46,310 [INFO] __main__: ???? Validating test environment...
+2025-09-28 22:50:46,310 [INFO] __main__: ??? System resources adequate: 46.8GB RAM, 526.8GB disk
+2025-09-28 22:50:46,310 [INFO] __main__: ??? Test suite available: complete_system_integration
+2025-09-28 22:50:46,310 [INFO] __main__: ??? Test suite available: ai_ml_integration
+2025-09-28 22:50:46,311 [INFO] __main__: ??? Test suite available: trading_system_integration
+2025-09-28 22:50:46,311 [INFO] __main__: ??? Test suite available: monitoring_system_integration
+2025-09-28 22:50:46,311 [INFO] __main__: ??? Test suite available: system_management_integration
+2025-09-28 22:50:46,311 [INFO] __main__: ??? Python version compatible: 3.12.10
+2025-09-28 22:50:46,311 [INFO] __main__: ???? Environment validation score: 100.0%
+2025-09-28 22:50:46,311 [INFO] __main__: ???? Executing test suites with intelligent orchestration...
+2025-09-28 22:50:46,311 [INFO] __main__: 
+???? Executing Phase 1: 1 test suites
+2025-09-28 22:50:46,311 [INFO] __main__: ?????? Starting Phase 1 with 1 suites
+2025-09-28 22:50:46,311 [INFO] __main__: ???? Starting test suite: complete_system_integration
+2025-09-28 22:50:46,311 [INFO] __main__:    File: test_complete_system_integration.py
+2025-09-28 22:50:46,311 [INFO] __main__:    Description: Complete End-to-End System Integration
+2025-09-28 22:52:17,179 [INFO] __main__: ??? complete_system_integration PASSED (90.9s)
+2025-09-28 22:52:17,179 [INFO] __main__: ???? Phase 1 completed: 1 suites, success: True
+2025-09-28 22:52:17,179 [INFO] __main__: ??? Phase 1 completed
+2025-09-28 22:52:17,179 [INFO] __main__: 
+???? Executing Phase 2: 2 test suites
+2025-09-28 22:52:17,179 [INFO] __main__: ?????? Starting Phase 2 with 2 suites
+2025-09-28 22:52:17,179 [INFO] __main__: ??? Executing 2 test suites in parallel
+2025-09-28 22:52:17,179 [INFO] __main__: ???? Starting test suite: ai_ml_integration
+2025-09-28 22:52:17,179 [INFO] __main__:    File: test_ai_ml_integration.py
+2025-09-28 22:52:17,179 [INFO] __main__:    Description: AI/ML System Integration
+2025-09-28 22:52:17,196 [INFO] __main__: ???? Starting test suite: trading_system_integration
+2025-09-28 22:52:17,196 [INFO] __main__:    File: test_trading_system_integration.py
+2025-09-28 22:52:17,196 [INFO] __main__:    Description: Trading System Integration
+2025-09-28 22:52:18,165 [INFO] __main__: ??? trading_system_integration PASSED (1.0s)
+2025-09-28 22:52:19,979 [INFO] __main__: ??? ai_ml_integration PASSED (2.8s)
+2025-09-28 22:52:19,979 [INFO] __main__: ???? Phase 2 completed: 2 suites, success: True
+2025-09-28 22:52:19,979 [INFO] __main__: ??? Phase 2 completed
+2025-09-28 22:52:19,979 [INFO] __main__: 
+???? Executing Phase 3: 2 test suites
+2025-09-28 22:52:19,979 [INFO] __main__: ?????? Starting Phase 3 with 2 suites
+2025-09-28 22:52:19,979 [INFO] __main__: ??? Executing 2 test suites in parallel
+2025-09-28 22:52:19,979 [INFO] __main__: ???? Starting test suite: monitoring_system_integration
+2025-09-28 22:52:19,979 [INFO] __main__:    File: test_monitoring_system_integration.py
+2025-09-28 22:52:19,979 [INFO] __main__:    Description: Monitoring System Integration
+2025-09-28 22:52:19,995 [INFO] __main__: ???? Starting test suite: system_management_integration
+2025-09-28 22:52:19,995 [INFO] __main__:    File: test_system_management_integration.py
+2025-09-28 22:52:19,995 [INFO] __main__:    Description: System Management Integration
+2025-09-28 22:52:20,643 [ERROR] __main__: ??? system_management_integration FAILED (0.6s)
+2025-09-28 22:52:26,614 [INFO] __main__: ??? monitoring_system_integration PASSED (6.6s)
+2025-09-28 22:52:26,614 [INFO] __main__: ???? Phase 3 completed: 2 suites, success: False
+2025-09-28 22:52:26,615 [INFO] __main__: ??? Phase 3 completed
+2025-09-28 22:52:26,615 [ERROR] __main__: ??? Integration tests failed: 80.0% success rate below 85%
+2025-09-28 22:52:26,615 [INFO] __main__: Resource monitoring stopped
+2025-09-28 22:52:26,615 [INFO] __main__: ???? Master test report generated: integration_test_results\master_integration_test_report_20250928_225226.json
+2025-09-28 22:52:26,617 [INFO] __main__: ???? Executive summary generated: integration_test_results\integration_test_executive_summary_20250928_225226.md
+2025-09-28 22:52:26,617 [INFO] __main__: ???? Cleaning up test environment...
+2025-09-28 22:52:26,617 [INFO] __main__: ??? Test environment cleanup completed

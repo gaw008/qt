@@ -1,0 +1,14 @@
+2025-09-29 00:42:11,475 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:354] - Loaded 0 enhanced baseline metrics
+2025-09-29 00:42:11,487 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:374] - Advanced Performance Monitor integration initialized
+2025-09-29 00:42:11,494 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:382] - GPU System Manager integration initialized
+2025-09-29 00:42:11,494 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:178] - Enhanced Health Monitor initialized with AI capabilities
+2025-09-29 00:42:11,494 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:391] - === Starting Enhanced System Health Monitoring ===
+2025-09-29 00:42:11,495 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:504] - Enhanced system monitoring loop started
+2025-09-29 00:42:11,495 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:945] - Enhanced process monitoring loop started
+2025-09-29 00:42:11,495 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:1062] - Enhanced network monitoring loop started
+2025-09-29 00:42:11,496 - EnhancedHealthMonitor - ERROR - [system_health_monitoring.py:1056] - Error getting enhanced process info: can only join an iterable
+2025-09-29 00:42:11,496 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:1137] - Enhanced trading system monitoring loop started
+2025-09-29 00:42:11,496 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:1636] - Enhanced report generation loop started
+2025-09-29 00:42:11,497 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:1968] - Capacity planning loop started
+2025-09-29 00:42:11,518 - EnhancedHealthMonitor - INFO - [system_health_monitoring.py:1647] - Enhanced Health Report - Overall: 50.0/100, Performance: 50.0, Reliability: 50.0, Efficiency: 50.0
+2025-09-29 00:42:12,462 - EnhancedHealthMonitor - WARNING - [system_health_monitoring.py:888] - ALERT [WARNING]: configuration_integrity_score = 0.8 score (Trend: None, Impact: none) - Configuration files validation

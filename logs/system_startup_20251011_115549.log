@@ -1,0 +1,12 @@
+2025-10-11 11:55:49,491 - SystemManager - INFO - [start_all.py:526] - === QUANTITATIVE TRADING SYSTEM STARTUP ===
+2025-10-11 11:55:49,491 - SystemManager - INFO - [start_all.py:128] - === Environment Validation ===
+2025-10-11 11:55:49,491 - SystemManager - INFO - [start_all.py:135] - [OK] Python 3.12.10
+2025-10-11 11:55:49,491 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: quant_system_full
+2025-10-11 11:55:49,491 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: bot
+2025-10-11 11:55:49,491 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: dashboard
+2025-10-11 11:55:49,493 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: UI
+2025-10-11 11:55:49,493 - SystemManager - INFO - [start_all.py:160] - [OK] Environment configuration found
+2025-10-11 11:55:49,518 - SystemManager - ERROR - [start_all.py:178] - [FAIL] Node.js or npm not found (required for React frontend)
+2025-10-11 11:55:49,518 - SystemManager - ERROR - [start_all.py:559] - Unexpected error during startup: module 'psutil' has no attribute 'net_connections'
+2025-10-11 11:55:49,519 - SystemManager - INFO - [start_all.py:470] - === Shutting Down All Processes ===
+2025-10-11 11:55:49,519 - SystemManager - INFO - [start_all.py:493] - === Shutdown Complete ===

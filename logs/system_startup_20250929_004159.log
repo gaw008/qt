@@ -1,0 +1,36 @@
+2025-09-29 00:41:59,010 - SystemManager - INFO - [start_all.py:526] - === QUANTITATIVE TRADING SYSTEM STARTUP ===
+2025-09-29 00:41:59,010 - SystemManager - INFO - [start_all.py:128] - === Environment Validation ===
+2025-09-29 00:41:59,010 - SystemManager - INFO - [start_all.py:135] - [OK] Python 3.12.10
+2025-09-29 00:41:59,011 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: quant_system_full
+2025-09-29 00:41:59,011 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: bot
+2025-09-29 00:41:59,011 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: dashboard
+2025-09-29 00:41:59,012 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: UI
+2025-09-29 00:41:59,012 - SystemManager - INFO - [start_all.py:160] - [OK] Environment configuration found
+2025-09-29 00:41:59,029 - SystemManager - ERROR - [start_all.py:178] - [FAIL] Node.js or npm not found (required for React frontend)
+2025-09-29 00:41:59,030 - SystemManager - WARNING - [start_all.py:188] - [WARN] Port 8000 is already in use
+2025-09-29 00:41:59,031 - SystemManager - INFO - [start_all.py:185] - [OK] Port 3000 available
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:185] - [OK] Port 8501 available
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:192] - Environment validation: 90.0% success rate
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:205] - === Preparing React Frontend ===
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:241] - [OK] React dependencies already installed
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:408] - === Starting All System Components ===
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:424] - --- Starting FastAPI Backend ---
+2025-09-29 00:41:59,032 - SystemManager - INFO - [start_all.py:246] - Starting FastAPI Backend...
+2025-09-29 00:41:59,052 - SystemManager - INFO - [start_all.py:265] - [OK] FastAPI Backend started (PID: 26528)
+2025-09-29 00:41:59,052 - SystemManager - INFO - [start_all.py:389] - Waiting for FastAPI Backend health check...
+2025-09-29 00:42:01,321 - SystemManager - INFO - [start_all.py:396] - [OK] FastAPI Backend is healthy
+2025-09-29 00:42:01,321 - SystemManager - INFO - [start_all.py:424] - --- Starting Trading Bot Worker ---
+2025-09-29 00:42:01,321 - SystemManager - INFO - [start_all.py:328] - Starting Trading Bot Worker...
+2025-09-29 00:42:01,341 - SystemManager - INFO - [start_all.py:346] - [OK] Trading Bot Worker started (PID: 36468)
+2025-09-29 00:42:06,342 - SystemManager - INFO - [start_all.py:424] - --- Starting React Frontend ---
+2025-09-29 00:42:06,342 - SystemManager - INFO - [start_all.py:274] - Starting React Frontend...
+2025-09-29 00:42:06,345 - SystemManager - INFO - [start_all.py:424] - --- Starting Streamlit Dashboard ---
+2025-09-29 00:42:06,345 - SystemManager - INFO - [start_all.py:300] - Starting Streamlit Dashboard...
+2025-09-29 00:42:06,366 - SystemManager - INFO - [start_all.py:319] - [OK] Streamlit Dashboard started (PID: 11180)
+2025-09-29 00:42:06,366 - SystemManager - INFO - [start_all.py:389] - Waiting for Streamlit Dashboard health check...
+2025-09-29 00:42:10,239 - SystemManager - INFO - [start_all.py:396] - [OK] Streamlit Dashboard is healthy
+2025-09-29 00:42:10,239 - SystemManager - INFO - [start_all.py:424] - --- Starting System Health Monitor ---
+2025-09-29 00:42:10,239 - SystemManager - INFO - [start_all.py:355] - Starting System Health Monitor...
+2025-09-29 00:42:10,266 - SystemManager - INFO - [start_all.py:368] - [OK] System Health Monitor started (PID: 34112)
+2025-09-29 00:42:15,266 - SystemManager - INFO - [start_all.py:454] - === Process Monitoring Started ===
+2025-09-29 00:42:15,266 - SystemManager - INFO - [start_all.py:552] - System startup complete. Monitoring processes...

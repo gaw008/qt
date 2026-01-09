@@ -1,0 +1,62 @@
+{
+  "test_run_info": {
+    "timestamp": "2025-09-28T22:52:18.068827",
+    "test_environment": "Trading System Integration Test",
+    "initial_portfolio_value": 1000000.0
+  },
+  "test_summary": {
+    "total_orders_processed": 4,
+    "average_execution_success_rate": 100.0,
+    "average_execution_time": 0.0,
+    "total_risk_violations": 5,
+    "total_compliance_violations": 0
+  },
+  "trading_test_results": [
+    {
+      "test_name": "order_management_system",
+      "component": "OrderExecutionSystem",
+      "orders_processed": 4,
+      "execution_success_rate": 100.0,
+      "average_execution_time": 0.0,
+      "risk_violations": 0,
+      "compliance_status": "COMPLIANT",
+      "status": "PASSED",
+      "timestamp": "2025-09-28T22:52:18.066825"
+    }
+  ],
+  "risk_violations": [
+    {
+      "type": "position_limit",
+      "symbol": "AAPL",
+      "value": 0.15,
+      "limit": 0.1
+    },
+    {
+      "type": "position_limit",
+      "symbol": "GOOGL",
+      "value": 0.12,
+      "limit": 0.1
+    },
+    {
+      "type": "position_limit",
+      "symbol": "TSLA",
+      "value": 0.2,
+      "limit": 0.1
+    },
+    {
+      "type": "portfolio_risk_limit",
+      "es_975": -0.06,
+      "limit": -0.05
+    },
+    {
+      "type": "portfolio_risk_limit",
+      "es_975": -0.08,
+      "limit": -0.05
+    }
+  ],
+  "compliance_violations": [],
+  "recommendations": [
+    "Address 5 risk violations before live trading",
+    "Trading system integration testing completed"
+  ]
+}

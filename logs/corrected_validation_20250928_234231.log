@@ -1,0 +1,50 @@
+2025-09-28 23:42:33,394 - INFO - === CORRECTED COMPREHENSIVE INTEGRATION VALIDATION ===
+2025-09-28 23:42:33,394 - INFO - === Testing Core API Endpoints ===
+2025-09-28 23:42:35,442 - INFO - [PASS] Basic health check (2047.9ms)
+2025-09-28 23:42:37,515 - WARNING - [FAIL] System status - Status: 403
+2025-09-28 23:42:39,583 - WARNING - [FAIL] System health - Status: 403
+2025-09-28 23:42:41,640 - WARNING - [FAIL] System performance - Status: 403
+2025-09-28 23:42:43,669 - WARNING - [FAIL] Market assets - Status: 403
+2025-09-28 23:42:45,747 - WARNING - [FAIL] Market heatmap - Status: 403
+2025-09-28 23:42:47,839 - WARNING - [FAIL] Market state - Status: 403
+2025-09-28 23:42:49,910 - WARNING - [FAIL] Portfolio positions - Status: 403
+2025-09-28 23:42:51,949 - WARNING - [FAIL] Portfolio summary - Status: 403
+2025-09-28 23:42:54,010 - WARNING - [FAIL] Trading orders - Status: 403
+2025-09-28 23:42:56,045 - WARNING - [FAIL] Risk metrics - Status: 403
+2025-09-28 23:42:58,109 - WARNING - [FAIL] System alerts - Status: 403
+2025-09-28 23:43:00,165 - WARNING - [FAIL] Stock screener - Status: 403
+2025-09-28 23:43:02,239 - WARNING - [FAIL] Stock recommendations - Status: 403
+2025-09-28 23:43:04,299 - INFO - [PASS] Monitoring status (2058.5ms)
+2025-09-28 23:43:06,345 - INFO - [PASS] Current health (2045.8ms)
+2025-09-28 23:43:08,403 - INFO - [PASS] Backtesting health (2056.8ms)
+2025-09-28 23:43:10,448 - WARNING - [FAIL] AI training status - Status: 403
+2025-09-28 23:43:12,494 - WARNING - [FAIL] Strategy weights - Status: 403
+2025-09-28 23:43:12,494 - INFO - === Testing Data Flow Integration ===
+2025-09-28 23:43:12,495 - INFO - Testing market data availability...
+2025-09-28 23:43:14,542 - INFO - Testing portfolio data consistency...
+2025-09-28 23:43:18,645 - INFO - Testing risk calculations...
+2025-09-28 23:43:20,713 - INFO - Testing stock selection functionality...
+2025-09-28 23:43:24,794 - INFO - Testing monitoring system...
+2025-09-28 23:43:26,844 - INFO - [OK] Monitoring system active
+2025-09-28 23:43:26,844 - INFO - === Testing System Performance ===
+2025-09-28 23:43:26,844 - INFO - Testing 1 concurrent requests...
+2025-09-28 23:43:28,874 - INFO - Load 1: 2030.0ms avg, 100.0% success
+2025-09-28 23:43:28,874 - INFO - === Testing System Functionality ===
+2025-09-28 23:43:28,874 - INFO - Testing trading system...
+2025-09-28 23:43:32,984 - INFO - Testing risk management...
+2025-09-28 23:43:35,049 - INFO - Testing monitoring...
+2025-09-28 23:43:39,142 - INFO - [OK] Monitoring functional
+2025-09-28 23:43:39,142 - INFO - Testing backtesting system...
+2025-09-28 23:43:41,212 - INFO - [OK] Backtesting system available
+2025-09-28 23:43:41,213 - INFO - Testing AI system...
+2025-09-28 23:43:43,256 - INFO - === Testing Frontend Accessibility ===
+2025-09-28 23:43:43,256 - INFO - Testing React frontend...
+2025-09-28 23:43:47,342 - WARNING - [WARN] React frontend not accessible
+2025-09-28 23:43:47,342 - INFO - Testing Streamlit dashboard...
+2025-09-28 23:43:51,424 - WARNING - [WARN] Streamlit dashboard not accessible
+2025-09-28 23:43:51,424 - INFO - Testing API documentation...
+2025-09-28 23:43:53,471 - INFO - [OK] API documentation accessible
+2025-09-28 23:43:53,471 - INFO - Testing WebSocket capability...
+2025-09-28 23:43:53,471 - INFO - [OK] WebSocket capability assumed available
+2025-09-28 23:43:53,471 - INFO - === Generating Production Readiness Assessment ===
+2025-09-28 23:43:53,472 - INFO - === VALIDATION COMPLETE - Report saved to C:\quant_system_v2\corrected_integration_report_20250928_234353.json ===

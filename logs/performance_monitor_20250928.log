@@ -1,0 +1,267 @@
+2025-09-28 22:50:47,739 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:310] - Loaded 0 baseline metrics
+2025-09-28 22:50:47,739 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:167] - Advanced Performance Monitor initialized
+2025-09-28 22:50:47,739 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:317] - === Starting Advanced Performance Monitoring ===
+2025-09-28 22:50:47,740 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:377] - Metrics collection loop started
+2025-09-28 22:50:47,740 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:755] - System monitoring loop started
+2025-09-28 22:50:47,762 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:909] - Application monitoring loop started
+2025-09-28 22:50:47,803 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1030] - AI analysis loop started
+2025-09-28 22:50:47,831 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1170] - Report generation loop started
+2025-09-28 22:50:47,900 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1368] - SLA monitoring loop started
+2025-09-28 22:50:47,906 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:373] - Performance monitoring started with 6 threads
+2025-09-28 22:55:47,907 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 22:55:48,558 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 30 performance anomalies
+2025-09-28 22:55:48,559 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 22:55:48,559 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 22:55:48,559 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 22:55:48,559 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_load_avg_1m = 0.0 at 2025-09-28T22:50:47.740573
+2025-09-28 22:55:48,559 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_load_avg_1m = 0.0 at 2025-09-28T22:50:59.139065
+2025-09-28 23:00:47,908 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:00:49,251 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 60 performance anomalies
+2025-09-28 23:00:49,251 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:00:49,251 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:00:49,251 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:00:49,251 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:00:49,251 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 9.3 at 2025-09-28T22:58:09.468383
+2025-09-28 23:05:47,909 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:05:49,939 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 84 performance anomalies
+2025-09-28 23:05:49,939 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:05:49,939 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:05:49,939 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:05:49,939 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:05:49,939 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.5 at 2025-09-28T22:55:34.999672
+2025-09-28 23:10:47,910 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:10:50,641 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 109 performance anomalies
+2025-09-28 23:10:50,641 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:10:50,641 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:10:50,642 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.2 at 2025-09-28T22:51:54.303028
+2025-09-28 23:10:50,642 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:10:50,642 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:10:50,647 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_utilization: current=13.7, predicted=17.5
+2025-09-28 23:10:50,647 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.4, predicted=0.6
+2025-09-28 23:10:50,647 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.2, predicted=0.3
+2025-09-28 23:10:50,647 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.5, predicted=0.7
+2025-09-28 23:10:50,647 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.1
+2025-09-28 23:10:50,647 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:15:47,910 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:15:51,664 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 142 performance anomalies
+2025-09-28 23:15:51,664 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:15:51,664 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:15:51,664 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.2 at 2025-09-28T22:51:54.303028
+2025-09-28 23:15:51,664 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:15:51,665 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:15:51,670 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_utilization: current=8.4, predicted=3.8
+2025-09-28 23:15:51,670 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.6, predicted=0.7
+2025-09-28 23:15:51,670 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.1, predicted=0.2
+2025-09-28 23:15:51,670 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.3, predicted=0.3
+2025-09-28 23:15:51,670 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=-0.0
+2025-09-28 23:15:51,670 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:18:03,843 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 108.3 in 30 days
+2025-09-28 23:19:04,420 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 206.4 in 30 days
+2025-09-28 23:20:05,008 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 217.5 in 30 days
+2025-09-28 23:20:05,009 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 86.1 in 30 days
+2025-09-28 23:20:47,911 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:20:52,696 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 176 performance anomalies
+2025-09-28 23:20:52,696 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:20:52,696 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:20:52,696 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.2 at 2025-09-28T22:51:54.303028
+2025-09-28 23:20:52,697 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:20:52,697 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:20:52,702 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.3, predicted=0.2
+2025-09-28 23:21:05,526 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 205.5 in 30 days
+2025-09-28 23:21:05,526 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 125.2 in 30 days
+2025-09-28 23:22:06,084 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 129.9 in 30 days
+2025-09-28 23:22:06,084 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 119.0 in 30 days
+2025-09-28 23:23:06,655 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 163.4 in 30 days
+2025-09-28 23:23:06,656 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 101.1 in 30 days
+2025-09-28 23:24:07,151 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 77.7 in 30 days
+2025-09-28 23:24:07,151 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 94.4 in 30 days
+2025-09-28 23:25:07,655 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 89.4 in 30 days
+2025-09-28 23:25:07,656 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 85.1 in 30 days
+2025-09-28 23:25:47,912 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:25:53,726 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 193 performance anomalies
+2025-09-28 23:25:53,726 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:25:53,726 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:25:53,726 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.2 at 2025-09-28T22:51:54.303028
+2025-09-28 23:25:53,726 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:25:53,726 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:25:53,731 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.5, predicted=0.7
+2025-09-28 23:25:53,732 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:25:53,732 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.5, predicted=0.7
+2025-09-28 23:25:53,732 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.1, predicted=0.1
+2025-09-28 23:25:53,732 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:26:08,603 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 93.7 in 30 days
+2025-09-28 23:27:09,256 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 86.1 in 30 days
+2025-09-28 23:28:09,762 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 119.1 in 30 days
+2025-09-28 23:29:10,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 189.2 in 30 days
+2025-09-28 23:30:10,805 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:806] - Error in system performance analysis: 'cpu_percent'
+2025-09-28 23:30:10,806 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 190.0 in 30 days
+2025-09-28 23:30:47,913 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:30:54,784 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 220 performance anomalies
+2025-09-28 23:30:54,784 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:30:54,785 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:30:54,785 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:30:54,785 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:30:54,785 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.4 at 2025-09-28T23:00:54.959291
+2025-09-28 23:30:54,793 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=1.2, predicted=1.9
+2025-09-28 23:30:54,793 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=-0.0
+2025-09-28 23:30:54,793 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.4, predicted=0.0
+2025-09-28 23:30:54,793 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.1, predicted=0.1
+2025-09-28 23:30:54,793 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:31:11,342 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 214.6 in 30 days
+2025-09-28 23:31:11,343 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: memory_utilization projected to reach 87.2 in 30 days
+2025-09-28 23:32:11,873 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 225.2 in 30 days
+2025-09-28 23:33:12,382 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 249.0 in 30 days
+2025-09-28 23:34:12,900 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 139.3 in 30 days
+2025-09-28 23:35:47,914 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 0.00
+2025-09-28 23:35:55,810 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 256 performance anomalies
+2025-09-28 23:35:55,810 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:35:55,810 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:35:55,810 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:35:55,810 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:35:55,810 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.5 at 2025-09-28T22:55:34.999672
+2025-09-28 23:35:55,815 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.4, predicted=0.3
+2025-09-28 23:35:55,815 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:35:55,815 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:39:15,461 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 72.9 in 30 days
+2025-09-28 23:40:47,916 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 2.78
+2025-09-28 23:40:47,916 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2057.69
+2025-09-28 23:40:58,099 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 289 performance anomalies
+2025-09-28 23:40:58,099 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:40:58,099 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:40:58,099 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:40:58,099 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:40:58,099 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.4 at 2025-09-28T23:00:54.959291
+2025-09-28 23:40:58,111 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.2, predicted=0.4
+2025-09-28 23:40:58,111 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.6, predicted=0.9
+2025-09-28 23:40:58,111 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:40:58,111 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.1, predicted=0.2
+2025-09-28 23:45:47,917 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 13.89
+2025-09-28 23:45:47,917 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2049.64
+2025-09-28 23:45:59,175 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 313 performance anomalies
+2025-09-28 23:45:59,175 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 27.9 at 2025-09-28T22:50:47.740573
+2025-09-28 23:45:59,175 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:45:59,175 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:45:59,175 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:45:59,175 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.4 at 2025-09-28T23:00:54.959291
+2025-09-28 23:45:59,179 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=-0.0
+2025-09-28 23:45:59,179 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.3, predicted=-0.5
+2025-09-28 23:45:59,181 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:45:59,181 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=-0.1
+2025-09-28 23:50:47,918 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 27.03
+2025-09-28 23:50:47,918 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2051.35
+2025-09-28 23:51:00,272 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 338 performance anomalies
+2025-09-28 23:51:00,272 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 24.7 at 2025-09-28T22:51:10.178396
+2025-09-28 23:51:00,272 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 22.8 at 2025-09-28T22:52:16.374949
+2025-09-28 23:51:00,272 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T22:53:22.568699
+2025-09-28 23:51:00,272 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.4 at 2025-09-28T23:00:54.959291
+2025-09-28 23:51:00,272 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 5.6 at 2025-09-28T23:01:50.114063
+2025-09-28 23:51:00,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_utilization: current=14.4, predicted=17.8
+2025-09-28 23:51:00,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.4, predicted=0.0
+2025-09-28 23:51:00,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:51:00,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.4, predicted=0.5
+2025-09-28 23:51:00,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.1, predicted=0.2
+2025-09-28 23:51:00,280 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:55:47,919 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 33.33
+2025-09-28 23:55:47,919 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2051.68
+2025-09-28 23:56:01,347 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 337 performance anomalies
+2025-09-28 23:56:01,347 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.4 at 2025-09-28T23:00:54.959291
+2025-09-28 23:56:01,347 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.9 at 2025-09-28T23:02:12.176834
+2025-09-28 23:56:01,347 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.9 at 2025-09-28T23:04:46.622079
+2025-09-28 23:56:01,347 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 3.4 at 2025-09-28T23:04:57.656165
+2025-09-28 23:56:01,347 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 5.1 at 2025-09-28T23:05:30.775169
+2025-09-28 23:56:01,354 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_utilization: current=7.6, predicted=4.5
+2025-09-28 23:56:01,354 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.3, predicted=0.1
+2025-09-28 23:56:01,354 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:56:01,354 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-28 23:56:01,354 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:00:47,920 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 33.33
+2025-09-29 00:00:47,920 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2057.09
+2025-09-29 00:01:02,429 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 336 performance anomalies
+2025-09-29 00:01:02,429 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 3.4 at 2025-09-28T23:04:57.656165
+2025-09-29 00:01:02,429 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.8 at 2025-09-28T23:06:14.894162
+2025-09-29 00:01:02,429 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 20.3 at 2025-09-28T23:10:06.605074
+2025-09-29 00:01:02,429 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.2 at 2025-09-28T23:10:50.776735
+2025-09-29 00:01:02,429 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.0 at 2025-09-28T23:13:47.305627
+2025-09-29 00:01:02,436 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.3, predicted=0.2
+2025-09-29 00:01:02,436 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:01:02,436 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:01:02,436 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:05:47,921 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 33.33
+2025-09-29 00:05:47,922 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2059.04
+2025-09-29 00:06:03,567 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 339 performance anomalies
+2025-09-29 00:06:03,567 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 20.3 at 2025-09-28T23:10:06.605074
+2025-09-29 00:06:03,568 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.2 at 2025-09-28T23:10:50.776735
+2025-09-29 00:06:03,568 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.0 at 2025-09-28T23:13:47.305627
+2025-09-29 00:06:03,568 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.3 at 2025-09-28T23:16:10.748586
+2025-09-29 00:06:03,568 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 4.6 at 2025-09-28T23:17:16.958321
+2025-09-29 00:06:03,576 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.4, predicted=0.6
+2025-09-29 00:06:03,576 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=-0.2
+2025-09-29 00:06:03,576 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:06:03,576 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:09:33,287 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:806] - Error in system performance analysis: 'cpu_percent'
+2025-09-29 00:10:47,924 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 34.21
+2025-09-29 00:10:47,924 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2063.02
+2025-09-29 00:11:04,700 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 338 performance anomalies
+2025-09-29 00:11:04,700 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.0 at 2025-09-28T23:13:47.305627
+2025-09-29 00:11:04,700 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.8 at 2025-09-28T23:19:07.320669
+2025-09-29 00:11:04,700 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.5 at 2025-09-28T23:20:02.488242
+2025-09-29 00:11:04,700 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.0 at 2025-09-28T23:22:25.922764
+2025-09-29 00:11:04,700 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.0 at 2025-09-28T23:24:49.368721
+2025-09-29 00:11:04,708 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_load_avg_1m: current=0.2, predicted=0.0
+2025-09-29 00:11:04,708 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=0.1
+2025-09-29 00:11:04,708 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=-0.0
+2025-09-29 00:11:04,708 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:14:36,725 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 95.8 in 30 days
+2025-09-29 00:15:37,283 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 143.2 in 30 days
+2025-09-29 00:15:47,924 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 33.33
+2025-09-29 00:15:47,924 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2057.67
+2025-09-29 00:16:05,847 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 340 performance anomalies
+2025-09-29 00:16:05,847 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.8 at 2025-09-28T23:19:07.320669
+2025-09-29 00:16:05,847 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.5 at 2025-09-28T23:20:02.488242
+2025-09-29 00:16:05,847 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.0 at 2025-09-28T23:22:25.922764
+2025-09-29 00:16:05,847 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.0 at 2025-09-28T23:24:49.368721
+2025-09-29 00:16:05,847 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.3 at 2025-09-28T23:26:06.594630
+2025-09-29 00:16:05,855 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.0, predicted=-0.0
+2025-09-29 00:16:05,855 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.4, predicted=0.3
+2025-09-29 00:16:05,855 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:16:37,867 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 148.2 in 30 days
+2025-09-29 00:17:38,457 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 200.3 in 30 days
+2025-09-29 00:18:38,989 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 189.2 in 30 days
+2025-09-29 00:19:39,489 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 218.5 in 30 days
+2025-09-29 00:20:40,613 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 270.6 in 30 days
+2025-09-29 00:20:47,927 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 33.33
+2025-09-29 00:20:47,927 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2056.35
+2025-09-29 00:21:08,239 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 338 performance anomalies
+2025-09-29 00:21:08,239 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.0 at 2025-09-28T23:22:25.922764
+2025-09-29 00:21:08,239 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.0 at 2025-09-28T23:24:49.368721
+2025-09-29 00:21:08,239 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 17.1 at 2025-09-28T23:25:00.400055
+2025-09-29 00:21:08,239 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.3 at 2025-09-28T23:26:06.594630
+2025-09-29 00:21:08,239 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.5 at 2025-09-28T23:26:17.624090
+2025-09-29 00:21:08,259 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_utilization: current=12.5, predicted=16.1
+2025-09-29 00:21:08,259 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=6.0, predicted=12.0
+2025-09-29 00:21:08,259 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=10.7, predicted=21.1
+2025-09-29 00:21:08,259 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:21:08,259 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.2, predicted=0.4
+2025-09-29 00:21:41,796 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 330.6 in 30 days
+2025-09-29 00:22:43,141 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 321.6 in 30 days
+2025-09-29 00:23:44,359 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:806] - Error in system performance analysis: 'cpu_percent'
+2025-09-29 00:23:44,362 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 308.9 in 30 days
+2025-09-29 00:24:45,539 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 268.0 in 30 days
+2025-09-29 00:25:46,769 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:806] - Error in system performance analysis: 'cpu_percent'
+2025-09-29 00:25:46,773 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 191.7 in 30 days
+2025-09-29 00:25:47,929 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: availability - Target: 99.9, Actual: 33.33
+2025-09-29 00:25:47,930 - AdvancedPerformanceMonitor - ERROR - [advanced_performance_monitor.py:1383] - SLA VIOLATION: response_time - Target: 500, Actual: 2051.47
+2025-09-29 00:26:10,651 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1082] - Detected 344 performance anomalies
+2025-09-29 00:26:10,651 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.5 at 2025-09-28T23:26:17.624090
+2025-09-29 00:26:10,651 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 20.8 at 2025-09-28T23:26:28.659130
+2025-09-29 00:26:10,651 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 18.2 at 2025-09-28T23:27:23.841027
+2025-09-29 00:26:10,652 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 21.8 at 2025-09-28T23:28:52.135452
+2025-09-29 00:26:10,652 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1084] - Anomaly: cpu_utilization = 19.8 at 2025-09-28T23:30:20.817830
+2025-09-29 00:26:10,671 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for cpu_utilization: current=6.9, predicted=4.1
+2025-09-29 00:26:10,671 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_read_rate_mbps: current=0.1, predicted=-1.2
+2025-09-29 00:26:10,671 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for disk_write_rate_mbps: current=0.3, predicted=-13.6
+2025-09-29 00:26:10,671 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_send_rate_mbps: current=0.0, predicted=0.0
+2025-09-29 00:26:10,671 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:1161] - Significant change predicted for network_recv_rate_mbps: current=0.0, predicted=-0.1
+2025-09-29 00:26:47,984 - AdvancedPerformanceMonitor - WARNING - [advanced_performance_monitor.py:896] - Capacity planning alert: cpu_utilization projected to reach 129.0 in 30 days
+2025-09-29 00:27:48,378 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1484] - Shutting down advanced performance monitor...
+2025-09-29 00:28:44,315 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1499] - Advanced performance monitor shutdown complete

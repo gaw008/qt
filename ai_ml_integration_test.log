@@ -1,0 +1,127 @@
+2025-09-28 22:52:18,050 [INFO] __main__: Initializing AI/ML System Integration Test
+2025-09-28 22:52:18,050 [INFO] __main__: Test data directory: ai_ml_test_data
+2025-09-28 22:52:18,050 [INFO] __main__: Training data size: 1000
+2025-09-28 22:52:18,050 [INFO] __main__: ================================================================================
+2025-09-28 22:52:18,050 [INFO] __main__: AI/ML SYSTEM INTEGRATION TEST SUITE
+2025-09-28 22:52:18,050 [INFO] __main__: Comprehensive Machine Learning Pipeline Validation
+2025-09-28 22:52:18,050 [INFO] __main__: ================================================================================
+2025-09-28 22:52:18,051 [INFO] __main__: 
+--- Running AI/ML Test: AI Components Import ---
+2025-09-28 22:52:18,051 [INFO] __main__: Testing AI/ML components import...
+2025-09-28 22:52:18,066 [INFO] AILearningEngine: AI Learning Engine initialized with multi-model ensemble capability
+2025-09-28 22:52:18,066 [INFO] __main__: ??? AI Learning Engine imported and initialized
+2025-09-28 22:52:18,119 [INFO] AIStrategyOptimizer: AI Strategy Optimizer initialized with multi-objective capability
+2025-09-28 22:52:18,119 [INFO] __main__: ??? AI Strategy Optimizer imported and initialized
+2025-09-28 22:52:18,120 [WARNING] __main__: ??? Feature Engineer import failed: No module named 'talib'
+2025-09-28 22:52:18,128 [WARNING] __main__: ??? Reinforcement Learning Framework import failed: No module named 'torch'
+2025-09-28 22:52:18,128 [INFO] __main__: ??? scikit-learn available for ML operations
+2025-09-28 22:52:18,128 [INFO] __main__: AI component import success rate: 60.0%
+2025-09-28 22:52:18,128 [INFO] __main__: ??? AI Components Import PASSED (0.08s)
+2025-09-28 22:52:18,128 [INFO] __main__: 
+--- Running AI/ML Test: Feature Engineering Pipeline ---
+2025-09-28 22:52:18,128 [INFO] __main__: Testing feature engineering pipeline...
+2025-09-28 22:52:18,128 [WARNING] __main__: Feature engineer not available - using mock implementation
+2025-09-28 22:52:18,128 [INFO] __main__: ??? Feature Engineering Pipeline PASSED (0.00s)
+2025-09-28 22:52:18,128 [INFO] __main__: 
+--- Running AI/ML Test: AI Learning Engine ---
+2025-09-28 22:52:18,128 [INFO] __main__: Testing AI learning engine...
+2025-09-28 22:52:18,131 [INFO] __main__: Testing random_forest model...
+2025-09-28 22:52:18,131 [WARNING] __main__: random_forest model test failed: AILearningEngine.train_model() got multiple values for argument 'model_type'
+2025-09-28 22:52:18,131 [INFO] __main__: Testing gradient_boosting model...
+2025-09-28 22:52:18,131 [WARNING] __main__: gradient_boosting model test failed: AILearningEngine.train_model() got multiple values for argument 'model_type'
+2025-09-28 22:52:18,131 [INFO] __main__: Testing linear model...
+2025-09-28 22:52:18,131 [WARNING] __main__: linear model test failed: AILearningEngine.train_model() got multiple values for argument 'model_type'
+2025-09-28 22:52:18,131 [INFO] __main__: Testing neural_network model...
+2025-09-28 22:52:18,131 [WARNING] __main__: neural_network model test failed: AILearningEngine.train_model() got multiple values for argument 'model_type'
+2025-09-28 22:52:18,131 [INFO] __main__: AI learning engine success rate: 0.0%
+2025-09-28 22:52:18,131 [ERROR] __main__: ??? AI Learning Engine FAILED (0.00s)
+2025-09-28 22:52:18,131 [INFO] __main__: 
+--- Running AI/ML Test: Strategy Optimizer ---
+2025-09-28 22:52:18,131 [INFO] __main__: Testing strategy optimizer...
+2025-09-28 22:52:18,131 [INFO] __main__: Testing grid_search optimization...
+2025-09-28 22:52:18,132 [INFO] __main__: grid_search optimization completed in 0.00s
+2025-09-28 22:52:18,132 [INFO] __main__: Best parameters: {'learning_rate': np.float64(0.001), 'batch_size': np.int64(32), 'epochs': np.int64(20), 'dropout_rate': np.float64(0.1), 'hidden_units': np.int64(256)}
+2025-09-28 22:52:18,132 [INFO] __main__: Testing random_search optimization...
+2025-09-28 22:52:18,132 [INFO] __main__: random_search optimization completed in 0.00s
+2025-09-28 22:52:18,132 [INFO] __main__: Best parameters: {'learning_rate': np.float64(0.01), 'batch_size': np.int64(32), 'epochs': np.int64(20), 'dropout_rate': np.float64(0.2), 'hidden_units': np.int64(128)}
+2025-09-28 22:52:18,132 [INFO] __main__: Testing bayesian optimization...
+2025-09-28 22:52:18,132 [INFO] __main__: bayesian optimization completed in 0.00s
+2025-09-28 22:52:18,132 [INFO] __main__: Best parameters: {'learning_rate': np.float64(0.001), 'batch_size': np.int64(128), 'epochs': np.int64(50), 'dropout_rate': np.float64(0.1), 'hidden_units': np.int64(128)}
+2025-09-28 22:52:18,132 [INFO] __main__: Strategy optimizer success rate: 100.0%
+2025-09-28 22:52:18,132 [INFO] __main__: ??? Strategy Optimizer PASSED (0.00s)
+2025-09-28 22:52:18,132 [INFO] __main__: 
+--- Running AI/ML Test: Reinforcement Learning ---
+2025-09-28 22:52:18,132 [INFO] __main__: Testing reinforcement learning framework...
+2025-09-28 22:52:18,132 [WARNING] __main__: RL framework not available - using mock implementation
+2025-09-28 22:52:18,132 [INFO] __main__: ??? Reinforcement Learning PASSED (0.00s)
+2025-09-28 22:52:18,132 [INFO] __main__: 
+--- Running AI/ML Test: Model Training Pipeline ---
+2025-09-28 22:52:18,132 [INFO] __main__: Testing model training pipeline...
+2025-09-28 22:52:18,142 [INFO] __main__: Data preprocessing: 1630/2000 samples retained
+2025-09-28 22:52:18,144 [INFO] __main__: Feature scaling completed: 10 features
+2025-09-28 22:52:18,890 [INFO] __main__: random_forest CV R??: 0.556 ?? 0.019
+2025-09-28 22:52:19,214 [INFO] __main__: gradient_boosting CV R??: 0.568 ?? 0.025
+2025-09-28 22:52:19,222 [INFO] __main__: ridge CV R??: 0.377 ?? 0.013
+2025-09-28 22:52:19,222 [INFO] __main__: Hyperparameter tuning completed: score = 0.728
+2025-09-28 22:52:19,222 [INFO] __main__: Model validation: Accuracy = 0.706
+2025-09-28 22:52:19,222 [INFO] __main__: Model training pipeline success rate: 100.0%
+2025-09-28 22:52:19,222 [INFO] __main__: ??? Model Training Pipeline PASSED (1.09s)
+2025-09-28 22:52:19,222 [INFO] __main__: 
+--- Running AI/ML Test: Model Persistence ---
+2025-09-28 22:52:19,222 [INFO] __main__: Testing model persistence...
+2025-09-28 22:52:19,231 [INFO] __main__: Model saved: 94561 bytes in 0.002s
+2025-09-28 22:52:19,239 [INFO] __main__: Model loaded: RandomForestRegressor in 0.008s
+2025-09-28 22:52:19,240 [INFO] __main__: Loaded model prediction test: (5,)
+2025-09-28 22:52:19,271 [INFO] __main__: Model versioning test: 3 versions created
+2025-09-28 22:52:19,277 [INFO] __main__: Model metadata persistence: 6 fields
+2025-09-28 22:52:19,277 [INFO] __main__: Cleaned up 5 test files
+2025-09-28 22:52:19,277 [INFO] __main__: Model persistence success rate: 100.0%
+2025-09-28 22:52:19,277 [INFO] __main__: ??? Model Persistence PASSED (0.06s)
+2025-09-28 22:52:19,277 [INFO] __main__: 
+--- Running AI/ML Test: Real-time Inference ---
+2025-09-28 22:52:19,278 [INFO] __main__: Testing real-time inference...
+2025-09-28 22:52:19,790 [INFO] __main__: Single prediction: avg=1.54ms, p95=2.01ms
+2025-09-28 22:52:19,792 [INFO] __main__: Batch size 10: 0.002s, 5000 predictions/s
+2025-09-28 22:52:19,794 [INFO] __main__: Batch size 50: 0.002s, 25107 predictions/s
+2025-09-28 22:52:19,797 [INFO] __main__: Batch size 100: 0.003s, 33246 predictions/s
+2025-09-28 22:52:19,801 [INFO] __main__: Batch size 500: 0.004s, 125002 predictions/s
+2025-09-28 22:52:19,855 [INFO] __main__: Concurrent inference: 20 tasks in 0.055s (366.9 pred/s)
+2025-09-28 22:52:19,861 [INFO] __main__: Memory usage: Initial=175.1MB, Peak=175.2MB, Increase=0.1MB
+2025-09-28 22:52:19,861 [INFO] __main__: Real-time inference success rate: 100.0%
+2025-09-28 22:52:19,861 [INFO] __main__: Performance requirements met: True
+2025-09-28 22:52:19,861 [INFO] __main__: ??? Real-time Inference PASSED (0.58s)
+2025-09-28 22:52:19,861 [INFO] __main__: 
+--- Running AI/ML Test: Performance Optimization ---
+2025-09-28 22:52:19,861 [INFO] __main__: Testing AI/ML performance optimization...
+2025-09-28 22:52:19,861 [INFO] __main__: ??? Performance Optimization PASSED (0.00s)
+2025-09-28 22:52:19,861 [INFO] __main__: 
+--- Running AI/ML Test: Risk Integration ---
+2025-09-28 22:52:19,861 [INFO] __main__: Testing AI/ML risk integration...
+2025-09-28 22:52:19,861 [INFO] __main__: ??? Risk Integration PASSED (0.00s)
+2025-09-28 22:52:19,862 [INFO] __main__: 
+--- Running AI/ML Test: Backtesting Integration ---
+2025-09-28 22:52:19,862 [INFO] __main__: Testing AI/ML backtesting integration...
+2025-09-28 22:52:19,862 [INFO] __main__: ??? Backtesting Integration PASSED (0.00s)
+2025-09-28 22:52:19,862 [INFO] __main__: 
+--- Running AI/ML Test: GPU Acceleration ---
+2025-09-28 22:52:19,862 [INFO] __main__: Testing GPU acceleration...
+2025-09-28 22:52:19,862 [INFO] __main__: ??? GPU Acceleration PASSED (0.00s)
+2025-09-28 22:52:19,862 [INFO] __main__: 
+--- Running AI/ML Test: Model Validation ---
+2025-09-28 22:52:19,862 [INFO] __main__: Testing model validation framework...
+2025-09-28 22:52:19,862 [INFO] __main__: ??? Model Validation PASSED (0.00s)
+2025-09-28 22:52:19,862 [INFO] __main__: 
+--- Running AI/ML Test: Production Readiness ---
+2025-09-28 22:52:19,862 [INFO] __main__: Testing AI/ML production readiness...
+2025-09-28 22:52:19,862 [INFO] __main__: ??? Production Readiness PASSED (0.00s)
+2025-09-28 22:52:19,862 [INFO] __main__: AI/ML test report saved: ai_ml_test_data\ai_ml_test_report_20250928_225219.json
+2025-09-28 22:52:19,862 [INFO] __main__: 
+================================================================================
+2025-09-28 22:52:19,862 [INFO] __main__: AI/ML INTEGRATION TEST SUMMARY
+2025-09-28 22:52:19,862 [INFO] __main__: ================================================================================
+2025-09-28 22:52:19,862 [INFO] __main__: ??? Passed: 13/14
+2025-09-28 22:52:19,862 [INFO] __main__: ??? Failed: 1/14
+2025-09-28 22:52:19,862 [INFO] __main__: ???? Errors: 0/14
+2025-09-28 22:52:19,862 [INFO] __main__: ???? Success Rate: 92.9%
+2025-09-28 22:52:19,862 [INFO] __main__: ?????? Total Duration: 1.81s
+2025-09-28 22:52:19,862 [INFO] __main__: ???? AI/ML TESTS PASSED - System ready for intelligent trading

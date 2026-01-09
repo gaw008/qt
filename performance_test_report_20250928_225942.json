@@ -1,0 +1,249 @@
+{
+  "test_summary": {
+    "timestamp": "20250928_225942",
+    "total_tests": 6,
+    "successful_tests": 6,
+    "failed_tests": 0,
+    "success_rate_percent": 100.0,
+    "total_duration_seconds": 38.200343999999994
+  },
+  "performance_metrics": {
+    "average_test_duration_seconds": 6.366724,
+    "total_memory_usage_mb": 193.68001556396484,
+    "average_throughput_ops_per_sec": 1176.7573649344095,
+    "average_latency_ms": 355.1372241973877
+  },
+  "system_baseline": {
+    "timestamp": "2025-09-28T22:59:02.955996",
+    "cpu_cores": 28,
+    "total_memory_gb": 63.7248420715332,
+    "available_memory_gb": 46.20541763305664,
+    "cpu_usage_percent": 14.3,
+    "memory_usage_percent": 27.5,
+    "disk_free_gb": 526.8057861328125,
+    "python_version": "3.12.10",
+    "platform": "win32"
+  },
+  "test_results": [
+    {
+      "test_name": "startup_performance",
+      "test_category": "system_baseline",
+      "start_time": "2025-09-28T22:59:03.958401",
+      "end_time": "2025-09-28T22:59:04.067037",
+      "duration_seconds": 0.108636,
+      "success": true,
+      "error_message": "",
+      "performance_metrics": {
+        "cpu_usage_percent": 0.0,
+        "memory_usage_mb": 1.03125,
+        "memory_peak_mb": 0.1969919204711914,
+        "throughput_ops_per_sec": 0.0,
+        "latency_ms": 0.0
+      },
+      "custom_metrics": {
+        "initialization_time_ms": 108.636,
+        "cache_entries_created": 1000,
+        "memory_start_mb": 0.0,
+        "threads_count": 32
+      },
+      "recommendations": [
+        "Startup completed in 0.109s",
+        "Memory usage: 1.0MB",
+        "Peak memory: 0.2MB",
+        "Consider lazy loading for non-critical components",
+        "Database connection pooling recommended for production"
+      ]
+    },
+    {
+      "test_name": "data_processing_performance",
+      "test_category": "data_processing",
+      "start_time": "2025-09-28T22:59:04.070085",
+      "end_time": "2025-09-28T22:59:24.691254",
+      "duration_seconds": 20.621169,
+      "success": true,
+      "error_message": "",
+      "performance_metrics": {
+        "cpu_usage_percent": 0.0,
+        "memory_usage_mb": 163.16491508483887,
+        "memory_peak_mb": 163.16491508483887,
+        "throughput_ops_per_sec": 211.89588411216351,
+        "latency_ms": 0.0
+      },
+      "custom_metrics": {
+        "stocks_processed": 4000,
+        "processing_time_seconds": 18.877195358276367,
+        "stocks_per_second": 211.89588411216351,
+        "memory_per_stock_kb": 41.77021826171875,
+        "technical_indicators_calculated": 6
+      },
+      "recommendations": [
+        "Processed 4000 stocks in 18.88s",
+        "Throughput: 211.9 stocks/second",
+        "Memory usage: 163.2MB",
+        "Memory per stock: 41.8KB",
+        "Consider parallel processing for >2000 stocks",
+        "Implement chunked processing for memory efficiency",
+        "Cache computed indicators to avoid recomputation"
+      ]
+    },
+    {
+      "test_name": "multi_factor_analysis_performance",
+      "test_category": "algorithm_performance",
+      "start_time": "2025-09-28T22:59:24.721262",
+      "end_time": "2025-09-28T22:59:24.763254",
+      "duration_seconds": 0.041992,
+      "success": true,
+      "error_message": "",
+      "performance_metrics": {
+        "cpu_usage_percent": 0.0,
+        "memory_usage_mb": 27.343000411987305,
+        "memory_peak_mb": 27.343000411987305,
+        "throughput_ops_per_sec": 3676.5308125999272,
+        "latency_ms": 0.0
+      },
+      "custom_metrics": {
+        "analysis_time_seconds": 0.03399944305419922,
+        "calculations_performed": 125,
+        "calculations_per_second": 3676.5308125999272,
+        "stocks_analyzed": 1000,
+        "factors_analyzed": 60,
+        "portfolios_analyzed": 100,
+        "matrix_operations": 6
+      },
+      "recommendations": [
+        "Multi-factor analysis completed in 0.03s",
+        "Throughput: 3676.5 calculations/second",
+        "Memory usage: 27.3MB",
+        "Analyzed 1000 stocks with 60 factors",
+        "Consider GPU acceleration for large factor models (>10,000 stocks)",
+        "Implement factor model caching for repeated calculations",
+        "Use sparse matrices for factor loadings to reduce memory",
+        "Consider incremental covariance updates for real-time systems"
+      ]
+    },
+    {
+      "test_name": "real_time_monitoring_response",
+      "test_category": "real_time_performance",
+      "start_time": "2025-09-28T22:59:24.768479",
+      "end_time": "2025-09-28T22:59:41.201554",
+      "duration_seconds": 16.433075,
+      "success": true,
+      "error_message": "",
+      "performance_metrics": {
+        "cpu_usage_percent": 0.0,
+        "memory_usage_mb": 0.0,
+        "memory_peak_mb": 0.0,
+        "throughput_ops_per_sec": 0.0,
+        "latency_ms": 0.18505096435546875
+      },
+      "custom_metrics": {
+        "avg_response_time_ms": 0.18505096435546875,
+        "min_response_time_ms": 0.0,
+        "max_response_time_ms": 3.0007362365722656,
+        "median_response_time_ms": 0.0,
+        "p95_response_time_ms": 1.0027885437011719,
+        "p99_response_time_ms": 3.0007362365722656,
+        "successful_requests": 100,
+        "failed_requests": 4,
+        "success_rate_percent": 96.15384615384616
+      },
+      "recommendations": [
+        "Average response time: 0.2ms",
+        "95th percentile: 1.0ms",
+        "99th percentile: 3.0ms",
+        "Success rate: 100/104",
+        "Target response time: <100ms for trading operations",
+        "Target p95: <200ms for acceptable user experience",
+        "Consider load balancing for high availability",
+        "Implement health check endpoints for all services"
+      ]
+    },
+    {
+      "test_name": "concurrent_access_performance",
+      "test_category": "concurrency",
+      "start_time": "2025-09-28T22:59:41.201554",
+      "end_time": "2025-09-28T22:59:42.058986",
+      "duration_seconds": 0.857432,
+      "success": true,
+      "error_message": "",
+      "performance_metrics": {
+        "cpu_usage_percent": 0.0,
+        "memory_usage_mb": 0.0,
+        "memory_peak_mb": 0.0,
+        "throughput_ops_per_sec": 69.97639462954497,
+        "latency_ms": 710.0893974304199
+      },
+      "custom_metrics": {
+        "concurrent_users": 10,
+        "avg_session_duration_ms": 710.0893974304199,
+        "max_session_duration_ms": 853.4319400787354,
+        "min_session_duration_ms": 572.3819732666016,
+        "total_operations": 60,
+        "operations_per_second": 69.97639462954497,
+        "avg_login_ms": 55.320191383361816,
+        "avg_load_dashboard_ms": 119.0255880355835,
+        "avg_fetch_portfolio_ms": 93.43814849853516,
+        "avg_run_analysis_ms": 232.88941383361816,
+        "avg_place_order_ms": 184.169340133667,
+        "avg_logout_ms": 25.246715545654297
+      },
+      "recommendations": [
+        "Handled 10 concurrent users successfully",
+        "Average session duration: 710ms",
+        "Throughput: 70.0 operations/second",
+        "Max session duration: 853ms",
+        "Consider connection pooling for database operations",
+        "Implement caching for frequently accessed data",
+        "Monitor resource usage under higher concurrent loads",
+        "System handled concurrency well with 32 threads"
+      ]
+    },
+    {
+      "test_name": "database_performance",
+      "test_category": "database",
+      "start_time": "2025-09-28T22:59:42.061990",
+      "end_time": "2025-09-28T22:59:42.200030",
+      "duration_seconds": 0.13804,
+      "success": true,
+      "error_message": "",
+      "performance_metrics": {
+        "cpu_usage_percent": 0.0,
+        "memory_usage_mb": 2.140850067138672,
+        "memory_peak_mb": 2.140850067138672,
+        "throughput_ops_per_sec": 748.6263683960019,
+        "latency_ms": 0.0
+      },
+      "custom_metrics": {
+        "insert_time_seconds": 0.11800932884216309,
+        "insert_throughput_records_per_sec": 93212.96975353913,
+        "query_time_seconds": 0.0040073394775390625,
+        "query_throughput_queries_per_sec": 748.6263683960019,
+        "index_creation_time_seconds": 0.0009922981262207031,
+        "total_records_inserted": 11000,
+        "count_query_result": 20000,
+        "join_results_count": 100,
+        "aggregation_results_count": 10,
+        "indexed_results_count": 50
+      },
+      "recommendations": [
+        "Database insert throughput: 93213 records/second",
+        "Query performance: 748.6 queries/second",
+        "Index creation time: 0.001s",
+        "Memory usage: 2.1MB",
+        "Implement connection pooling for production",
+        "Consider partitioning for large historical datasets",
+        "Regular VACUUM and ANALYZE operations recommended",
+        "WAL mode enabled for better concurrency"
+      ]
+    }
+  ],
+  "performance_assessment": {
+    "overall_rating": "GOOD",
+    "bottlenecks_identified": [],
+    "optimization_recommendations": [
+      "Optimize response times for trading operations"
+    ],
+    "production_readiness": "READY",
+    "scalability_assessment": "HIGHLY_SCALABLE"
+  }
+}

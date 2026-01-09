@@ -1,0 +1,10 @@
+2025-09-29 00:42:11,487 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:310] - Loaded 11 baseline metrics
+2025-09-29 00:42:11,487 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:167] - Advanced Performance Monitor initialized
+2025-09-29 00:42:11,497 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:317] - === Starting Advanced Performance Monitoring ===
+2025-09-29 00:42:11,497 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:377] - Metrics collection loop started
+2025-09-29 00:42:11,498 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:755] - System monitoring loop started
+2025-09-29 00:42:11,518 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:909] - Application monitoring loop started
+2025-09-29 00:42:11,548 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1030] - AI analysis loop started
+2025-09-29 00:42:11,580 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1170] - Report generation loop started
+2025-09-29 00:42:11,612 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:1368] - SLA monitoring loop started
+2025-09-29 00:42:11,626 - AdvancedPerformanceMonitor - INFO - [advanced_performance_monitor.py:373] - Performance monitoring started with 6 threads

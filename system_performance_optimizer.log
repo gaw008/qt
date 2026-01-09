@@ -1,0 +1,108 @@
+2025-09-24 23:22:20,957 [INFO] __main__: Parallel processing optimizer initialized:
+2025-09-24 23:22:20,957 [INFO] __main__:   CPU cores: 28
+2025-09-24 23:22:20,957 [INFO] __main__:   Optimal threads: 32
+2025-09-24 23:22:20,957 [INFO] __main__:   Optimal processes: 8
+2025-09-24 23:22:20,957 [INFO] __main__: System Performance Optimizer initialized
+2025-09-24 23:22:20,957 [INFO] __main__: ================================================================================
+2025-09-24 23:22:20,957 [INFO] __main__: COMPREHENSIVE SYSTEM PERFORMANCE OPTIMIZATION
+2025-09-24 23:22:20,958 [INFO] __main__: Target: 4000 stock universe optimization
+2025-09-24 23:22:20,958 [INFO] __main__: ================================================================================
+2025-09-24 23:22:20,958 [INFO] __main__: Establishing performance baseline...
+2025-09-24 23:22:22,068 [INFO] __main__: Performance baseline established
+2025-09-24 23:22:22,068 [INFO] __main__: Baseline metrics:
+2025-09-24 23:22:22,068 [INFO] __main__:   CPU: 13.4%
+2025-09-24 23:22:22,068 [INFO] __main__:   Memory: 32.1% (20977.1MB)
+2025-09-24 23:22:22,068 [INFO] __main__:   Threads: 1
+2025-09-24 23:22:22,068 [INFO] __main__:   Open files: 3
+2025-09-24 23:22:22,068 [INFO] __main__: 
+[1/5] Running memory optimization...
+2025-09-24 23:22:22,068 [INFO] __main__: Memory tracking started
+2025-09-24 23:22:22,103 [INFO] __main__: Starting memory optimization...
+2025-09-24 23:22:22,103 [INFO] __main__: GC generation 0: collected 0 objects
+2025-09-24 23:22:22,104 [INFO] __main__: GC generation 1: collected 0 objects
+2025-09-24 23:22:22,112 [INFO] __main__: GC generation 2: collected 0 objects
+2025-09-24 23:22:22,112 [INFO] __main__: Weak references: 1
+2025-09-24 23:22:22,113 [INFO] __main__: Pandas memory optimization applied
+2025-09-24 23:22:24,127 [INFO] __main__: Memory optimization completed: freed 4.04MB (4.1%)
+2025-09-24 23:22:24,127 [INFO] __main__: 
+[2/5] Running database optimization...
+2025-09-24 23:22:24,127 [INFO] __main__: Optimizing database settings...
+2025-09-24 23:22:24,127 [INFO] __main__: Initializing database connection pool with 20 connections
+2025-09-24 23:22:24,135 [INFO] __main__: Database connection pool initialized with 20 connections
+2025-09-24 23:22:24,135 [INFO] __main__: Applied: Set synchronous mode to NORMAL for better performance
+2025-09-24 23:22:24,135 [INFO] __main__: Applied: Set cache size to 64MB
+2025-09-24 23:22:24,135 [INFO] __main__: Applied: Enable WAL mode for better concurrency
+2025-09-24 23:22:24,135 [INFO] __main__: Applied: Set WAL autocheckpoint
+2025-09-24 23:22:24,136 [INFO] __main__: Applied: Store temporary tables in memory
+2025-09-24 23:22:24,136 [INFO] __main__: Applied: Set memory-mapped I/O to 128MB
+2025-09-24 23:22:24,136 [INFO] __main__: Applied: Run database optimization
+2025-09-24 23:22:24,136 [INFO] __main__: Database optimization completed successfully
+2025-09-24 23:22:24,136 [INFO] __main__: 
+[3/5] Running parallel processing optimization...
+2025-09-24 23:22:24,136 [INFO] __main__: Optimizing parallel processing for 4000 stocks
+2025-09-24 23:22:24,136 [INFO] __main__: Stock processing optimization completed for 4000 stocks
+2025-09-24 23:22:24,136 [INFO] __main__: 
+[4/5] Running I/O optimization...
+2025-09-24 23:22:24,137 [INFO] __main__: Optimizing file I/O operations...
+2025-09-24 23:22:24,181 [INFO] __main__: File I/O optimization completed - best strategy: default (0.0% improvement)
+2025-09-24 23:22:24,182 [INFO] __main__: 
+[5/5] Running caching optimization...
+2025-09-24 23:22:24,182 [INFO] __main__: Setting up intelligent caching system...
+2025-09-24 23:22:24,182 [INFO] __main__: Intelligent caching system setup completed - 11058.5MB allocated
+2025-09-24 23:22:24,183 [ERROR] __main__: Failed to generate optimization report: Object of type datetime is not JSON serializable
+2025-09-24 23:22:24,183 [INFO] __main__: Comprehensive system optimization completed
+2025-09-24 23:22:24,184 [INFO] __main__: Performance monitoring started (interval: 30s)
+2025-09-28 22:50:51,218 [INFO] __main__: Parallel processing optimizer initialized:
+2025-09-28 22:50:51,218 [INFO] __main__:   CPU cores: 28
+2025-09-28 22:50:51,218 [INFO] __main__:   Optimal threads: 32
+2025-09-28 22:50:51,218 [INFO] __main__:   Optimal processes: 8
+2025-09-28 22:50:51,218 [INFO] __main__: System Performance Optimizer initialized
+2025-09-28 22:50:51,218 [INFO] __main__: ================================================================================
+2025-09-28 22:50:51,218 [INFO] __main__: COMPREHENSIVE SYSTEM PERFORMANCE OPTIMIZATION
+2025-09-28 22:50:51,218 [INFO] __main__: Target: 4000 stock universe optimization
+2025-09-28 22:50:51,218 [INFO] __main__: ================================================================================
+2025-09-28 22:50:51,218 [INFO] __main__: Establishing performance baseline...
+2025-09-28 22:50:52,314 [INFO] __main__: Performance baseline established
+2025-09-28 22:50:52,314 [INFO] __main__: Baseline metrics:
+2025-09-28 22:50:52,314 [INFO] __main__:   CPU: 21.7%
+2025-09-28 22:50:52,314 [INFO] __main__:   Memory: 27.4% (17896.0MB)
+2025-09-28 22:50:52,314 [INFO] __main__:   Threads: 1
+2025-09-28 22:50:52,314 [INFO] __main__:   Open files: 3
+2025-09-28 22:50:52,314 [INFO] __main__: 
+[1/5] Running memory optimization...
+2025-09-28 22:50:52,314 [INFO] __main__: Memory tracking started
+2025-09-28 22:50:52,345 [INFO] __main__: Starting memory optimization...
+2025-09-28 22:50:52,345 [INFO] __main__: GC generation 0: collected 0 objects
+2025-09-28 22:50:52,346 [INFO] __main__: GC generation 1: collected 0 objects
+2025-09-28 22:50:52,354 [INFO] __main__: GC generation 2: collected 0 objects
+2025-09-28 22:50:52,354 [INFO] __main__: Weak references: 1
+2025-09-28 22:50:52,354 [INFO] __main__: Pandas memory optimization applied
+2025-09-28 22:50:54,367 [INFO] __main__: Memory optimization completed: freed 3.98MB (4.1%)
+2025-09-28 22:50:54,367 [INFO] __main__: 
+[2/5] Running database optimization...
+2025-09-28 22:50:54,367 [INFO] __main__: Optimizing database settings...
+2025-09-28 22:50:54,367 [INFO] __main__: Initializing database connection pool with 20 connections
+2025-09-28 22:50:54,373 [INFO] __main__: Database connection pool initialized with 20 connections
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Set synchronous mode to NORMAL for better performance
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Set cache size to 64MB
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Enable WAL mode for better concurrency
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Set WAL autocheckpoint
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Store temporary tables in memory
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Set memory-mapped I/O to 128MB
+2025-09-28 22:50:54,373 [INFO] __main__: Applied: Run database optimization
+2025-09-28 22:50:54,373 [INFO] __main__: Database optimization completed successfully
+2025-09-28 22:50:54,373 [INFO] __main__: 
+[3/5] Running parallel processing optimization...
+2025-09-28 22:50:54,373 [INFO] __main__: Optimizing parallel processing for 4000 stocks
+2025-09-28 22:50:54,374 [INFO] __main__: Stock processing optimization completed for 4000 stocks
+2025-09-28 22:50:54,374 [INFO] __main__: 
+[4/5] Running I/O optimization...
+2025-09-28 22:50:54,374 [INFO] __main__: Optimizing file I/O operations...
+2025-09-28 22:50:54,418 [INFO] __main__: File I/O optimization completed - best strategy: default (0.0% improvement)
+2025-09-28 22:50:54,420 [INFO] __main__: 
+[5/5] Running caching optimization...
+2025-09-28 22:50:54,420 [INFO] __main__: Setting up intelligent caching system...
+2025-09-28 22:50:54,420 [INFO] __main__: Intelligent caching system setup completed - 11900.4MB allocated
+2025-09-28 22:50:54,421 [ERROR] __main__: Failed to generate optimization report: Object of type datetime is not JSON serializable
+2025-09-28 22:50:54,421 [INFO] __main__: Comprehensive system optimization completed
+2025-09-28 22:50:54,423 [INFO] __main__: Performance monitoring started (interval: 30s)

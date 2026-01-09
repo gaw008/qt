@@ -1,0 +1,151 @@
+{
+  "test_run_info": {
+    "timestamp": "2025-09-28T22:52:16.969817",
+    "duration_seconds": 89.87616086006165,
+    "test_environment": {
+      "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "platform": "win32",
+      "working_directory": "C:\\quant_system_v2"
+    }
+  },
+  "test_summary": {
+    "total_tests": 15,
+    "passed": 14,
+    "failed": 1,
+    "errors": 0,
+    "success_rate": 93.33333333333333,
+    "average_duration": 5.991744057337443
+  },
+  "system_metrics": {
+    "api_response_time": 0.0,
+    "database_response_time": 0.004003286361694336,
+    "cpu_usage": 0.0,
+    "memory_usage": 0.0
+  },
+  "test_results": [
+    {
+      "test_name": "System Initialization",
+      "status": "PASSED",
+      "duration": 0.549400806427002,
+      "timestamp": "2025-09-28T22:50:47.643057",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Database Integration",
+      "status": "FAILED",
+      "duration": 0.008994817733764648,
+      "timestamp": "2025-09-28T22:50:47.652052",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Tiger API Integration",
+      "status": "PASSED",
+      "duration": 0.08428025245666504,
+      "timestamp": "2025-09-28T22:50:47.736332",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Data Flow Pipeline",
+      "status": "PASSED",
+      "duration": 0.11592459678649902,
+      "timestamp": "2025-09-28T22:50:47.852256",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Backend API Services",
+      "status": "PASSED",
+      "duration": 4.085541009902954,
+      "timestamp": "2025-09-28T22:50:51.937797",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "WebSocket Communication",
+      "status": "PASSED",
+      "duration": 0.0010004043579101562,
+      "timestamp": "2025-09-28T22:50:51.938798",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "AI/ML System Integration",
+      "status": "PASSED",
+      "duration": 0.8294162750244141,
+      "timestamp": "2025-09-28T22:50:52.768214",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Risk Management Integration",
+      "status": "PASSED",
+      "duration": 0.03800249099731445,
+      "timestamp": "2025-09-28T22:50:52.806216",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Trading System Integration",
+      "status": "PASSED",
+      "duration": 0.009000778198242188,
+      "timestamp": "2025-09-28T22:50:52.815217",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Portfolio Management",
+      "status": "PASSED",
+      "duration": 1.0300898551940918,
+      "timestamp": "2025-09-28T22:50:53.845307",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Real-time Monitoring",
+      "status": "PASSED",
+      "duration": 0.024999380111694336,
+      "timestamp": "2025-09-28T22:50:53.870307",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Compliance System",
+      "status": "PASSED",
+      "duration": 0.06300091743469238,
+      "timestamp": "2025-09-28T22:50:53.933307",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Performance Under Load",
+      "status": "PASSED",
+      "duration": 82.48365211486816,
+      "timestamp": "2025-09-28T22:52:16.416960",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "Error Recovery",
+      "status": "PASSED",
+      "duration": 0.5488569736480713,
+      "timestamp": "2025-09-28T22:52:16.965817",
+      "details": {},
+      "error_message": null
+    },
+    {
+      "test_name": "End-to-End Workflow",
+      "status": "PASSED",
+      "duration": 0.004000186920166016,
+      "timestamp": "2025-09-28T22:52:16.969817",
+      "details": {},
+      "error_message": null
+    }
+  ],
+  "recommendations": [
+    "Address 1 failed/error tests before production deployment",
+    "Integration test success rate is below 95% - monitor system closely"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "test_run_info": {
+    "timestamp": "2025-09-28T22:52:20.597075",
+    "test_environment": "System Management Integration Test",
+    "system_root": "quant_system_full"
+  },
+  "test_summary": {
+    "total_scripts_tested": 0,
+    "total_startup_time": 0,
+    "average_startup_time": 0,
+    "total_components_started": 0,
+    "total_health_checks_passed": 0
+  },
+  "management_test_results": [],
+  "managed_processes": {
+    "test_process": {
+      "name": "test_process",
+      "pid": 6512,
+      "status": "RUNNING",
+      "memory_usage": 1.99609375,
+      "cpu_usage": 0.0,
+      "command": "python -c \"import time; time.sleep(5)\""
+    }
+  },
+  "recommendations": [
+    "Process management capabilities verified",
+    "System management integration testing completed"
+  ]
+}

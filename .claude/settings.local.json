@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(scp:*)",
+      "Bash(ssh -o StrictHostKeyChecking=no root@209.222.10.82 \"echo ''=== Private Key File ==='' && ls -la /root/quant_system_full/private_key.pem 2>&1 && echo '''' && echo ''=== First 3 lines of key ==='' && head -3 /root/quant_system_full/private_key.pem 2>&1\")",
+      "Bash(ssh:*)",
+      "Bash(du -sh:*)",
+      "Bash(curl:*)",
+      "Bash(cmd.exe /c \"C:\\\\Users\\\\wgy20\\\\Downloads\\\\7z2408-x64.exe /S\")",
+      "Bash(test:*)",
+      "Bash(cmd.exe /c:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "G:\\"
+    ]
+  }
+}

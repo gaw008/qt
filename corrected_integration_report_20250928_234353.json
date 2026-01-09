@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "execution_time": "2025-09-28T23:43:53.471587",
+    "total_duration_seconds": 80.07727980613708,
+    "validator_version": "1.1",
+    "system_endpoints_tested": 19
+  },
+  "test_results": {
+    "api_endpoints": {
+      "endpoints_tested": 19,
+      "endpoints_passed": 4,
+      "endpoints_failed": 15,
+      "response_times": [
+        2047.8706359863281,
+        2072.8931427001953,
+        2068.4800148010254,
+        2057.3103427886963,
+        2028.148889541626,
+        2078.0704021453857,
+        2089.916706085205,
+        2070.371150970459,
+        2039.32785987854,
+        2060.464382171631,
+        2035.0704193115234,
+        2063.8318061828613,
+        2055.394172668457,
+        2074.4872093200684,
+        2058.5453510284424,
+        2045.7727909088135,
+        2056.825876235962,
+        2045.245885848999,
+        2045.1459884643555
+      ],
+      "failed_endpoints": [
+        {
+          "endpoint": "/api/system/status",
+          "method": "GET",
+          "status_code": 403,
+          "description": "System status"
+        },
+        {
+          "endpoint": "/api/system/health",
+          "method": "GET",
+          "status_code": 403,
+          "description": "System health"
+        },
+        {
+          "endpoint": "/api/system/performance",
+          "method": "GET",
+          "status_code": 403,
+          "description": "System performance"
+        },
+        {
+          "endpoint": "/api/markets/assets",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Market assets"
+        },
+        {
+          "endpoint": "/api/markets/heatmap",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Market heatmap"
+        },
+        {
+          "endpoint": "/api/market-state",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Market state"
+        },
+        {
+          "endpoint": "/api/positions",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Portfolio positions"
+        },
+        {
+          "endpoint": "/api/portfolio/summary",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Portfolio summary"
+        },
+        {
+          "endpoint": "/api/orders",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Trading orders"
+        },
+        {
+          "endpoint": "/api/risk/metrics",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Risk metrics"
+        },
+        {
+          "endpoint": "/api/alerts",
+          "method": "GET",
+          "status_code": 403,
+          "description": "System alerts"
+        },
+        {
+          "endpoint": "/api/stocks/screener",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Stock screener"
+        },
+        {
+          "endpoint": "/api/stocks/recommendations",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Stock recommendations"
+        },
+        {
+          "endpoint": "/api/ai/training/status",
+          "method": "GET",
+          "status_code": 403,
+          "description": "AI training status"
+        },
+        {
+          "endpoint": "/api/strategies/weights",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Strategy weights"
+        }
+      ],
+      "detailed_results": {
+        "/health": {
+          "status": "success",
+          "response_time": 2047.8706359863281,
+          "data_present": true
+        },
+        "/api/monitoring/status": {
+          "status": "success",
+          "response_time": 2058.5453510284424,
+          "data_present": true
+        },
+        "/api/monitoring/health/current": {
+          "status": "success",
+          "response_time": 2045.7727909088135,
+          "data_present": true
+        },
+        "/api/backtesting/health": {
+          "status": "success",
+          "response_time": 2056.825876235962,
+          "data_present": true
+        }
+      },
+      "average_response_time": 2057.5354224757143,
+      "max_response_time": 2089.916706085205,
+      "min_response_time": 2028.148889541626,
+      "success_rate": 0.21052631578947367
+    },
+    "data_flow_integration": {
+      "market_data_available": false,
+      "portfolio_data_consistent": false,
+      "risk_calculations_working": false,
+      "stock_selection_functional": false,
+      "monitoring_active": true,
+      "overall_integration_score": 0.2
+    },
+    "performance_testing": {
+      "concurrent_requests_handled": 0,
+      "average_response_time": 0,
+      "max_response_time": 0,
+      "success_rate_under_load": 0,
+      "performance_grade": "NEEDS_IMPROVEMENT",
+      "system_stability": false
+    },
+    "system_functionality": {
+      "trading_system_operational": false,
+      "risk_management_active": false,
+      "monitoring_functional": true,
+      "backtesting_available": true,
+      "ai_system_responsive": false,
+      "functionality_score": 0.4
+    },
+    "frontend_accessibility": {
+      "react_frontend_accessible": false,
+      "streamlit_dashboard_accessible": false,
+      "api_documentation_accessible": true,
+      "websocket_connection_possible": true,
+      "frontend_score": 0.5
+    }
+  },
+  "production_readiness": {
+    "overall_score": 0.26210526315789473,
+    "readiness_level": "NOT_READY",
+    "readiness_description": "System requires significant improvements",
+    "test_summary": {
+      "data_flow_integration": {
+        "success_rate": 0.2,
+        "status": "FAIL"
+      },
+      "performance_testing": {
+        "success_rate": 0.0,
+        "status": "FAIL"
+      },
+      "system_functionality": {
+        "success_rate": 0.4,
+        "status": "FAIL"
+      },
+      "frontend_accessibility": {
+        "success_rate": 0.5,
+        "status": "FAIL"
+      }
+    },
+    "recommendations": [
+      "Consider performance optimization for improved response times",
+      "Investigate failed API endpoints for stability",
+      "Performance optimization needed for production load"
+    ]
+  },
+  "summary": {
+    "overall_score": 0.26210526315789473,
+    "readiness_level": "NOT_READY",
+    "total_tests_run": 23
+  }
+}

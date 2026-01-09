@@ -1,0 +1,40 @@
+2025-09-28 23:39:11,914 - SystemManager - INFO - [start_all.py:526] - === QUANTITATIVE TRADING SYSTEM STARTUP ===
+2025-09-28 23:39:11,914 - SystemManager - INFO - [start_all.py:128] - === Environment Validation ===
+2025-09-28 23:39:11,914 - SystemManager - INFO - [start_all.py:135] - [OK] Python 3.12.10
+2025-09-28 23:39:11,914 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: quant_system_full
+2025-09-28 23:39:11,914 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: bot
+2025-09-28 23:39:11,914 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: dashboard
+2025-09-28 23:39:11,915 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: UI
+2025-09-28 23:39:11,916 - SystemManager - INFO - [start_all.py:160] - [OK] Environment configuration found
+2025-09-28 23:39:11,935 - SystemManager - ERROR - [start_all.py:178] - [FAIL] Node.js or npm not found (required for React frontend)
+2025-09-28 23:39:11,937 - SystemManager - INFO - [start_all.py:185] - [OK] Port 8000 available
+2025-09-28 23:39:11,938 - SystemManager - INFO - [start_all.py:185] - [OK] Port 3000 available
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:185] - [OK] Port 8501 available
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:192] - Environment validation: 90.0% success rate
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:205] - === Preparing React Frontend ===
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:241] - [OK] React dependencies already installed
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:408] - === Starting All System Components ===
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:424] - --- Starting FastAPI Backend ---
+2025-09-28 23:39:11,939 - SystemManager - INFO - [start_all.py:246] - Starting FastAPI Backend...
+2025-09-28 23:39:11,959 - SystemManager - INFO - [start_all.py:265] - [OK] FastAPI Backend started (PID: 7100)
+2025-09-28 23:39:11,959 - SystemManager - INFO - [start_all.py:389] - Waiting for FastAPI Backend health check...
+2025-09-28 23:39:16,299 - SystemManager - INFO - [start_all.py:396] - [OK] FastAPI Backend is healthy
+2025-09-28 23:39:16,299 - SystemManager - INFO - [start_all.py:424] - --- Starting Trading Bot Worker ---
+2025-09-28 23:39:16,299 - SystemManager - INFO - [start_all.py:328] - Starting Trading Bot Worker...
+2025-09-28 23:39:16,314 - SystemManager - INFO - [start_all.py:346] - [OK] Trading Bot Worker started (PID: 31916)
+2025-09-28 23:39:21,316 - SystemManager - INFO - [start_all.py:424] - --- Starting React Frontend ---
+2025-09-28 23:39:21,316 - SystemManager - INFO - [start_all.py:274] - Starting React Frontend...
+2025-09-28 23:39:21,319 - SystemManager - ERROR - [start_all.py:447] - Failed to start critical component: frontend_react
+2025-09-28 23:39:21,319 - SystemManager - ERROR - [start_all.py:540] - Failed to start all components
+2025-09-28 23:39:21,319 - SystemManager - INFO - [start_all.py:470] - === Shutting Down All Processes ===
+2025-09-28 23:39:21,319 - SystemManager - INFO - [start_all.py:478] - Shutting down Trading Bot Worker...
+2025-09-28 23:39:21,328 - SystemManager - INFO - [start_all.py:484] - [OK] worker shut down gracefully
+2025-09-28 23:39:21,328 - SystemManager - INFO - [start_all.py:478] - Shutting down FastAPI Backend...
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:484] - [OK] backend shut down gracefully
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:493] - === Shutdown Complete ===
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:470] - === Shutting Down All Processes ===
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:478] - Shutting down Trading Bot Worker...
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:484] - [OK] worker shut down gracefully
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:478] - Shutting down FastAPI Backend...
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:484] - [OK] backend shut down gracefully
+2025-09-28 23:39:21,333 - SystemManager - INFO - [start_all.py:493] - === Shutdown Complete ===

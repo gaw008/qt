@@ -1,0 +1,29 @@
+2025-09-30 08:36:26,664 - TradingBot - INFO - [start_bot.py:150] - === Trading Environment Validation ===
+2025-09-30 08:36:26,664 - TradingBot - INFO - [start_bot.py:158] - [OK] Directory exists: quant_system_full
+2025-09-30 08:36:26,664 - TradingBot - INFO - [start_bot.py:158] - [OK] Directory exists: bot
+2025-09-30 08:36:26,664 - TradingBot - INFO - [start_bot.py:158] - [OK] Directory exists: worker
+2025-09-30 08:36:26,664 - TradingBot - INFO - [start_bot.py:172] - [OK] Configuration file: config.example.env
+2025-09-30 08:36:26,664 - TradingBot - INFO - [start_bot.py:172] - [OK] Configuration file: __init__.py
+2025-09-30 08:36:26,666 - TradingBot - INFO - [start_bot.py:187] - [OK] AI/ML module: ai_learning_engine.py
+2025-09-30 08:36:26,666 - TradingBot - INFO - [start_bot.py:187] - [OK] AI/ML module: ai_strategy_optimizer.py
+2025-09-30 08:36:26,666 - TradingBot - INFO - [start_bot.py:187] - [OK] AI/ML module: enhanced_risk_manager.py
+2025-09-30 08:36:37,591 - TradingBot - INFO - [start_bot.py:199] - [OK] Core Python dependencies available
+2025-09-30 08:36:37,591 - TradingBot - INFO - [start_bot.py:208] - [OK] Available memory: 47259 MB
+2025-09-30 08:36:37,591 - TradingBot - INFO - [start_bot.py:215] - Environment validation: 100.0% success rate
+2025-09-30 08:36:37,591 - TradingBot - INFO - [start_bot.py:353] - === Starting Trading Bot Systems ===
+2025-09-30 08:36:37,591 - TradingBot - INFO - [start_bot.py:227] - Starting AI Learning Engine...
+2025-09-30 08:36:37,609 - TradingBot - INFO - [start_bot.py:237] - [OK] AI Learning Engine started (PID: 14104)
+2025-09-30 08:36:37,609 - TradingBot - INFO - [start_bot.py:252] - Starting Strategy Optimizer...
+2025-09-30 08:36:37,624 - TradingBot - INFO - [start_bot.py:262] - [OK] Strategy Optimizer started (PID: 18764)
+2025-09-30 08:36:37,624 - TradingBot - INFO - [start_bot.py:277] - Starting Enhanced Risk Manager...
+2025-09-30 08:36:37,638 - TradingBot - INFO - [start_bot.py:287] - [OK] Enhanced Risk Manager started (PID: 34728)
+2025-09-30 08:36:37,638 - TradingBot - INFO - [start_bot.py:334] - Starting Real-time Monitor...
+2025-09-30 08:36:37,656 - TradingBot - INFO - [start_bot.py:344] - [OK] Real-time Monitor started (PID: 2820)
+2025-09-30 08:36:37,656 - TradingBot - INFO - [start_bot.py:302] - Starting Main Trading Bot...
+2025-09-30 08:36:37,672 - TradingBot - INFO - [start_bot.py:319] - [OK] Main Trading Bot started (PID: 14448)
+2025-09-30 08:36:37,673 - TradingBot - INFO - [start_bot.py:387] - Waiting for systems to initialize...
+2025-09-30 08:36:47,673 - TradingBot - INFO - [start_bot.py:394] - === System Monitoring Started ===
+2025-09-30 08:36:47,673 - TradingBot - INFO - [start_bot.py:541] - Trading bot systems started successfully. Monitoring...
+2025-09-30 08:36:47,673 - TradingBot - WARNING - [start_bot.py:407] - AI process ai_engine has terminated
+2025-09-30 08:36:47,673 - TradingBot - WARNING - [start_bot.py:407] - AI process risk_manager has terminated
+2025-09-30 08:38:42,688 - TradingBot - WARNING - [start_bot.py:407] - AI process monitor has terminated

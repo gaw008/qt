@@ -1,0 +1,187 @@
+2025-09-28 22:50:47,093 [INFO] __main__: Initializing Master System Integration Test
+2025-09-28 22:50:47,093 [INFO] __main__: Test data directory: integration_test_data
+2025-09-28 22:50:47,093 [INFO] __main__: API Base URL: http://localhost:8000
+2025-09-28 22:50:47,093 [INFO] __main__: ================================================================================
+2025-09-28 22:50:47,093 [INFO] __main__: MASTER SYSTEM INTEGRATION TEST SUITE
+2025-09-28 22:50:47,093 [INFO] __main__: Comprehensive End-to-End Trading System Validation
+2025-09-28 22:50:47,093 [INFO] __main__: ================================================================================
+2025-09-28 22:50:47,093 [INFO] __main__: 
+--- Running: System Initialization ---
+2025-09-28 22:50:47,093 [INFO] __main__: Testing system initialization...
+2025-09-28 22:50:47,093 [WARNING] __main__: Some environment variables missing - using test mode
+2025-09-28 22:50:47,094 [INFO] __main__: Database connection successful - 0 tables found
+2025-09-28 22:50:47,212 [INFO] sector_manager: [sector_manager] Loaded 5 default sectors
+2025-09-28 22:50:47,212 [INFO] sector_manager: [sector_manager] Initialized with 5 sectors
+2025-09-28 22:50:47,642 [INFO] __main__: Critical module imports successful
+2025-09-28 22:50:47,642 [INFO] __main__: Config quant_system_full/.env: ???
+2025-09-28 22:50:47,642 [INFO] __main__: Config quant_system_full/props/tiger_openapi_config.properties: ???
+2025-09-28 22:50:47,642 [INFO] sector_manager: [sector_manager] Loaded 5 default sectors
+2025-09-28 22:50:47,642 [INFO] sector_manager: [sector_manager] Initialized with 5 sectors
+2025-09-28 22:50:47,642 [INFO] __main__: Core components initialized successfully
+2025-09-28 22:50:47,643 [INFO] __main__: System initialization test completed
+2025-09-28 22:50:47,643 [INFO] __main__: ??? System Initialization PASSED (0.55s)
+2025-09-28 22:50:47,643 [INFO] __main__: 
+--- Running: Database Integration ---
+2025-09-28 22:50:47,643 [INFO] __main__: Testing database integration...
+2025-09-28 22:50:47,652 [INFO] __main__: Database batch insert: 0.004s for 1000 records
+2025-09-28 22:50:47,652 [ERROR] __main__: Database integration test failed: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'integration_test_data\\test_integration.db'
+2025-09-28 22:50:47,652 [ERROR] __main__: ??? Database Integration FAILED (0.01s)
+2025-09-28 22:50:47,652 [INFO] __main__: 
+--- Running: Tiger API Integration ---
+2025-09-28 22:50:47,652 [INFO] __main__: Testing Tiger API integration...
+2025-09-28 22:50:47,736 [INFO] __main__: Tiger provider imported successfully
+2025-09-28 22:50:47,736 [WARNING] __main__: Tiger account connection failed: 'RealTigerDataProvider' object has no attribute 'get_account_info' - continuing with test
+2025-09-28 22:50:47,736 [WARNING] __main__: Tiger API data retrieval failed: 'RealTigerDataProvider' object has no attribute 'get_quotes'
+2025-09-28 22:50:47,736 [INFO] __main__: Tiger API integration test completed
+2025-09-28 22:50:47,736 [INFO] __main__: ??? Tiger API Integration PASSED (0.08s)
+2025-09-28 22:50:47,736 [INFO] __main__: 
+--- Running: Data Flow Pipeline ---
+2025-09-28 22:50:47,736 [INFO] __main__: Testing data flow pipeline...
+2025-09-28 22:50:47,851 [WARNING] __main__: Data pipeline components not available: cannot import name 'DataQualityFramework' from 'data_quality_framework' (C:\quant_system_v2\quant_system_full\bot\data_quality_framework.py)
+2025-09-28 22:50:47,852 [INFO] __main__: ??? Data Flow Pipeline PASSED (0.12s)
+2025-09-28 22:50:47,852 [INFO] __main__: 
+--- Running: Backend API Services ---
+2025-09-28 22:50:47,852 [INFO] __main__: Testing backend API services...
+2025-09-28 22:50:51,937 [WARNING] __main__: Backend API not accessible: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C617EEDB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-09-28 22:50:51,937 [INFO] __main__: ??? Backend API Services PASSED (4.09s)
+2025-09-28 22:50:51,937 [INFO] __main__: 
+--- Running: WebSocket Communication ---
+2025-09-28 22:50:51,937 [INFO] __main__: Testing WebSocket communication...
+2025-09-28 22:50:51,938 [WARNING] __main__: WebSocket test failed: BaseEventLoop.create_connection() got an unexpected keyword argument 'timeout' - service may not be running
+2025-09-28 22:50:51,938 [INFO] __main__: ??? WebSocket Communication PASSED (0.00s)
+2025-09-28 22:50:51,938 [INFO] __main__: 
+--- Running: AI/ML System Integration ---
+2025-09-28 22:50:51,938 [INFO] __main__: Testing AI/ML system integration...
+2025-09-28 22:50:52,768 [WARNING] __main__: AI/ML components not available: No module named 'talib'
+2025-09-28 22:50:52,768 [INFO] __main__: ??? AI/ML System Integration PASSED (0.83s)
+2025-09-28 22:50:52,768 [INFO] __main__: 
+--- Running: Risk Management Integration ---
+2025-09-28 22:50:52,768 [INFO] __main__: Testing risk management integration...
+2025-09-28 22:50:52,778 [INFO] enhanced_risk_manager: Enhanced Risk Manager initialized with ES@97.5% and drawdown budgeting
+2025-09-28 22:50:52,803 [INFO] ComplianceMonitoring: Loaded 8 standard compliance rules
+2025-09-28 22:50:52,803 [INFO] ComplianceMonitoring: Compliance Monitoring System initialized
+2025-09-28 22:50:52,804 [INFO] __main__: Risk management components initialized
+2025-09-28 22:50:52,806 [WARNING] __main__: Risk calculation test failed: 'numpy.float64' object has no attribute 'get'
+2025-09-28 22:50:52,806 [WARNING] __main__: Compliance monitoring test failed: 'ComplianceMonitoringSystem' object has no attribute 'get_active_rules'
+2025-09-28 22:50:52,806 [WARNING] __main__: Position limit exceeded for AAPL: 43.8%
+2025-09-28 22:50:52,806 [WARNING] __main__: Position limit exceeded for MSFT: 47.4%
+2025-09-28 22:50:52,806 [INFO] __main__: Position GOOGL within limits: 8.8%
+2025-09-28 22:50:52,806 [INFO] __main__: Simulated max drawdown: 7.86%
+2025-09-28 22:50:52,806 [INFO] __main__: Risk management integration test completed
+2025-09-28 22:50:52,806 [INFO] __main__: ??? Risk Management Integration PASSED (0.04s)
+2025-09-28 22:50:52,806 [INFO] __main__: 
+--- Running: Trading System Integration ---
+2025-09-28 22:50:52,806 [INFO] __main__: Testing trading system integration...
+2025-09-28 22:50:52,815 [WARNING] __main__: Trading system components not available: cannot import name 'OrderExecutionSystem' from 'automated_order_execution' (C:\quant_system_v2\quant_system_full\bot\automated_order_execution.py)
+2025-09-28 22:50:52,815 [INFO] __main__: ??? Trading System Integration PASSED (0.01s)
+2025-09-28 22:50:52,815 [INFO] __main__: 
+--- Running: Portfolio Management ---
+2025-09-28 22:50:52,815 [INFO] __main__: Testing portfolio management integration...
+2025-09-28 22:50:53,845 [WARNING] __main__: Portfolio management components not available: attempted relative import with no known parent package
+2025-09-28 22:50:53,845 [INFO] __main__: ??? Portfolio Management PASSED (1.03s)
+2025-09-28 22:50:53,845 [INFO] __main__: 
+--- Running: Real-time Monitoring ---
+2025-09-28 22:50:53,845 [INFO] __main__: Testing real-time monitoring integration...
+2025-09-28 22:50:53,870 [WARNING] __main__: Monitoring components not available: cannot import name 'MimeText' from 'email.mime.text' (C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\email\mime\text.py)
+2025-09-28 22:50:53,870 [INFO] __main__: ??? Real-time Monitoring PASSED (0.02s)
+2025-09-28 22:50:53,870 [INFO] __main__: 
+--- Running: Compliance System ---
+2025-09-28 22:50:53,870 [INFO] __main__: Testing compliance system integration...
+2025-09-28 22:50:53,901 [INFO] ComplianceMonitoring: Loaded 8 standard compliance rules
+2025-09-28 22:50:53,901 [INFO] ComplianceMonitoring: Compliance Monitoring System initialized
+2025-09-28 22:50:53,920 [INFO] regulatory_audit_system.RegulatoryAuditSystem: ✅ Regulatory audit databases initialized
+2025-09-28 22:50:53,920 [INFO] regulatory_audit_system.RegulatoryAuditSystem: 📋 Regulatory Audit System initialized
+2025-09-28 22:50:53,933 [INFO] compliance_dashboard_system.ComplianceDashboardSystem: ✅ Compliance dashboard database initialized
+2025-09-28 22:50:53,933 [INFO] compliance_dashboard_system.ComplianceDashboardSystem: 📊 Compliance Dashboard System initialized
+2025-09-28 22:50:53,933 [INFO] __main__: Compliance system components initialized
+2025-09-28 22:50:53,933 [WARNING] __main__: Compliance rule validation failed: 'int' object has no attribute 'get'
+2025-09-28 22:50:53,933 [WARNING] __main__: Audit trail test failed: 'RegulatoryAuditSystem' object has no attribute 'log_event'
+2025-09-28 22:50:53,933 [WARNING] __main__: Compliance reporting test failed: 'ComplianceDashboardSystem' object has no attribute 'generate_compliance_report'
+2025-09-28 22:50:53,933 [WARNING] __main__: Regulatory notification test failed: 'ComplianceMonitoringSystem' object has no attribute 'send_compliance_notification'
+2025-09-28 22:50:53,933 [INFO] __main__: Compliance system integration test completed
+2025-09-28 22:50:53,933 [INFO] __main__: ??? Compliance System PASSED (0.06s)
+2025-09-28 22:50:53,933 [INFO] __main__: 
+--- Running: Performance Under Load ---
+2025-09-28 22:50:53,933 [INFO] __main__: Testing system performance under load...
+2025-09-28 22:50:54,355 [INFO] __main__: Concurrent processing: 80/80 symbols in 0.42s
+2025-09-28 22:50:54,355 [INFO] __main__: Processing throughput: 189.3 symbols/second
+2025-09-28 22:50:54,588 [INFO] __main__: Memory usage test: Initial=204.1MB, Peak=207.6MB, Increase=3.4MB
+2025-09-28 22:50:54,624 [INFO] __main__: Memory after cleanup: 207.6MB
+2025-09-28 22:50:54,655 [INFO] __main__: Database insert performance: 10000 records in 0.03s (364219 rec/s)
+2025-09-28 22:50:54,658 [INFO] __main__: Database query performance: 10 groups in 0.003s
+2025-09-28 22:50:54,660 [WARNING] __main__: Database performance test failed: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'integration_test_data\\performance_test.db'
+2025-09-28 22:52:16,416 [INFO] __main__: API load test: 0/20 requests succeeded in 81.76s
+2025-09-28 22:52:16,416 [INFO] __main__: Performance under load test completed
+2025-09-28 22:52:16,416 [INFO] __main__: ??? Performance Under Load PASSED (82.48s)
+2025-09-28 22:52:16,416 [INFO] __main__: 
+--- Running: Error Recovery ---
+2025-09-28 22:52:16,416 [INFO] __main__: Testing error recovery integration...
+2025-09-28 22:52:16,417 [INFO] __main__: Expected database error caught: OperationalError
+2025-09-28 22:52:16,421 [INFO] __main__: Database recovery successful
+2025-09-28 22:52:16,421 [WARNING] __main__: Database recovery test failed: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'integration_test_data\\recovery_test.db'
+2025-09-28 22:52:16,421 [INFO] __main__: Expected API error caught: InvalidURL
+2025-09-28 22:52:16,421 [INFO] __main__: API retry successful on attempt 1
+2025-09-28 22:52:16,425 [INFO] __main__: Memory allocation test: 1 large objects created
+2025-09-28 22:52:16,469 [INFO] __main__: Memory allocation test: 11 large objects created
+2025-09-28 22:52:16,512 [INFO] __main__: Memory allocation test: 21 large objects created
+2025-09-28 22:52:16,557 [INFO] __main__: Memory allocation test: 31 large objects created
+2025-09-28 22:52:16,600 [INFO] __main__: Memory allocation test: 41 large objects created
+2025-09-28 22:52:16,644 [INFO] __main__: Memory allocation test: 51 large objects created
+2025-09-28 22:52:16,708 [INFO] __main__: Memory allocation test: 61 large objects created
+2025-09-28 22:52:16,765 [INFO] __main__: Memory allocation test: 71 large objects created
+2025-09-28 22:52:16,809 [INFO] __main__: Memory allocation test: 81 large objects created
+2025-09-28 22:52:16,852 [INFO] __main__: Memory allocation test: 91 large objects created
+2025-09-28 22:52:16,964 [INFO] __main__: Memory cleanup completed
+2025-09-28 22:52:16,964 [INFO] __main__: Config recovery: api_timeout = 30 (was invalid: invalid_value)
+2025-09-28 22:52:16,964 [INFO] __main__: Config recovery: max_positions = 20 (was invalid: -1)
+2025-09-28 22:52:16,964 [INFO] __main__: Config recovery: risk_limit = 0.05 (was invalid: not_a_number)
+2025-09-28 22:52:16,964 [INFO] __main__: Configuration recovery successful: {'api_timeout': 30, 'max_positions': 20, 'risk_limit': 0.05}
+2025-09-28 22:52:16,964 [INFO] __main__: Service tiger_api: ??? Available
+2025-09-28 22:52:16,964 [INFO] __main__: Service database: ??? Available
+2025-09-28 22:52:16,964 [INFO] __main__: Service ml_engine: ??? Unavailable - using fallback
+2025-09-28 22:52:16,964 [INFO] __main__: Service risk_manager: ??? Available
+2025-09-28 22:52:16,964 [INFO] __main__: System operating with 3/4 services
+2025-09-28 22:52:16,964 [INFO] __main__: Error recovery integration test completed
+2025-09-28 22:52:16,965 [INFO] __main__: ??? Error Recovery PASSED (0.55s)
+2025-09-28 22:52:16,965 [INFO] __main__: 
+--- Running: End-to-End Workflow ---
+2025-09-28 22:52:16,965 [INFO] __main__: Testing end-to-end workflow...
+2025-09-28 22:52:16,965 [INFO] __main__: Step 1: Market data acquisition
+2025-09-28 22:52:16,966 [INFO] __main__: Market data acquired for AAPL: 50 data points
+2025-09-28 22:52:16,967 [INFO] __main__: Market data acquired for MSFT: 50 data points
+2025-09-28 22:52:16,969 [INFO] __main__: Market data acquired for GOOGL: 50 data points
+2025-09-28 22:52:16,969 [INFO] __main__: Step 2: Factor analysis and scoring
+2025-09-28 22:52:16,969 [INFO] __main__: Stock scoring completed - Top stock: MSFT (score: 0.595)
+2025-09-28 22:52:16,969 [INFO] __main__: Step 3: Portfolio optimization
+2025-09-28 22:52:16,969 [INFO] __main__: Portfolio optimization completed: 2 positions
+2025-09-28 22:52:16,969 [INFO] __main__:   MSFT: 225 shares @ $177.46 ($40,000.00)
+2025-09-28 22:52:16,969 [INFO] __main__:   GOOGL: 538 shares @ $44.55 ($24,000.00)
+2025-09-28 22:52:16,969 [INFO] __main__: Step 4: Risk management validation
+2025-09-28 22:52:16,969 [WARNING] __main__: Risk limit violations detected
+2025-09-28 22:52:16,969 [WARNING] __main__:   Position limit exceeded for MSFT: 62.5%
+2025-09-28 22:52:16,969 [WARNING] __main__:   Position GOOGL within limits: 37.5%
+2025-09-28 22:52:16,969 [INFO] __main__: Step 5: Order generation and validation
+2025-09-28 22:52:16,969 [INFO] __main__: Generated 2 orders, total value: $63,896.14
+2025-09-28 22:52:16,969 [INFO] __main__:   Order: BUY 225 MSFT @ $175.69
+2025-09-28 22:52:16,969 [INFO] __main__:   Order: BUY 538 GOOGL @ $44.10
+2025-09-28 22:52:16,969 [INFO] __main__: Step 6: Execution simulation
+2025-09-28 22:52:16,969 [INFO] __main__:   Executed: 225 MSFT @ $175.97
+2025-09-28 22:52:16,969 [INFO] __main__:   Executed: 538 GOOGL @ $44.19
+2025-09-28 22:52:16,969 [INFO] __main__: Execution completed: 2/2 orders (100.0% success rate)
+2025-09-28 22:52:16,969 [INFO] __main__: Step 7: Portfolio update and monitoring
+2025-09-28 22:52:16,969 [INFO] __main__: Portfolio updated: 2 positions, $36,630.23 cash remaining
+2025-09-28 22:52:16,969 [INFO] __main__: Total invested: $63,369.77 (63.4% of portfolio)
+2025-09-28 22:52:16,969 [INFO] __main__: End-to-end workflow summary: {'start_time': '2025-09-28T22:50:47.092647', 'end_time': '2025-09-28T22:52:16.969817', 'symbols_analyzed': 3, 'stocks_selected': 2, 'orders_generated': 2, 'trades_executed': 2, 'execution_rate': 1.0, 'total_invested': np.float64(63369.77170202983), 'cash_remaining': np.float64(36630.22829797017), 'final_positions': 2}
+2025-09-28 22:52:16,969 [INFO] __main__: End-to-end workflow test completed successfully
+2025-09-28 22:52:16,969 [INFO] __main__: ??? End-to-End Workflow PASSED (0.00s)
+2025-09-28 22:52:16,970 [INFO] __main__: Integration test report saved: integration_test_data\integration_test_report_20250928_225216.json
+2025-09-28 22:52:16,970 [INFO] __main__: 
+================================================================================
+2025-09-28 22:52:16,970 [INFO] __main__: INTEGRATION TEST SUMMARY
+2025-09-28 22:52:16,970 [INFO] __main__: ================================================================================
+2025-09-28 22:52:16,970 [INFO] __main__: ??? Passed: 14/15
+2025-09-28 22:52:16,970 [INFO] __main__: ??? Failed: 1/15
+2025-09-28 22:52:16,970 [INFO] __main__: ???? Errors: 0/15
+2025-09-28 22:52:16,970 [INFO] __main__: ???? Success Rate: 93.3%
+2025-09-28 22:52:16,970 [INFO] __main__: ?????? Total Duration: 89.88s
+2025-09-28 22:52:16,970 [INFO] __main__: ???? INTEGRATION TESTS PASSED - System ready for production

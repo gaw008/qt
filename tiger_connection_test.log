@@ -1,0 +1,21 @@
+2025-09-28 22:03:48,767 - INFO - Working directory: C:\quant_system_v2\quant_system_full
+2025-09-28 22:03:48,767 - INFO - === STARTING TIGER API CONNECTION TEST ===
+2025-09-28 22:03:48,767 - INFO - === Loading Tiger Configuration ===
+2025-09-28 22:03:48,768 - INFO - Loading Tiger properties from: C:/quant_system_v2/quant_system_full/props/tiger_openapi_config.properties
+2025-09-28 22:03:48,768 - INFO - Tiger properties loaded: ['private_key_pk1', 'tiger_id', 'account', 'license', 'env', 'sandbox_debug']
+2025-09-28 22:03:48,768 - INFO - Tiger ID: 20550012
+2025-09-28 22:03:48,768 - INFO - Account: 41169270
+2025-09-28 22:03:48,768 - INFO - License: TBUS
+2025-09-28 22:03:48,769 - INFO - Environment: PROD
+2025-09-28 22:03:48,769 - INFO - Sandbox Debug: False
+2025-09-28 22:03:48,769 - INFO - Private Key Length: 812 characters
+2025-09-28 22:03:48,769 - INFO - === Setting up Tiger API Clients ===
+2025-09-28 22:03:49,197 - INFO - Tiger SDK imported successfully
+2025-09-28 22:03:49,773 - INFO - Client configuration created successfully
+2025-09-28 22:03:49,773 - INFO - sdk version: 3.4.5
+2025-09-28 22:03:50,561 - ERROR - failed to query license, response: {'code': 1000, 'message': 'common param error(failed to get developer information)', 'timestamp': 1759122230483}
+2025-09-28 22:03:50,729 - ERROR - Quote client initialization failed: code=1000 msg=common param error(failed to get developer information)
+2025-09-28 22:03:50,729 - INFO - === TEST COMPLETE ===
+2025-09-28 22:03:50,729 - INFO - Overall Status: FAILED
+2025-09-28 22:03:50,729 - INFO - Duration: 1.96 seconds
+2025-09-28 22:03:50,729 - INFO - Errors: 1

@@ -1,0 +1,133 @@
+{
+  "system": {
+    "last_updated": "2025-08-30T00:00:00Z",
+    "overall_health": "HEALTHY",
+    "uptime_hours": 72.5,
+    "cpu_usage": 35.2,
+    "memory_usage": 67.8,
+    "disk_usage": 45.3
+  },
+  "assets": {
+    "total_count": 5700,
+    "categories": {
+      "stocks": {
+        "count": 3500,
+        "healthy": 3450,
+        "warning": 30,
+        "error": 20,
+        "status": "HEALTHY"
+      },
+      "etf": {
+        "count": 800,
+        "healthy": 785,
+        "warning": 10,
+        "error": 5,
+        "status": "HEALTHY"
+      },
+      "reits": {
+        "count": 600,
+        "healthy": 590,
+        "warning": 8,
+        "error": 2,
+        "status": "HEALTHY"
+      },
+      "adr": {
+        "count": 500,
+        "healthy": 485,
+        "warning": 12,
+        "error": 3,
+        "status": "HEALTHY"
+      },
+      "futures": {
+        "count": 300,
+        "healthy": 285,
+        "warning": 10,
+        "error": 5,
+        "status": "WARNING",
+        "active_contracts": 156,
+        "near_expiry": 12,
+        "margin_usage": 75.5,
+        "arbitrage_opportunities": 8
+      }
+    },
+    "health_percentage": 96.1
+  },
+  "ai_learning": {
+    "status": "TRAINING",
+    "current_model": "quant_strategy_v2.3",
+    "training_progress": 87.5,
+    "accuracy": 92.3,
+    "last_training": "2025-08-29T22:30:00Z",
+    "strategy_weights": {
+      "momentum": 0.35,
+      "mean_reversion": 0.28,
+      "arbitrage": 0.22,
+      "risk_parity": 0.15
+    },
+    "ab_test_results": {
+      "strategy_a": 0.156,
+      "strategy_b": 0.143,
+      "confidence": 0.89
+    },
+    "performance_metrics": {
+      "sharpe_ratio": 1.85,
+      "max_drawdown": 0.08,
+      "win_rate": 0.68
+    }
+  },
+  "gpu": {
+    "model": "RTX 4070 Ti SUPER",
+    "status": "ACTIVE",
+    "utilization": 78,
+    "temperature": 72,
+    "memory_used": 12288,
+    "memory_total": 16384,
+    "memory_usage_percent": 75.0,
+    "cuda_version": "12.2",
+    "compute_efficiency": 92.5,
+    "task_queue_length": 3,
+    "errors": 0
+  },
+  "markets": {
+    "status": "MIXED",
+    "sessions": {
+      "asia": {
+        "status": "CLOSED",
+        "next_open": "2025-08-30T01:00:00Z"
+      },
+      "europe": {
+        "status": "CLOSED", 
+        "next_open": "2025-08-30T07:00:00Z"
+      },
+      "us": {
+        "status": "AFTER_HOURS",
+        "next_open": "2025-08-30T13:30:00Z"
+      },
+      "crypto": {
+        "status": "OPEN",
+        "volume_24h": "24.5B USD"
+      }
+    }
+  },
+  "risk_metrics": {
+    "portfolio_var": 0.023,
+    "leverage_ratio": 2.1,
+    "margin_requirements": 0.755,
+    "correlation_warnings": 2,
+    "stress_test_result": "PASS"
+  },
+  "alerts": [
+    {
+      "type": "WARNING",
+      "message": "期货保证金使用率接近80%",
+      "timestamp": "2025-08-29T23:45:00Z",
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "INFO", 
+      "message": "AI模型训练进度87.5%",
+      "timestamp": "2025-08-29T23:30:00Z",
+      "severity": "LOW"
+    }
+  ]
+}

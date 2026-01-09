@@ -1,0 +1,31 @@
+2025-10-11 12:05:00,718 - SystemManager - INFO - [start_all.py:538] - === QUANTITATIVE TRADING SYSTEM STARTUP ===
+2025-10-11 12:05:00,719 - SystemManager - INFO - [start_all.py:128] - === Environment Validation ===
+2025-10-11 12:05:00,719 - SystemManager - INFO - [start_all.py:135] - [OK] Python 3.12.10
+2025-10-11 12:05:00,719 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: quant_system_full
+2025-10-11 12:05:00,719 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: bot
+2025-10-11 12:05:00,720 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: dashboard
+2025-10-11 12:05:00,723 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: UI
+2025-10-11 12:05:00,723 - SystemManager - INFO - [start_all.py:160] - [OK] Environment configuration found
+2025-10-11 12:05:00,742 - SystemManager - WARNING - [start_all.py:178] - [WARN] Node.js or npm not found (React frontend will be skipped)
+2025-10-11 12:05:00,747 - SystemManager - INFO - [start_all.py:185] - [OK] Port 8000 available
+2025-10-11 12:05:00,748 - SystemManager - INFO - [start_all.py:185] - [OK] Port 3000 available
+2025-10-11 12:05:00,748 - SystemManager - INFO - [start_all.py:185] - [OK] Port 8501 available
+2025-10-11 12:05:00,749 - SystemManager - INFO - [start_all.py:192] - Environment validation: 100.0% success rate
+2025-10-11 12:05:00,749 - SystemManager - INFO - [start_all.py:217] - === Preparing React Frontend ===
+2025-10-11 12:05:00,749 - SystemManager - INFO - [start_all.py:253] - [OK] React dependencies already installed
+2025-10-11 12:05:00,750 - SystemManager - INFO - [start_all.py:420] - === Starting All System Components ===
+2025-10-11 12:05:00,750 - SystemManager - INFO - [start_all.py:436] - --- Starting FastAPI Backend ---
+2025-10-11 12:05:00,750 - SystemManager - INFO - [start_all.py:258] - Starting FastAPI Backend...
+2025-10-11 12:05:00,753 - SystemManager - INFO - [start_all.py:277] - [OK] FastAPI Backend started (PID: 28184)
+2025-10-11 12:05:00,753 - SystemManager - INFO - [start_all.py:401] - Waiting for FastAPI Backend health check...
+2025-10-11 12:05:30,852 - SystemManager - WARNING - [start_all.py:415] - [WARN] FastAPI Backend health check timeout
+2025-10-11 12:05:30,852 - SystemManager - ERROR - [start_all.py:453] - Critical component backend failed to start
+2025-10-11 12:05:30,852 - SystemManager - ERROR - [start_all.py:551] - Failed to start all components
+2025-10-11 12:05:30,853 - SystemManager - INFO - [start_all.py:482] - === Shutting Down All Processes ===
+2025-10-11 12:05:30,853 - SystemManager - INFO - [start_all.py:490] - Shutting down FastAPI Backend...
+2025-10-11 12:05:30,856 - SystemManager - INFO - [start_all.py:496] - [OK] backend shut down gracefully
+2025-10-11 12:05:30,857 - SystemManager - INFO - [start_all.py:505] - === Shutdown Complete ===
+2025-10-11 12:05:30,857 - SystemManager - INFO - [start_all.py:482] - === Shutting Down All Processes ===
+2025-10-11 12:05:30,858 - SystemManager - INFO - [start_all.py:490] - Shutting down FastAPI Backend...
+2025-10-11 12:05:30,858 - SystemManager - INFO - [start_all.py:496] - [OK] backend shut down gracefully
+2025-10-11 12:05:30,858 - SystemManager - INFO - [start_all.py:505] - === Shutdown Complete ===

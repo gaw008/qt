@@ -1,0 +1,35 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"G:\\我的云端硬盘\\quant_system_v2\\.claude\\quant-statusline-real.ps1\""
+  },
+  "quant_system": {
+    "version": "2.0",
+    "description": "Multi-asset quantitative trading system with 5700+ assets monitoring",
+    "features": {
+      "real_time_monitoring": true,
+      "ai_learning_integration": true,
+      "gpu_acceleration": true,
+      "multi_market_support": true,
+      "futures_trading": true,
+      "risk_management": true
+    },
+    "status_components": {
+      "system_health": "Real-time system tasks monitoring from status.json",
+      "market_status": "Live market session tracking (US/Asia/Europe/Crypto)",
+      "task_performance": "Trading/selection/monitoring task statistics",
+      "pnl_tracking": "Real-time profit and loss display",
+      "position_management": "Active positions monitoring",
+      "ai_learning": "ML model training progress and accuracy",
+      "gpu_monitoring": "RTX 4070 Ti SUPER utilization and temperature",
+      "asset_coverage": "5700+ assets across stocks/ETF/REITs/ADR/futures"
+    },
+    "color_coding": {
+      "green": "Healthy/Positive status",
+      "yellow": "Warning/Neutral status", 
+      "red": "Error/Negative status",
+      "blue": "Info/Idle status",
+      "cyan": "Time/Active training status"
+    }
+  }
+}

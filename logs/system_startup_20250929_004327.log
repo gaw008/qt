@@ -1,0 +1,57 @@
+2025-09-29 00:43:27,142 - SystemManager - INFO - [start_all.py:526] - === QUANTITATIVE TRADING SYSTEM STARTUP ===
+2025-09-29 00:43:27,143 - SystemManager - INFO - [start_all.py:128] - === Environment Validation ===
+2025-09-29 00:43:27,143 - SystemManager - INFO - [start_all.py:135] - [OK] Python 3.13.0
+2025-09-29 00:43:27,143 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: quant_system_full
+2025-09-29 00:43:27,143 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: bot
+2025-09-29 00:43:27,143 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: dashboard
+2025-09-29 00:43:27,144 - SystemManager - INFO - [start_all.py:151] - [OK] Directory exists: UI
+2025-09-29 00:43:27,145 - SystemManager - INFO - [start_all.py:160] - [OK] Environment configuration found
+2025-09-29 00:43:27,161 - SystemManager - ERROR - [start_all.py:178] - [FAIL] Node.js or npm not found (required for React frontend)
+2025-09-29 00:43:27,162 - SystemManager - WARNING - [start_all.py:188] - [WARN] Port 8000 is already in use
+2025-09-29 00:43:27,163 - SystemManager - INFO - [start_all.py:185] - [OK] Port 3000 available
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:185] - [OK] Port 8501 available
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:192] - Environment validation: 90.0% success rate
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:205] - === Preparing React Frontend ===
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:241] - [OK] React dependencies already installed
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:408] - === Starting All System Components ===
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:424] - --- Starting FastAPI Backend ---
+2025-09-29 00:43:27,164 - SystemManager - INFO - [start_all.py:246] - Starting FastAPI Backend...
+2025-09-29 00:43:27,167 - SystemManager - INFO - [start_all.py:265] - [OK] FastAPI Backend started (PID: 35548)
+2025-09-29 00:43:27,167 - SystemManager - INFO - [start_all.py:389] - Waiting for FastAPI Backend health check...
+2025-09-29 00:43:29,468 - SystemManager - INFO - [start_all.py:396] - [OK] FastAPI Backend is healthy
+2025-09-29 00:43:29,469 - SystemManager - INFO - [start_all.py:424] - --- Starting Trading Bot Worker ---
+2025-09-29 00:43:29,469 - SystemManager - INFO - [start_all.py:328] - Starting Trading Bot Worker...
+2025-09-29 00:43:29,472 - SystemManager - INFO - [start_all.py:346] - [OK] Trading Bot Worker started (PID: 19708)
+2025-09-29 00:43:34,475 - SystemManager - INFO - [start_all.py:424] - --- Starting React Frontend ---
+2025-09-29 00:43:34,476 - SystemManager - INFO - [start_all.py:274] - Starting React Frontend...
+2025-09-29 00:43:34,484 - SystemManager - INFO - [start_all.py:424] - --- Starting Streamlit Dashboard ---
+2025-09-29 00:43:34,484 - SystemManager - INFO - [start_all.py:300] - Starting Streamlit Dashboard...
+2025-09-29 00:43:34,487 - SystemManager - INFO - [start_all.py:319] - [OK] Streamlit Dashboard started (PID: 11660)
+2025-09-29 00:43:34,487 - SystemManager - INFO - [start_all.py:389] - Waiting for Streamlit Dashboard health check...
+2025-09-29 00:44:04,979 - SystemManager - WARNING - [start_all.py:403] - [WARN] Streamlit Dashboard health check timeout
+2025-09-29 00:44:04,979 - SystemManager - WARNING - [start_all.py:444] - Non-critical component frontend_streamlit may have issues
+2025-09-29 00:44:04,979 - SystemManager - INFO - [start_all.py:424] - --- Starting System Health Monitor ---
+2025-09-29 00:44:04,980 - SystemManager - INFO - [start_all.py:355] - Starting System Health Monitor...
+2025-09-29 00:44:04,985 - SystemManager - INFO - [start_all.py:368] - [OK] System Health Monitor started (PID: 6720)
+2025-09-29 00:44:09,987 - SystemManager - INFO - [start_all.py:454] - === Process Monitoring Started ===
+2025-09-29 00:44:09,988 - SystemManager - INFO - [start_all.py:552] - System startup complete. Monitoring processes...
+2025-09-29 00:44:09,988 - SystemManager - WARNING - [start_all.py:459] - Process backend has terminated unexpectedly
+2025-09-29 00:44:09,988 - SystemManager - INFO - [start_all.py:463] - Attempting to restart backend...
+2025-09-29 00:44:09,988 - SystemManager - WARNING - [start_all.py:459] - Process frontend_streamlit has terminated unexpectedly
+2025-09-29 00:44:09,989 - SystemManager - WARNING - [start_all.py:459] - Process monitor has terminated unexpectedly
+2025-09-29 00:44:19,989 - SystemManager - WARNING - [start_all.py:459] - Process backend has terminated unexpectedly
+2025-09-29 00:44:19,990 - SystemManager - INFO - [start_all.py:463] - Attempting to restart backend...
+2025-09-29 00:44:19,990 - SystemManager - WARNING - [start_all.py:459] - Process frontend_streamlit has terminated unexpectedly
+2025-09-29 00:44:19,990 - SystemManager - WARNING - [start_all.py:459] - Process monitor has terminated unexpectedly
+2025-09-29 00:44:29,991 - SystemManager - WARNING - [start_all.py:459] - Process backend has terminated unexpectedly
+2025-09-29 00:44:29,992 - SystemManager - INFO - [start_all.py:463] - Attempting to restart backend...
+2025-09-29 00:44:29,992 - SystemManager - WARNING - [start_all.py:459] - Process frontend_streamlit has terminated unexpectedly
+2025-09-29 00:44:29,993 - SystemManager - WARNING - [start_all.py:459] - Process monitor has terminated unexpectedly
+2025-09-29 00:44:39,994 - SystemManager - WARNING - [start_all.py:459] - Process backend has terminated unexpectedly
+2025-09-29 00:44:39,994 - SystemManager - INFO - [start_all.py:463] - Attempting to restart backend...
+2025-09-29 00:44:39,994 - SystemManager - WARNING - [start_all.py:459] - Process frontend_streamlit has terminated unexpectedly
+2025-09-29 00:44:39,995 - SystemManager - WARNING - [start_all.py:459] - Process monitor has terminated unexpectedly
+2025-09-29 00:44:49,996 - SystemManager - WARNING - [start_all.py:459] - Process backend has terminated unexpectedly
+2025-09-29 00:44:49,996 - SystemManager - INFO - [start_all.py:463] - Attempting to restart backend...
+2025-09-29 00:44:49,997 - SystemManager - WARNING - [start_all.py:459] - Process frontend_streamlit has terminated unexpectedly
+2025-09-29 00:44:49,997 - SystemManager - WARNING - [start_all.py:459] - Process monitor has terminated unexpectedly

@@ -1,0 +1,119 @@
+2025-09-28 22:52:20,329 [INFO] __main__: Initializing Monitoring System Integration Test
+2025-09-28 22:52:20,329 [INFO] __main__: Test data directory: monitoring_integration_test_data
+2025-09-28 22:52:20,329 [INFO] __main__: Monitoring interval: 1.0s
+2025-09-28 22:52:20,329 [INFO] __main__: ================================================================================
+2025-09-28 22:52:20,329 [INFO] __main__: MONITORING SYSTEM INTEGRATION TEST SUITE
+2025-09-28 22:52:20,329 [INFO] __main__: Comprehensive System Health and Alert Validation
+2025-09-28 22:52:20,329 [INFO] __main__: ================================================================================
+2025-09-28 22:52:20,331 [INFO] __main__: 
+--- Running Monitoring Test: Monitoring Components Import ---
+2025-09-28 22:52:20,331 [INFO] __main__: Testing monitoring components import...
+2025-09-28 22:52:20,776 [INFO] enhanced_risk_manager: Enhanced Risk Manager initialized with ES@97.5% and drawdown budgeting
+2025-09-28 22:52:20,776 [INFO] transaction_cost_analyzer: Transaction Cost Analyzer initialized
+2025-09-28 22:52:20,776 [INFO] factor_crowding_monitor: Factor Crowding Monitor initialized
+2025-09-28 22:52:20,776 [INFO] purged_kfold_validator: Purged K-Fold validator initialized: 5 splits, 3d embargo, 5d purge
+2025-09-28 22:52:20,782 [INFO] RealTimeMonitor: Real-time monitoring system initialized
+2025-09-28 22:52:20,782 [INFO] __main__: ??? Real-Time Monitor imported and initialized
+2025-09-28 22:52:20,795 [WARNING] __main__: ??? Intelligent Alert System C1 import failed: cannot import name 'MimeText' from 'email.mime.text' (C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\email\mime\text.py)
+2025-09-28 22:52:21,479 [INFO] enhanced_risk_manager: Enhanced Risk Manager initialized with ES@97.5% and drawdown budgeting
+2025-09-28 22:52:21,479 [INFO] transaction_cost_analyzer: Transaction Cost Analyzer initialized
+2025-09-28 22:52:21,479 [INFO] factor_crowding_monitor: Factor Crowding Monitor initialized
+2025-09-28 22:52:21,479 [INFO] purged_kfold_validator: Purged K-Fold validator initialized: 5 splits, 3d embargo, 5d purge
+2025-09-28 22:52:21,481 [INFO] RealTimeMonitor: Real-time monitoring system initialized
+2025-09-28 22:52:21,481 [INFO] enhanced_risk_manager: Enhanced Risk Manager initialized with ES@97.5% and drawdown budgeting
+2025-09-28 22:52:21,481 [INFO] transaction_cost_analyzer: Transaction Cost Analyzer initialized
+2025-09-28 22:52:21,481 [INFO] factor_crowding_monitor: Factor Crowding Monitor initialized
+2025-09-28 22:52:21,481 [INFO] purged_kfold_validator: Purged K-Fold validator initialized: 5 splits, 3d embargo, 5d purge
+2025-09-28 22:52:21,486 [INFO] EODReporting: EOD reporting system initialized
+2025-09-28 22:52:21,489 [INFO] MonitoringDashboard: Monitoring dashboard integration initialized
+2025-09-28 22:52:21,489 [INFO] __main__: ??? Dashboard Integration imported and initialized
+2025-09-28 22:52:21,685 [INFO] __main__: ??? System Self-Healing imported and initialized
+2025-09-28 22:52:21,750 [INFO] __main__: ??? Performance Optimizer imported and initialized
+2025-09-28 22:52:21,750 [INFO] __main__: Monitoring component import success rate: 80.0%
+2025-09-28 22:52:21,750 [INFO] __main__: ??? Monitoring Components Import PASSED (1.42s)
+2025-09-28 22:52:21,750 [INFO] __main__: 
+--- Running Monitoring Test: Real-time Metrics Collection ---
+2025-09-28 22:52:21,750 [INFO] __main__: Testing real-time metrics collection...
+2025-09-28 22:52:22,840 [INFO] __main__: ??? System metrics collection: 10 samples
+2025-09-28 22:52:23,847 [INFO] __main__: ??? Portfolio metrics collection: 5 samples
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Market metrics collection: 3 samples
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Metrics trends analysis: 4 trends
+2025-09-28 22:52:25,382 [INFO] __main__: Real-time metrics collection success rate: 100.0%
+2025-09-28 22:52:25,382 [INFO] __main__: Total metrics samples collected: 18
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Real-time Metrics Collection PASSED (3.63s)
+2025-09-28 22:52:25,382 [INFO] __main__: 
+--- Running Monitoring Test: Alert System Integration ---
+2025-09-28 22:52:25,382 [INFO] __main__: Testing alert system integration...
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert generated: HIGH_CPU_USAGE - ALERT_HIGH_CPU_USAGE_1759125145382
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert generated: MEMORY_PRESSURE - ALERT_MEMORY_PRESSURE_1759125145382
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert generated: PORTFOLIO_DRAWDOWN - ALERT_PORTFOLIO_DRAWDOWN_1759125145382
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert generated: API_RESPONSE_SLOW - ALERT_API_RESPONSE_SLOW_1759125145382
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert routed: ALERT_HIGH_CPU_USAGE_1759125145382 - 2 notifications
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert routed: ALERT_MEMORY_PRESSURE_1759125145382 - 2 notifications
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert routed: ALERT_PORTFOLIO_DRAWDOWN_1759125145382 - 2 notifications
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert routed: ALERT_API_RESPONSE_SLOW_1759125145382 - 2 notifications
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert escalated: ALERT_PORTFOLIO_DRAWDOWN_1759125145382 - Level 2
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert resolved: ALERT_HIGH_CPU_USAGE_1759125145382
+2025-09-28 22:52:25,382 [INFO] __main__: ??? Alert resolved: ALERT_MEMORY_PRESSURE_1759125145382
+2025-09-28 22:52:25,383 [INFO] __main__: Alert system integration success rate: 100.0%
+2025-09-28 22:52:25,383 [INFO] __main__: Total alerts generated: 4
+2025-09-28 22:52:25,383 [INFO] __main__: ??? Alert System Integration PASSED (0.00s)
+2025-09-28 22:52:25,383 [INFO] __main__: 
+--- Running Monitoring Test: Dashboard Integration ---
+2025-09-28 22:52:25,383 [INFO] __main__: Testing dashboard integration...
+2025-09-28 22:52:25,383 [INFO] __main__: ??? Dashboard data prepared: 5 sections
+2025-09-28 22:52:26,397 [INFO] __main__: ??? Real-time dashboard updates: 5 updates sent
+2025-09-28 22:52:26,397 [INFO] __main__: ??? Dashboard performance metrics collected
+2025-09-28 22:52:26,397 [INFO] __main__: Dashboard integration success rate: 100.0%
+2025-09-28 22:52:26,397 [INFO] __main__: ??? Dashboard Integration PASSED (1.01s)
+2025-09-28 22:52:26,397 [INFO] __main__: 
+--- Running Monitoring Test: Performance Monitoring ---
+2025-09-28 22:52:26,397 [INFO] __main__: Testing performance monitoring...
+2025-09-28 22:52:26,397 [INFO] __main__: ??? Performance Monitoring PASSED (0.00s)
+2025-09-28 22:52:26,397 [INFO] __main__: 
+--- Running Monitoring Test: System Health Monitoring ---
+2025-09-28 22:52:26,397 [INFO] __main__: Testing system health monitoring...
+2025-09-28 22:52:26,397 [INFO] __main__: ??? System Health Monitoring PASSED (0.00s)
+2025-09-28 22:52:26,397 [INFO] __main__: 
+--- Running Monitoring Test: Self-Healing Integration ---
+2025-09-28 22:52:26,397 [INFO] __main__: Testing self-healing integration...
+2025-09-28 22:52:26,397 [INFO] __main__: ??? Self-Healing Integration PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: Database Health Monitoring ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing database health monitoring...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? Database Health Monitoring PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: GPU System Monitoring ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing GPU system monitoring...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? GPU System Monitoring PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: Alert Prioritization ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing alert prioritization...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? Alert Prioritization PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: Monitoring Under Load ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing monitoring under load...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? Monitoring Under Load PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: Failure Detection ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing failure detection...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? Failure Detection PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: Recovery Validation ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing recovery validation...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? Recovery Validation PASSED (0.00s)
+2025-09-28 22:52:26,398 [INFO] __main__: 
+--- Running Monitoring Test: Production Readiness ---
+2025-09-28 22:52:26,398 [INFO] __main__: Testing monitoring production readiness...
+2025-09-28 22:52:26,398 [INFO] __main__: ??? Production Readiness PASSED (0.00s)
+2025-09-28 22:52:26,399 [INFO] __main__: Monitoring test report saved: monitoring_integration_test_data\monitoring_test_report_20250928_225226.json
+2025-09-28 22:52:26,399 [INFO] __main__: 
+================================================================================
+2025-09-28 22:52:26,399 [INFO] __main__: MONITORING SYSTEM INTEGRATION TEST SUMMARY
+2025-09-28 22:52:26,399 [INFO] __main__: ================================================================================
+2025-09-28 22:52:26,399 [INFO] __main__: ??? Passed: 14/14
+2025-09-28 22:52:26,399 [INFO] __main__: ??? Failed: 0/14
+2025-09-28 22:52:26,399 [INFO] __main__: ???? Errors: 0/14
+2025-09-28 22:52:26,399 [INFO] __main__: ???? Success Rate: 100.0%
+2025-09-28 22:52:26,399 [INFO] __main__: ?????? Total Duration: 6.07s
+2025-09-28 22:52:26,399 [INFO] __main__: ???? MONITORING TESTS PASSED - System monitoring ready for production

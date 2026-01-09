@@ -1,0 +1,114 @@
+2025-09-28 22:52:20,103 [INFO] __main__: Initializing System Management Integration Test
+2025-09-28 22:52:20,103 [INFO] __main__: Test data directory: system_management_test_data
+2025-09-28 22:52:20,103 [INFO] __main__: System root: quant_system_full
+2025-09-28 22:52:20,103 [INFO] __main__: ================================================================================
+2025-09-28 22:52:20,103 [INFO] __main__: SYSTEM MANAGEMENT INTEGRATION TEST SUITE
+2025-09-28 22:52:20,104 [INFO] __main__: Comprehensive Startup and Management Script Validation
+2025-09-28 22:52:20,105 [INFO] __main__: ================================================================================
+2025-09-28 22:52:20,105 [INFO] __main__: 
+--- Running Management Test: Script Availability Check ---
+2025-09-28 22:52:20,105 [INFO] __main__: Testing script availability...
+2025-09-28 22:52:20,105 [WARNING] __main__: ??? start_all: Not available at quant_system_full\start_all.py
+2025-09-28 22:52:20,105 [INFO] __main__: ??? start_bot: Available at quant_system_full\start_bot.py
+2025-09-28 22:52:20,105 [WARNING] __main__: ??? start_ultra_system: Not available at quant_system_full\start_ultra_system.py
+2025-09-28 22:52:20,105 [WARNING] __main__: ??? start_agent_c1_system: Not available at quant_system_full\start_agent_c1_system.py
+2025-09-28 22:52:20,105 [INFO] __main__: ??? system_health_monitoring: Available at system_health_monitoring.py
+2025-09-28 22:52:20,106 [INFO] __main__: ??? system_self_healing: Available at system_self_healing.py
+2025-09-28 22:52:20,106 [INFO] __main__: ??? .env: Found
+2025-09-28 22:52:20,106 [INFO] __main__: ??? config.example.env: Found
+2025-09-28 22:52:20,106 [WARNING] __main__: ?????? requirements.txt: Missing
+2025-09-28 22:52:20,106 [INFO] __main__: ??? requirements.txt: Found
+2025-09-28 22:52:20,106 [INFO] __main__: Script availability rate: 25.0%
+2025-09-28 22:52:20,106 [ERROR] __main__: ??? Script Availability Check FAILED (0.00s)
+2025-09-28 22:52:20,106 [INFO] __main__: 
+--- Running Management Test: Configuration Validation ---
+2025-09-28 22:52:20,106 [INFO] __main__: Testing configuration validation...
+2025-09-28 22:52:20,106 [WARNING] __main__: Environment configuration validation failed: 'charmap' codec can't decode byte 0x9d in position 2111: character maps to <undefined>
+2025-09-28 22:52:20,106 [INFO] __main__: ??? Database path prepared: quant_system_full\dashboard\state\trading_system.db
+2025-09-28 22:52:20,107 [INFO] __main__: ??? Cache directory prepared: quant_system_full\data_cache
+2025-09-28 22:52:20,107 [INFO] __main__: ??? Tiger API configuration valid
+2025-09-28 22:52:20,107 [INFO] __main__: Configuration validation success rate: 66.7%
+2025-09-28 22:52:20,107 [INFO] __main__: ??? Configuration Validation PASSED (0.00s)
+2025-09-28 22:52:20,107 [INFO] __main__: 
+--- Running Management Test: Environment Setup ---
+2025-09-28 22:52:20,107 [INFO] __main__: Testing environment setup...
+2025-09-28 22:52:20,107 [INFO] __main__: ??? Python version: 3.12.10
+2025-09-28 22:52:20,343 [INFO] __main__: ??? pandas: Available
+2025-09-28 22:52:20,343 [INFO] __main__: ??? numpy: Available
+2025-09-28 22:52:20,343 [INFO] __main__: ??? asyncio: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? sqlite3: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? json: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? datetime: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? pathlib: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? logging: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? subprocess: Available
+2025-09-28 22:52:20,345 [INFO] __main__: ??? System resources adequate: 46.1GB RAM, 526.8GB disk, 28 CPUs
+2025-09-28 22:52:20,454 [INFO] __main__: ??? Network connectivity: 100% success rate
+2025-09-28 22:52:20,454 [INFO] __main__: Environment setup score: 100.0%
+2025-09-28 22:52:20,454 [INFO] __main__: ??? Environment Setup PASSED (0.35s)
+2025-09-28 22:52:20,454 [INFO] __main__: 
+--- Running Management Test: Start All System Test ---
+2025-09-28 22:52:20,454 [INFO] __main__: Testing start_all system orchestration...
+2025-09-28 22:52:20,454 [WARNING] __main__: start_all.py not found - skipping test
+2025-09-28 22:52:20,454 [INFO] __main__: ??? Start All System Test PASSED (0.00s)
+2025-09-28 22:52:20,454 [INFO] __main__: 
+--- Running Management Test: Start Bot System Test ---
+2025-09-28 22:52:20,454 [INFO] __main__: Testing start_bot system...
+2025-09-28 22:52:20,455 [INFO] __main__: ??? start_bot.py analysis: 0/6 AI/ML components
+2025-09-28 22:52:20,501 [INFO] __main__: ??? start_bot.py test completed (0.05s)
+2025-09-28 22:52:20,501 [INFO] __main__: start_bot system test score: 0.0%
+2025-09-28 22:52:20,502 [ERROR] __main__: ??? Start Bot System Test FAILED (0.05s)
+2025-09-28 22:52:20,502 [INFO] __main__: 
+--- Running Management Test: Ultra System Test ---
+2025-09-28 22:52:20,502 [INFO] __main__: Testing ultra system...
+2025-09-28 22:52:20,502 [WARNING] __main__: start_ultra_system.py not found - skipping test
+2025-09-28 22:52:20,502 [INFO] __main__: ??? Ultra System Test PASSED (0.00s)
+2025-09-28 22:52:20,502 [INFO] __main__: 
+--- Running Management Test: Agent C1 System Test ---
+2025-09-28 22:52:20,502 [INFO] __main__: Testing agent C1 system...
+2025-09-28 22:52:20,502 [WARNING] __main__: start_agent_c1_system.py not found - skipping test
+2025-09-28 22:52:20,502 [INFO] __main__: ??? Agent C1 System Test PASSED (0.00s)
+2025-09-28 22:52:20,502 [INFO] __main__: 
+--- Running Management Test: Health Monitoring Test ---
+2025-09-28 22:52:20,502 [INFO] __main__: Testing health monitoring system...
+2025-09-28 22:52:20,540 [INFO] __main__: system_health_monitoring performance test score: 50.0%
+2025-09-28 22:52:20,540 [ERROR] __main__: ??? Health Monitoring Test FAILED (0.04s)
+2025-09-28 22:52:20,540 [INFO] __main__: 
+--- Running Management Test: Self Healing Test ---
+2025-09-28 22:52:20,540 [INFO] __main__: Testing self-healing system...
+2025-09-28 22:52:20,577 [INFO] __main__: system_self_healing performance test score: 50.0%
+2025-09-28 22:52:20,577 [ERROR] __main__: ??? Self Healing Test FAILED (0.04s)
+2025-09-28 22:52:20,577 [INFO] __main__: 
+--- Running Management Test: Process Management ---
+2025-09-28 22:52:20,577 [INFO] __main__: Testing process management...
+2025-09-28 22:52:20,592 [INFO] __main__: ??? Process created and monitored: PID 6512
+2025-09-28 22:52:20,596 [INFO] __main__: ??? Process resource monitoring successful
+2025-09-28 22:52:20,596 [INFO] __main__: Process management test score: 100.0%
+2025-09-28 22:52:20,596 [INFO] __main__: ??? Process Management PASSED (0.02s)
+2025-09-28 22:52:20,596 [INFO] __main__: 
+--- Running Management Test: Resource Management ---
+2025-09-28 22:52:20,596 [INFO] __main__: Testing resource management...
+2025-09-28 22:52:20,596 [INFO] __main__: ??? Resource Management PASSED (0.00s)
+2025-09-28 22:52:20,596 [INFO] __main__: 
+--- Running Management Test: Graceful Shutdown ---
+2025-09-28 22:52:20,596 [INFO] __main__: Testing graceful shutdown...
+2025-09-28 22:52:20,596 [INFO] __main__: ??? Graceful Shutdown PASSED (0.00s)
+2025-09-28 22:52:20,596 [INFO] __main__: 
+--- Running Management Test: Recovery Testing ---
+2025-09-28 22:52:20,596 [INFO] __main__: Testing recovery procedures...
+2025-09-28 22:52:20,596 [INFO] __main__: ??? Recovery Testing PASSED (0.00s)
+2025-09-28 22:52:20,597 [INFO] __main__: 
+--- Running Management Test: Production Readiness ---
+2025-09-28 22:52:20,597 [INFO] __main__: Testing production readiness...
+2025-09-28 22:52:20,597 [INFO] __main__: ??? Production Readiness PASSED (0.00s)
+2025-09-28 22:52:20,597 [INFO] __main__: Management test report saved: system_management_test_data\management_test_report_20250928_225220.json
+2025-09-28 22:52:20,597 [INFO] __main__: 
+================================================================================
+2025-09-28 22:52:20,597 [INFO] __main__: SYSTEM MANAGEMENT INTEGRATION TEST SUMMARY
+2025-09-28 22:52:20,597 [INFO] __main__: ================================================================================
+2025-09-28 22:52:20,597 [INFO] __main__: ??? Passed: 10/14
+2025-09-28 22:52:20,597 [INFO] __main__: ??? Failed: 4/14
+2025-09-28 22:52:20,597 [INFO] __main__: ???? Errors: 0/14
+2025-09-28 22:52:20,597 [INFO] __main__: ???? Success Rate: 71.4%
+2025-09-28 22:52:20,597 [INFO] __main__: ?????? Total Duration: 0.49s
+2025-09-28 22:52:20,597 [ERROR] __main__: ?????? MANAGEMENT TESTS FAILED - Success rate 71.4% below 80.0%

@@ -1,0 +1,196 @@
+{
+  "test_run_info": {
+    "start_time": "2025-09-28T22:50:46.272944",
+    "end_time": "2025-09-28T22:52:26.615702",
+    "total_duration_seconds": 100.342758,
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "hostname": "wgyjd",
+    "test_runner_version": "1.0.0"
+  },
+  "execution_summary": {
+    "total_test_suites": 5,
+    "passed_suites": 4,
+    "failed_suites": 1,
+    "error_suites": 0,
+    "timeout_suites": 0,
+    "overall_success_rate": 80.0,
+    "critical_failures": []
+  },
+  "performance_metrics": {
+    "average_cpu_usage": 18.65,
+    "maximum_cpu_usage": 35.7,
+    "average_memory_usage": 27.24,
+    "maximum_memory_usage": 28.2,
+    "resource_samples": 11
+  },
+  "test_suite_results": [
+    {
+      "suite_name": "complete_system_integration",
+      "test_file": "test_complete_system_integration.py",
+      "status": "PASSED",
+      "duration_seconds": 90.87,
+      "tests_passed": 0,
+      "tests_failed": 0,
+      "tests_errors": 0,
+      "success_rate": 93.3,
+      "return_code": 0,
+      "critical": true,
+      "start_time": "2025-09-28T22:50:46.311388",
+      "end_time": "2025-09-28T22:52:17.179926"
+    },
+    {
+      "suite_name": "trading_system_integration",
+      "test_file": "test_trading_system_integration.py",
+      "status": "PASSED",
+      "duration_seconds": 0.97,
+      "tests_passed": 0,
+      "tests_failed": 0,
+      "tests_errors": 0,
+      "success_rate": 85.7,
+      "return_code": 0,
+      "critical": true,
+      "start_time": "2025-09-28T22:52:17.196367",
+      "end_time": "2025-09-28T22:52:18.165862"
+    },
+    {
+      "suite_name": "ai_ml_integration",
+      "test_file": "test_ai_ml_integration.py",
+      "status": "PASSED",
+      "duration_seconds": 2.8,
+      "tests_passed": 0,
+      "tests_failed": 0,
+      "tests_errors": 0,
+      "success_rate": 92.9,
+      "return_code": 0,
+      "critical": true,
+      "start_time": "2025-09-28T22:52:17.179926",
+      "end_time": "2025-09-28T22:52:19.979997"
+    },
+    {
+      "suite_name": "system_management_integration",
+      "test_file": "test_system_management_integration.py",
+      "status": "FAILED",
+      "duration_seconds": 0.65,
+      "tests_passed": 0,
+      "tests_failed": 0,
+      "tests_errors": 0,
+      "success_rate": 71.4,
+      "return_code": 1,
+      "critical": false,
+      "start_time": "2025-09-28T22:52:19.995777",
+      "end_time": "2025-09-28T22:52:20.643075"
+    },
+    {
+      "suite_name": "monitoring_system_integration",
+      "test_file": "test_monitoring_system_integration.py",
+      "status": "PASSED",
+      "duration_seconds": 6.63,
+      "tests_passed": 0,
+      "tests_failed": 0,
+      "tests_errors": 0,
+      "success_rate": 100.0,
+      "return_code": 0,
+      "critical": false,
+      "start_time": "2025-09-28T22:52:19.979997",
+      "end_time": "2025-09-28T22:52:26.614647"
+    }
+  ],
+  "system_metrics_summary": [
+    {
+      "timestamp": "2025-09-28T22:50:56.335627",
+      "cpu_usage": 21.3,
+      "memory_usage": 26.6,
+      "disk_usage": 43.47,
+      "active_processes": 335
+    },
+    {
+      "timestamp": "2025-09-28T22:51:06.350479",
+      "cpu_usage": 15.3,
+      "memory_usage": 27.1,
+      "disk_usage": 43.47,
+      "active_processes": 336
+    },
+    {
+      "timestamp": "2025-09-28T22:51:16.361892",
+      "cpu_usage": 16.0,
+      "memory_usage": 26.5,
+      "disk_usage": 43.47,
+      "active_processes": 334
+    },
+    {
+      "timestamp": "2025-09-28T22:51:26.365237",
+      "cpu_usage": 15.4,
+      "memory_usage": 26.8,
+      "disk_usage": 43.47,
+      "active_processes": 332
+    },
+    {
+      "timestamp": "2025-09-28T22:51:36.369834",
+      "cpu_usage": 15.5,
+      "memory_usage": 26.9,
+      "disk_usage": 43.47,
+      "active_processes": 331
+    },
+    {
+      "timestamp": "2025-09-28T22:51:46.375382",
+      "cpu_usage": 16.1,
+      "memory_usage": 27.6,
+      "disk_usage": 43.47,
+      "active_processes": 335
+    },
+    {
+      "timestamp": "2025-09-28T22:51:56.385921",
+      "cpu_usage": 17.3,
+      "memory_usage": 28.1,
+      "disk_usage": 43.47,
+      "active_processes": 338
+    },
+    {
+      "timestamp": "2025-09-28T22:52:06.387623",
+      "cpu_usage": 19.2,
+      "memory_usage": 28.2,
+      "disk_usage": 43.47,
+      "active_processes": 332
+    },
+    {
+      "timestamp": "2025-09-28T22:52:16.401960",
+      "cpu_usage": 15.5,
+      "memory_usage": 27.5,
+      "disk_usage": 43.48,
+      "active_processes": 332
+    },
+    {
+      "timestamp": "2025-09-28T22:52:26.400130",
+      "cpu_usage": 17.9,
+      "memory_usage": 27.8,
+      "disk_usage": 43.48,
+      "active_processes": 331
+    }
+  ],
+  "recommendations": [
+    "Address 1 failed test suites before production deployment"
+  ],
+  "detailed_outputs": {
+    "complete_system_integration": {
+      "stdout": " Executed: 225 MSFT @ $175.97\r\n2025-09-28 22:52:16,969 [INFO] __main__:   Executed: 538 GOOGL @ $44.19\r\n2025-09-28 22:52:16,969 [INFO] __main__: Execution completed: 2/2 orders (100.0% success rate)\r\n2025-09-28 22:52:16,969 [INFO] __main__: Step 7: Portfolio update and monitoring\r\n2025-09-28 22:52:16,969 [INFO] __main__: Portfolio updated: 2 positions, $36,630.23 cash remaining\r\n2025-09-28 22:52:16,969 [INFO] __main__: Total invested: $63,369.77 (63.4% of portfolio)\r\n2025-09-28 22:52:16,969 [INFO] __main__: End-to-end workflow summary: {'start_time': '2025-09-28T22:50:47.092647', 'end_time': '2025-09-28T22:52:16.969817', 'symbols_analyzed': 3, 'stocks_selected': 2, 'orders_generated': 2, 'trades_executed': 2, 'execution_rate': 1.0, 'total_invested': np.float64(63369.77170202983), 'cash_remaining': np.float64(36630.22829797017), 'final_positions': 2}\r\n2025-09-28 22:52:16,969 [INFO] __main__: End-to-end workflow test completed successfully\r\n2025-09-28 22:52:16,969 [INFO] __main__: ??? End-to-End Workflow PASSED (0.00s)\r\n2025-09-28 22:52:16,970 [INFO] __main__: Integration test report saved: integration_test_data\\integration_test_report_20250928_225216.json\r\n2025-09-28 22:52:16,970 [INFO] __main__: \r\n================================================================================\r\n2025-09-28 22:52:16,970 [INFO] __main__: INTEGRATION TEST SUMMARY\r\n2025-09-28 22:52:16,970 [INFO] __main__: ================================================================================\r\n2025-09-28 22:52:16,970 [INFO] __main__: ??? Passed: 14/15\r\n2025-09-28 22:52:16,970 [INFO] __main__: ??? Failed: 1/15\r\n2025-09-28 22:52:16,970 [INFO] __main__: ???? Errors: 0/15\r\n2025-09-28 22:52:16,970 [INFO] __main__: ???? Success Rate: 93.3%\r\n2025-09-28 22:52:16,970 [INFO] __main__: ?????? Total Duration: 89.88s\r\n2025-09-28 22:52:16,970 [INFO] __main__: ???? INTEGRATION TESTS PASSED - System ready for production\r\n\r\n???? INTEGRATION TESTS PASSED!\r\n??? System is ready for professional trading operations\r\n",
+      "stderr": ""
+    },
+    "trading_system_integration": {
+      "stdout": " 22:52:18,068 [INFO] __main__: \r\n--- Running Trading Test: Performance Under Load ---\r\n2025-09-28 22:52:18,068 [INFO] __main__: Testing performance under trading load...\r\n2025-09-28 22:52:18,068 [INFO] __main__: ??? Performance Under Load PASSED (0.00s)\r\n2025-09-28 22:52:18,068 [INFO] __main__: \r\n--- Running Trading Test: Multi-Asset Trading ---\r\n2025-09-28 22:52:18,068 [INFO] __main__: Testing multi-asset trading...\r\n2025-09-28 22:52:18,068 [INFO] __main__: ??? Multi-Asset Trading PASSED (0.00s)\r\n2025-09-28 22:52:18,068 [INFO] __main__: \r\n--- Running Trading Test: End-to-End Trading Flow ---\r\n2025-09-28 22:52:18,068 [INFO] __main__: Testing end-to-end trading flow...\r\n2025-09-28 22:52:18,068 [INFO] __main__: ??? End-to-End Trading Flow PASSED (0.00s)\r\n2025-09-28 22:52:18,068 [INFO] __main__: \r\n--- Running Trading Test: Production Readiness ---\r\n2025-09-28 22:52:18,068 [INFO] __main__: Testing trading production readiness...\r\n2025-09-28 22:52:18,068 [INFO] __main__: ??? Production Readiness PASSED (0.00s)\r\n2025-09-28 22:52:18,069 [INFO] __main__: Trading test report saved: trading_integration_test_data\\trading_test_report_20250928_225218.json\r\n2025-09-28 22:52:18,069 [INFO] __main__: \r\n================================================================================\r\n2025-09-28 22:52:18,069 [INFO] __main__: TRADING SYSTEM INTEGRATION TEST SUMMARY\r\n2025-09-28 22:52:18,069 [INFO] __main__: ================================================================================\r\n2025-09-28 22:52:18,069 [INFO] __main__: ??? Passed: 12/14\r\n2025-09-28 22:52:18,069 [INFO] __main__: ??? Failed: 2/14\r\n2025-09-28 22:52:18,069 [INFO] __main__: ???? Errors: 0/14\r\n2025-09-28 22:52:18,069 [INFO] __main__: ???? Success Rate: 85.7%\r\n2025-09-28 22:52:18,069 [INFO] __main__: ?????? Total Duration: 0.49s\r\n2025-09-28 22:52:18,069 [INFO] __main__: ???? TRADING TESTS PASSED - System ready for live trading\r\n\r\n???? TRADING INTEGRATION TESTS PASSED!\r\n??? Trading system is ready for live operations\r\n",
+      "stderr": ""
+    },
+    "ai_ml_integration": {
+      "stdout": "k Integration PASSED (0.00s)\r\n2025-09-28 22:52:19,862 [INFO] __main__: \r\n--- Running AI/ML Test: Backtesting Integration ---\r\n2025-09-28 22:52:19,862 [INFO] __main__: Testing AI/ML backtesting integration...\r\n2025-09-28 22:52:19,862 [INFO] __main__: ??? Backtesting Integration PASSED (0.00s)\r\n2025-09-28 22:52:19,862 [INFO] __main__: \r\n--- Running AI/ML Test: GPU Acceleration ---\r\n2025-09-28 22:52:19,862 [INFO] __main__: Testing GPU acceleration...\r\n2025-09-28 22:52:19,862 [INFO] __main__: ??? GPU Acceleration PASSED (0.00s)\r\n2025-09-28 22:52:19,862 [INFO] __main__: \r\n--- Running AI/ML Test: Model Validation ---\r\n2025-09-28 22:52:19,862 [INFO] __main__: Testing model validation framework...\r\n2025-09-28 22:52:19,862 [INFO] __main__: ??? Model Validation PASSED (0.00s)\r\n2025-09-28 22:52:19,862 [INFO] __main__: \r\n--- Running AI/ML Test: Production Readiness ---\r\n2025-09-28 22:52:19,862 [INFO] __main__: Testing AI/ML production readiness...\r\n2025-09-28 22:52:19,862 [INFO] __main__: ??? Production Readiness PASSED (0.00s)\r\n2025-09-28 22:52:19,862 [INFO] __main__: AI/ML test report saved: ai_ml_test_data\\ai_ml_test_report_20250928_225219.json\r\n2025-09-28 22:52:19,862 [INFO] __main__: \r\n================================================================================\r\n2025-09-28 22:52:19,862 [INFO] __main__: AI/ML INTEGRATION TEST SUMMARY\r\n2025-09-28 22:52:19,862 [INFO] __main__: ================================================================================\r\n2025-09-28 22:52:19,862 [INFO] __main__: ??? Passed: 13/14\r\n2025-09-28 22:52:19,862 [INFO] __main__: ??? Failed: 1/14\r\n2025-09-28 22:52:19,862 [INFO] __main__: ???? Errors: 0/14\r\n2025-09-28 22:52:19,862 [INFO] __main__: ???? Success Rate: 92.9%\r\n2025-09-28 22:52:19,862 [INFO] __main__: ?????? Total Duration: 1.81s\r\n2025-09-28 22:52:19,862 [INFO] __main__: ???? AI/ML TESTS PASSED - System ready for intelligent trading\r\n\r\n???? AI/ML INTEGRATION TESTS PASSED!\r\n??? AI/ML system is ready for intelligent trading operations\r\n",
+      "stderr": ""
+    },
+    "system_management_integration": {
+      "stdout": "2:20,596 [INFO] __main__: \r\n--- Running Management Test: Resource Management ---\r\n2025-09-28 22:52:20,596 [INFO] __main__: Testing resource management...\r\n2025-09-28 22:52:20,596 [INFO] __main__: ??? Resource Management PASSED (0.00s)\r\n2025-09-28 22:52:20,596 [INFO] __main__: \r\n--- Running Management Test: Graceful Shutdown ---\r\n2025-09-28 22:52:20,596 [INFO] __main__: Testing graceful shutdown...\r\n2025-09-28 22:52:20,596 [INFO] __main__: ??? Graceful Shutdown PASSED (0.00s)\r\n2025-09-28 22:52:20,596 [INFO] __main__: \r\n--- Running Management Test: Recovery Testing ---\r\n2025-09-28 22:52:20,596 [INFO] __main__: Testing recovery procedures...\r\n2025-09-28 22:52:20,596 [INFO] __main__: ??? Recovery Testing PASSED (0.00s)\r\n2025-09-28 22:52:20,597 [INFO] __main__: \r\n--- Running Management Test: Production Readiness ---\r\n2025-09-28 22:52:20,597 [INFO] __main__: Testing production readiness...\r\n2025-09-28 22:52:20,597 [INFO] __main__: ??? Production Readiness PASSED (0.00s)\r\n2025-09-28 22:52:20,597 [INFO] __main__: Management test report saved: system_management_test_data\\management_test_report_20250928_225220.json\r\n2025-09-28 22:52:20,597 [INFO] __main__: \r\n================================================================================\r\n2025-09-28 22:52:20,597 [INFO] __main__: SYSTEM MANAGEMENT INTEGRATION TEST SUMMARY\r\n2025-09-28 22:52:20,597 [INFO] __main__: ================================================================================\r\n2025-09-28 22:52:20,597 [INFO] __main__: ??? Passed: 10/14\r\n2025-09-28 22:52:20,597 [INFO] __main__: ??? Failed: 4/14\r\n2025-09-28 22:52:20,597 [INFO] __main__: ???? Errors: 0/14\r\n2025-09-28 22:52:20,597 [INFO] __main__: ???? Success Rate: 71.4%\r\n2025-09-28 22:52:20,597 [INFO] __main__: ?????? Total Duration: 0.49s\r\n2025-09-28 22:52:20,597 [ERROR] __main__: ?????? MANAGEMENT TESTS FAILED - Success rate 71.4% below 80.0%\r\n\r\n??????  MANAGEMENT INTEGRATION TESTS FAILED!\r\n??? System management requires attention before production deployment\r\n",
+      "stderr": ""
+    },
+    "monitoring_system_integration": {
+      "stdout": "main__: \r\n--- Running Monitoring Test: Monitoring Under Load ---\r\n2025-09-28 22:52:26,398 [INFO] __main__: Testing monitoring under load...\r\n2025-09-28 22:52:26,398 [INFO] __main__: ??? Monitoring Under Load PASSED (0.00s)\r\n2025-09-28 22:52:26,398 [INFO] __main__: \r\n--- Running Monitoring Test: Failure Detection ---\r\n2025-09-28 22:52:26,398 [INFO] __main__: Testing failure detection...\r\n2025-09-28 22:52:26,398 [INFO] __main__: ??? Failure Detection PASSED (0.00s)\r\n2025-09-28 22:52:26,398 [INFO] __main__: \r\n--- Running Monitoring Test: Recovery Validation ---\r\n2025-09-28 22:52:26,398 [INFO] __main__: Testing recovery validation...\r\n2025-09-28 22:52:26,398 [INFO] __main__: ??? Recovery Validation PASSED (0.00s)\r\n2025-09-28 22:52:26,398 [INFO] __main__: \r\n--- Running Monitoring Test: Production Readiness ---\r\n2025-09-28 22:52:26,398 [INFO] __main__: Testing monitoring production readiness...\r\n2025-09-28 22:52:26,398 [INFO] __main__: ??? Production Readiness PASSED (0.00s)\r\n2025-09-28 22:52:26,399 [INFO] __main__: Monitoring test report saved: monitoring_integration_test_data\\monitoring_test_report_20250928_225226.json\r\n2025-09-28 22:52:26,399 [INFO] __main__: \r\n================================================================================\r\n2025-09-28 22:52:26,399 [INFO] __main__: MONITORING SYSTEM INTEGRATION TEST SUMMARY\r\n2025-09-28 22:52:26,399 [INFO] __main__: ================================================================================\r\n2025-09-28 22:52:26,399 [INFO] __main__: ??? Passed: 14/14\r\n2025-09-28 22:52:26,399 [INFO] __main__: ??? Failed: 0/14\r\n2025-09-28 22:52:26,399 [INFO] __main__: ???? Errors: 0/14\r\n2025-09-28 22:52:26,399 [INFO] __main__: ???? Success Rate: 100.0%\r\n2025-09-28 22:52:26,399 [INFO] __main__: ?????? Total Duration: 6.07s\r\n2025-09-28 22:52:26,399 [INFO] __main__: ???? MONITORING TESTS PASSED - System monitoring ready for production\r\n\r\n???? MONITORING INTEGRATION TESTS PASSED!\r\n??? Monitoring system is ready for production operations\r\n",
+      "stderr": ""
+    }
+  }
+}

@@ -1,0 +1,80 @@
+INVESTMENT-GRADE QUANTITATIVE TRADING SYSTEM
+CODE QUALITY ASSESSMENT REPORT
+============================================================
+Generated: 2025-09-28T23:50:14.697248
+Duration: 3.2 seconds
+
+EXECUTIVE SUMMARY
+--------------------
+Overall Quality Score: 4.0/10
+
+UNIT TEST RESULTS
+--------------------
+Total Tests: 0
+Success Rate: 0.0%
+Failures: 0
+Errors: 0
+
+Module Breakdown:
+  [OK] risk_services: 0 tests, 0 failures, 0 errors
+  [FAIL] scoring_services: 0 tests, 0 failures, 0 errors
+
+PERFORMANCE BENCHMARK RESULTS
+--------------------
+[FAIL] Performance benchmarks failed
+
+CODE COMPLEXITY ANALYSIS
+--------------------
+  risk_calculation_services.py:
+    Functions: 16
+    Avg Function Length: 22.9 lines
+    Longest Function: 31 lines
+    Comment Ratio: 4.3%
+  risk_assessment_orchestrator.py:
+    Functions: 10
+    Avg Function Length: 41.5 lines
+    Longest Function: 67 lines
+    Comment Ratio: 6.4%
+  scoring_services.py:
+    Functions: 43
+    Avg Function Length: 10.6 lines
+    Longest Function: 28 lines
+    Comment Ratio: 3.7%
+  scoring_orchestrator.py:
+    Functions: 18
+    Avg Function Length: 25.3 lines
+    Longest Function: 46 lines
+    Comment Ratio: 7.7%
+
+Overall Metrics:
+  Files Analyzed: 4
+  Total Functions: 87
+  Average Function Length: 25.1 lines
+
+Target Compliance:
+  Avg Length <50 lines: 4/4 files
+  Longest Function <100 lines: 4/4 files
+  Good Comment Ratio: 0/4 files
+
+IMPORT STRUCTURE ANALYSIS
+--------------------
+Importable Modules: 2/4
+  [OK] risk_calculation_services
+  [FAIL] risk_assessment_orchestrator
+    Error: attempted relative import with no known parent package
+  [OK] scoring_services
+  [FAIL] scoring_orchestrator
+    Error: attempted relative import with no known parent package
+
+QUALITY RECOMMENDATIONS
+--------------------
+• Improve unit test coverage and fix failing tests
+• Fix import issues in modules: risk_assessment_orchestrator, scoring_orchestrator
+
+NEXT STEPS
+--------------------
+1. Focus on fixing failing tests
+1. Refactor complex functions identified
+1. Improve code documentation
+1. Implement missing test cases
+1. Re-assess quality after improvements

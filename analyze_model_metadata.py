@@ -213,11 +213,11 @@ def print_analysis_results(ranges, sweet_spot_models, low_corr_models, tiers, mo
     sweet_spot = ranges['60-70%']
     low_performers = ranges['<50%']
     
-    print(f"• {high_performers} models ({high_performers/total_models*100:.1f}%) achieve >70% accuracy")
-    print(f"• {sweet_spot} models ({sweet_spot/total_models*100:.1f}%) in the sweet spot (60-70%)")
-    print(f"• {len(low_corr_models)} models have both good accuracy (>=60%) and low correlation")
-    print(f"• Tier 1 contains {len(tiers['Tier 1'])} truly predictive models")
-    print(f"• {low_performers} models ({low_performers/total_models*100:.1f}%) perform worse than random")
+    print(f"? {high_performers} models ({high_performers/total_models*100:.1f}%) achieve >70% accuracy")
+    print(f"? {sweet_spot} models ({sweet_spot/total_models*100:.1f}%) in the sweet spot (60-70%)")
+    print(f"? {len(low_corr_models)} models have both good accuracy (>=60%) and low correlation")
+    print(f"? Tier 1 contains {len(tiers['Tier 1'])} truly predictive models")
+    print(f"? {low_performers} models ({low_performers/total_models*100:.1f}%) perform worse than random")
 
 def main():
     """Main analysis function"""

@@ -1,0 +1,122 @@
+{
+  "import_structure": {
+    "risk_calculation_services": {
+      "importable": true,
+      "error": null
+    },
+    "risk_assessment_orchestrator": {
+      "importable": true,
+      "error": null
+    },
+    "scoring_services": {
+      "importable": true,
+      "error": null
+    },
+    "scoring_orchestrator": {
+      "importable": true,
+      "error": null
+    }
+  },
+  "unit_tests": {
+    "modules": {
+      "risk_services": {
+        "success": true,
+        "output": "\nTest Results:\nTests run: 28\nFailures: 0\nErrors: 0\nSuccess rate: 100.0%\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:457: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestTailRiskCalculator))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:458: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestRegimeDetectionService))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:459: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestDrawdownManager))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:460: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestCorrelationAnalyzer))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:461: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestIntegrationTests))\ntest_comprehensive_tail_metrics (__main__.TestTailRiskCalculator.test_comprehensive_tail_metrics)\nTest comprehensive tail metrics calculation. ... ok\ntest_comprehensive_tail_metrics_insufficient_data (__main__.TestTailRiskCalculator.test_comprehensive_tail_metrics_insufficient_data)\nTest tail metrics with insufficient data. ... ok\ntest_expected_shortfall_calculation (__main__.TestTailRiskCalculator.test_expected_shortfall_calculation)\nTest Expected Shortfall calculation. ... ok\ntest_expected_shortfall_edge_cases (__main__.TestTailRiskCalculator.test_expected_shortfall_edge_cases)\nTest ES calculation edge cases. ... ok\ntest_tail_dependence_calculation (__main__.TestTailRiskCalculator.test_tail_dependence_calculation)\nTest tail dependence calculation. ... ok\ntest_tail_dependence_edge_cases (__main__.TestTailRiskCalculator.test_tail_dependence_edge_cases)\nTest tail dependence edge cases. ... ok\ntest_missing_market_data (__main__.TestRegimeDetectionService.test_missing_market_data)\nTest regime detection with missing data. ... ok\ntest_regime_adjustments (__main__.TestRegimeDetectionService.test_regime_adjustments)\nTest regime-based limit adjustments. ... ok\ntest_regime_detection_crisis (__main__.TestRegimeDetectionService.test_regime_detection_crisis)\nTest crisis market regime detection. ... ok\ntest_regime_detection_normal (__main__.TestRegimeDetectionService.test_regime_detection_normal)\nTest normal market regime detection. ... ok\ntest_regime_detection_trending (__main__.TestRegimeDetectionService.test_regime_detection_trending)\nTest trending market regime detection. ... ok\ntest_regime_detection_volatile (__main__.TestRegimeDetectionService.test_regime_detection_volatile)\nTest volatile market regime detection. ... ok\ntest_regime_multipliers (__main__.TestRegimeDetectionService.test_regime_multipliers)\nTest regime multiplier retrieval. ... ok\ntest_tier_1_activation (__main__.TestDrawdownManager.test_tier_1_activation)\nTest Tier 1 activation. ... ok\ntest_tier_2_activation (__main__.TestDrawdownManager.test_tier_2_activation)\nTest Tier 2 activation. ... ok\ntest_tier_3_activation (__main__.TestDrawdownManager.test_tier_3_activation)\nTest Tier 3 activation. ... ok\ntest_tier_configuration (__main__.TestDrawdownManager.test_tier_configuration)\nTest tier configuration retrieval. ... ok\ntest_tier_detection_normal (__main__.TestDrawdownManager.test_tier_detection_normal)\nTest normal conditions (no tier activation). ... ok\ntest_tier_threshold_update (__main__.TestDrawdownManager.test_tier_threshold_update)\nTest updating tier thresholds. ... ok\ntest_concentration_risk_analysis (__main__.TestCorrelationAnalyzer.test_concentration_risk_analysis)\nTest concentration risk analysis. ... ok\ntest_concentration_risk_no_sectors (__main__.TestCorrelationAnalyzer.test_concentration_risk_no_sectors)\nTest concentration risk without sector data. ... ok\ntest_correlation_matrix_calculation (__main__.TestCorrelationAnalyzer.test_correlation_matrix_calculation)\nTest correlation matrix calculation. ... ok\ntest_correlation_matrix_empty_data (__main__.TestCorrelationAnalyzer.test_correlation_matrix_empty_data)\nTest correlation matrix with empty data. ... ok\ntest_diversification_ratio (__main__.TestCorrelationAnalyzer.test_diversification_ratio)\nTest diversification ratio calculation. ... ok\ntest_diversification_ratio_edge_cases (__main__.TestCorrelationAnalyzer.test_diversification_ratio_edge_cases)\nTest diversification ratio edge cases. ... ok\ntest_high_correlation_detection (__main__.TestCorrelationAnalyzer.test_high_correlation_detection)\nTest high correlation pair detection. ... ok\ntest_complete_risk_assessment_workflow (__main__.TestIntegrationTests.test_complete_risk_assessment_workflow)\nTest complete risk assessment workflow. ... ok\ntest_performance_under_stress (__main__.TestIntegrationTests.test_performance_under_stress)\nTest performance with large datasets. ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.005s\n\nOK\n",
+        "return_code": 0,
+        "tests_run": 0,
+        "failures": 0,
+        "errors": 0
+      },
+      "scoring_services": {
+        "success": false,
+        "output": "\nTest Results:\nTests run: 30\nFailures: 1\nErrors: 0\nSuccess rate: 96.7%\nC:\\quant_system_v2\\tests\\test_scoring_services.py:714: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestFactorCalculationService))\nC:\\quant_system_v2\\tests\\test_scoring_services.py:715: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestFactorNormalizationService))\nC:\\quant_system_v2\\tests\\test_scoring_services.py:716: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestCorrelationAnalysisService))\nC:\\quant_system_v2\\tests\\test_scoring_services.py:717: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestWeightOptimizationService))\nC:\\quant_system_v2\\tests\\test_scoring_services.py:718: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestScoringOrchestrator))\nC:\\quant_system_v2\\tests\\test_scoring_services.py:719: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestPerformanceTests))\ntest_calculate_all_factors (__main__.TestFactorCalculationService.test_calculate_all_factors)\nTest calculating all factors for all symbols. ... Using fallback factor strategies\nok\ntest_calculate_single_factor (__main__.TestFactorCalculationService.test_calculate_single_factor)\nTest single factor calculation. ... Using fallback factor strategies\nok\ntest_calculate_unknown_factor (__main__.TestFactorCalculationService.test_calculate_unknown_factor)\nTest calculation with unknown factor. ... Using fallback factor strategies\nUnknown factor: unknown_factor\nok\ntest_calculate_with_empty_data (__main__.TestFactorCalculationService.test_calculate_with_empty_data)\nTest calculation with empty data. ... Using fallback factor strategies\nok\ntest_calculate_with_invalid_data (__main__.TestFactorCalculationService.test_calculate_with_invalid_data)\nTest calculation with invalid data. ... Using fallback factor strategies\nok\ntest_register_custom_strategy (__main__.TestFactorCalculationService.test_register_custom_strategy)\nTest registering custom factor strategy. ... Using fallback factor strategies\nok\ntest_empty_data_handling (__main__.TestFactorNormalizationService.test_empty_data_handling)\nTest handling of empty data. ... ok\ntest_non_numeric_columns (__main__.TestFactorNormalizationService.test_non_numeric_columns)\nTest handling of non-numeric columns. ... ok\ntest_robust_normalization (__main__.TestFactorNormalizationService.test_robust_normalization)\nTest robust normalization method. ... ok\ntest_sector_neutrality (__main__.TestFactorNormalizationService.test_sector_neutrality)\nTest sector neutrality application. ... ok\ntest_standard_normalization (__main__.TestFactorNormalizationService.test_standard_normalization)\nTest standard normalization method. ... ok\ntest_winsorize_normalization (__main__.TestFactorNormalizationService.test_winsorize_normalization)\nTest winsorize normalization method. ... ok\ntest_correlation_matrix_calculation (__main__.TestCorrelationAnalysisService.test_correlation_matrix_calculation)\nTest factor correlation matrix calculation. ... ok\ntest_empty_data_handling (__main__.TestCorrelationAnalysisService.test_empty_data_handling)\nTest handling of empty factor data. ... ok\ntest_factor_loadings_calculation (__main__.TestCorrelationAnalysisService.test_factor_loadings_calculation)\nTest factor loading statistics. ... ok\ntest_redundant_factor_detection (__main__.TestCorrelationAnalysisService.test_redundant_factor_detection)\nTest detection of redundant factors. ... ok\ntest_correlation_penalty_application (__main__.TestWeightOptimizationService.test_correlation_penalty_application)\nTest correlation penalty reduces weights of correlated factors. ... ok\ntest_performance_adjustment (__main__.TestWeightOptimizationService.test_performance_adjustment)\nTest performance-based weight adjustment. ... ok\ntest_weight_constraints_enforcement (__main__.TestWeightOptimizationService.test_weight_constraints_enforcement)\nTest that weight constraints are properly enforced. ... FAIL\ntest_weight_key_finding (__main__.TestWeightOptimizationService.test_weight_key_finding)\nTest finding weight keys for factor names. ... ok\ntest_weight_optimization_basic (__main__.TestWeightOptimizationService.test_weight_optimization_basic)\nTest basic weight optimization. ... ok\ntest_composite_score_calculation (__main__.TestScoringOrchestrator.test_composite_score_calculation)\nTest complete composite score calculation. ... Using fallback factor strategies\nok\ntest_configuration_save_load (__main__.TestScoringOrchestrator.test_configuration_save_load)\nTest configuration save and load. ... Using fallback factor strategies\nUsing fallback factor strategies\nok\ntest_custom_weights (__main__.TestScoringOrchestrator.test_custom_weights)\nTest calculation with custom weights. ... Using fallback factor strategies\nok\ntest_empty_data_handling (__main__.TestScoringOrchestrator.test_empty_data_handling)\nTest handling of empty input data. ... Using fallback factor strategies\nNo factor scores calculated\nok\ntest_history_tracking (__main__.TestScoringOrchestrator.test_history_tracking)\nTest scoring history tracking. ... Using fallback factor strategies\nok\ntest_score_explanation (__main__.TestScoringOrchestrator.test_score_explanation)\nTest score explanation functionality. ... Using fallback factor strategies\nok\ntest_trading_signal_generation (__main__.TestScoringOrchestrator.test_trading_signal_generation)\nTest trading signal generation. ... Using fallback factor strategies\nok\ntest_large_dataset_performance (__main__.TestPerformanceTests.test_large_dataset_performance)\nTest performance with large dataset. ... Using fallback factor strategies\nok\ntest_memory_efficiency (__main__.TestPerformanceTests.test_memory_efficiency)\nTest memory efficiency with repeated calculations. ... Using fallback factor strategies\nok\n\n======================================================================\nFAIL: test_weight_constraints_enforcement (__main__.TestWeightOptimizationService.test_weight_constraints_enforcement)\nTest that weight constraints are properly enforced.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\quant_system_v2\\tests\\test_scoring_services.py\", line 450, in test_weight_constraints_enforcement\n    self.assertLessEqual(weight, self.service.max_weight)\nAssertionError: np.float64(0.769230769230769) not less than or equal to 0.5\n\n----------------------------------------------------------------------\nRan 30 tests in 0.136s\n\nFAILED (failures=1)\n",
+        "return_code": 1,
+        "tests_run": 0,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "summary": {
+      "total_tests": 0,
+      "total_failures": 0,
+      "total_errors": 0,
+      "success_rate": 0
+    }
+  },
+  "code_complexity": {
+    "quant_system_full/bot/risk_calculation_services.py": {
+      "total_lines": 492,
+      "code_lines": 366,
+      "comment_lines": 21,
+      "comment_ratio": 0.042682926829268296,
+      "functions": 16,
+      "classes": 7,
+      "complexity_score": 75,
+      "avg_function_length": 22.875,
+      "longest_function_lines": 31,
+      "complexity_per_line": 0.20491803278688525,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    },
+    "quant_system_full/bot/risk_assessment_orchestrator.py": {
+      "total_lines": 533,
+      "code_lines": 415,
+      "comment_lines": 34,
+      "comment_ratio": 0.06378986866791744,
+      "functions": 10,
+      "classes": 5,
+      "complexity_score": 54,
+      "avg_function_length": 41.5,
+      "longest_function_lines": 67,
+      "complexity_per_line": 0.13012048192771083,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    },
+    "quant_system_full/bot/scoring_services.py": {
+      "total_lines": 619,
+      "code_lines": 457,
+      "comment_lines": 23,
+      "comment_ratio": 0.03715670436187399,
+      "functions": 43,
+      "classes": 13,
+      "complexity_score": 116,
+      "avg_function_length": 10.627906976744185,
+      "longest_function_lines": 28,
+      "complexity_per_line": 0.2538293216630197,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    },
+    "quant_system_full/bot/scoring_orchestrator.py": {
+      "total_lines": 627,
+      "code_lines": 456,
+      "comment_lines": 48,
+      "comment_ratio": 0.07655502392344497,
+      "functions": 18,
+      "classes": 3,
+      "complexity_score": 96,
+      "avg_function_length": 25.333333333333332,
+      "longest_function_lines": 46,
+      "complexity_per_line": 0.21052631578947367,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    }
+  },
+  "performance_benchmarks": {
+    "success": false,
+    "output": "Investment-Grade Quantitative Trading System\nPerformance Benchmark Suite\n==================================================\nStarting Performance Benchmark Suite\n==================================================\nSystem Info: {'cpu_count': 28, 'cpu_freq': 2100.0, 'memory_total_gb': 63.7248420715332, 'python_version': '3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]', 'platform': 'win32'}\n==================================================\n\n[1/9] Running benchmark_tail_risk_calculation...\n",
+    "errors": "Traceback (most recent call last):\n  File \"C:\\quant_system_v2\\tests\\performance_benchmarks.py\", line 409, in run_all_benchmarks\n    print(f\"\\u2713 {benchmark_method.__name__} completed\")\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u2713' in position 0: character maps to <undefined>\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\quant_system_v2\\tests\\performance_benchmarks.py\", line 623, in <module>\n    main()\n  File \"C:\\quant_system_v2\\tests\\performance_benchmarks.py\", line 589, in main\n    benchmark_suite.run_all_benchmarks()\n  File \"C:\\quant_system_v2\\tests\\performance_benchmarks.py\", line 411, in run_all_benchmarks\n    print(f\"\\u2717 {benchmark_method.__name__} failed: {e}\")\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u2717' in position 0: character maps to <undefined>\n",
+    "return_code": 1
+  }
+}

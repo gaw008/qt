@@ -1,0 +1,154 @@
+{
+  "test_metadata": {
+    "execution_time": "2025-09-28T23:40:50.682729",
+    "system_version": "2.0",
+    "test_suite_version": "1.0",
+    "environment": "integration_testing"
+  },
+  "test_results": {
+    "end_to_end_flow": {
+      "data_acquisition": false,
+      "multi_factor_analysis": false,
+      "stock_selection": false,
+      "portfolio_management": false,
+      "risk_management": false,
+      "trade_execution": false,
+      "monitoring": false,
+      "total_flow_time": 1.8668246269226074,
+      "success_rate": 0.0
+    },
+    "api_endpoints": {
+      "endpoints_tested": 10,
+      "endpoints_passed": 0,
+      "endpoints_failed": 10,
+      "average_response_time": 2058.472990989685,
+      "failed_endpoints": [
+        {
+          "endpoint": "/api/health",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Health check"
+        },
+        {
+          "endpoint": "/api/system/status",
+          "method": "GET",
+          "status_code": 403,
+          "description": "System status"
+        },
+        {
+          "endpoint": "/api/market-data/status",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Market data status"
+        },
+        {
+          "endpoint": "/api/portfolio/status",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Portfolio status"
+        },
+        {
+          "endpoint": "/api/risk/metrics",
+          "method": "GET",
+          "status_code": 403,
+          "description": "Risk metrics"
+        },
+        {
+          "endpoint": "/api/analysis/factors",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Factor analysis"
+        },
+        {
+          "endpoint": "/api/selection/top-stocks",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Stock selection"
+        },
+        {
+          "endpoint": "/api/auth/login",
+          "method": "POST",
+          "status_code": 404,
+          "description": "Authentication"
+        },
+        {
+          "endpoint": "/api/trading/positions",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Trading positions"
+        },
+        {
+          "endpoint": "/api/monitoring/metrics",
+          "method": "GET",
+          "status_code": 404,
+          "description": "Monitoring metrics"
+        }
+      ],
+      "performance_issues": [],
+      "max_response_time": 2067.3434734344482,
+      "min_response_time": 2046.095848083496
+    },
+    "websocket_functionality": {
+      "connection_successful": false,
+      "real_time_updates": false,
+      "data_integrity": false,
+      "connection_stability": false
+    },
+    "performance_testing": {
+      "concurrent_users_supported": 0,
+      "average_response_time_under_load": 0,
+      "memory_usage_peak": 0.16250740418261864,
+      "cpu_usage_peak": 6.7,
+      "throughput_requests_per_second": 0,
+      "performance_grade": "NEEDS_IMPROVEMENT"
+    },
+    "data_processing": {
+      "stocks_processed": 0,
+      "processing_time_ms": 0,
+      "stocks_per_second": 0,
+      "memory_efficiency": "UNKNOWN",
+      "meets_requirements": false
+    },
+    "security_testing": {
+      "authentication_working": false,
+      "authorization_enforced": false,
+      "input_validation_active": false,
+      "sql_injection_protected": false,
+      "xss_protection_enabled": false,
+      "secure_headers_present": false,
+      "https_enforcement": true,
+      "overall_security_score": 14.285714285714285
+    },
+    "production_readiness": {
+      "configuration_complete": false,
+      "environment_variables_secure": false,
+      "logging_comprehensive": true,
+      "error_handling_robust": true,
+      "monitoring_functional": false,
+      "backup_systems_available": false,
+      "scalability_adequate": true,
+      "documentation_complete": true,
+      "readiness_score": 50.0
+    },
+    "user_acceptance": {
+      "react_frontend_accessible": false,
+      "streamlit_dashboard_accessible": false,
+      "mobile_responsive": true,
+      "navigation_intuitive": false,
+      "data_visualization_functional": false,
+      "real_time_updates_working": true,
+      "user_interface_grade": "NEEDS_IMPROVEMENT"
+    }
+  },
+  "performance_metrics": {},
+  "security_results": {},
+  "overall_assessment": {
+    "integration_score": 16.26984126984127
+  },
+  "recommendations": [
+    "Major issues must be resolved before production",
+    "Consider performance optimization for better response times",
+    "Enhance security measures to meet investment-grade standards"
+  ],
+  "production_readiness": "NOT_READY"
+}

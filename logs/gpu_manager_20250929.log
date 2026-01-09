@@ -1,0 +1,15 @@
+2025-09-29 00:42:11,494 - GPUSystemManager - INFO - [setup_gpu.py:126] - GPU System Manager initialized
+2025-09-29 00:42:11,641 - GPUSystemManager - INFO - [setup_gpu.py:195] - === GPU Environment Detection ===
+2025-09-29 00:42:15,009 - GPUSystemManager - INFO - [setup_gpu.py:256] - CuPy version: 13.6.0
+2025-09-29 00:42:15,009 - GPUSystemManager - INFO - [setup_gpu.py:218] - CUDA detected and available
+2025-09-29 00:42:15,009 - GPUSystemManager - INFO - [setup_gpu.py:320] - OpenCL library found: C:/Windows/System32/OpenCL.dll
+2025-09-29 00:42:15,009 - GPUSystemManager - INFO - [setup_gpu.py:223] - OpenCL detected and available
+2025-09-29 00:42:15,011 - GPUSystemManager - INFO - [setup_gpu.py:381] - DirectML library found: C:/Windows/System32/DirectML.dll
+2025-09-29 00:42:15,011 - GPUSystemManager - INFO - [setup_gpu.py:233] - DirectML detected and available
+2025-09-29 00:42:15,097 - GPUSystemManager - INFO - [setup_gpu.py:413] - Detected 1 GPU device(s)
+2025-09-29 00:42:15,097 - GPUSystemManager - INFO - [setup_gpu.py:669] - === GPU Detection Results ===
+2025-09-29 00:42:15,097 - GPUSystemManager - INFO - [setup_gpu.py:670] - Primary Framework: CUDA
+2025-09-29 00:42:15,097 - GPUSystemManager - INFO - [setup_gpu.py:671] - Available Frameworks: ['CUDA', 'OpenCL', 'DirectML', 'CPU']
+2025-09-29 00:42:15,097 - GPUSystemManager - INFO - [setup_gpu.py:672] - GPU Devices Found: 1
+2025-09-29 00:42:15,097 - GPUSystemManager - INFO - [setup_gpu.py:675] -   GPU 0: NVIDIA GeForce RTX 4070 Ti SUPER (NVIDIA)
+2025-09-29 00:42:15,098 - GPUSystemManager - INFO - [setup_gpu.py:676] -     Memory: 16376MB

@@ -1,0 +1,399 @@
+2025-09-30 00:51:45,525 - TradingBot - WARNING - [start_bot.py:138] - Error loading configuration: 'charmap' codec can't decode byte 0x9d in position 2379: character maps to <undefined>
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:150] - === Trading Environment Validation ===
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:158] - [OK] Directory exists: quant_system_full
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:158] - [OK] Directory exists: bot
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:158] - [OK] Directory exists: worker
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:172] - [OK] Configuration file: config.example.env
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:172] - [OK] Configuration file: __init__.py
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:187] - [OK] AI/ML module: ai_learning_engine.py
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:187] - [OK] AI/ML module: ai_strategy_optimizer.py
+2025-09-30 00:51:45,526 - TradingBot - INFO - [start_bot.py:187] - [OK] AI/ML module: enhanced_risk_manager.py
+2025-09-30 00:51:59,807 - TradingBot - INFO - [start_bot.py:199] - [OK] Core Python dependencies available
+2025-09-30 00:51:59,808 - TradingBot - INFO - [start_bot.py:208] - [OK] Available memory: 49553 MB
+2025-09-30 00:51:59,808 - TradingBot - INFO - [start_bot.py:215] - Environment validation: 100.0% success rate
+2025-09-30 00:51:59,808 - TradingBot - INFO - [start_bot.py:353] - === Starting Trading Bot Systems ===
+2025-09-30 00:51:59,808 - TradingBot - INFO - [start_bot.py:227] - Starting AI Learning Engine...
+2025-09-30 00:51:59,833 - TradingBot - INFO - [start_bot.py:237] - [OK] AI Learning Engine started (PID: 23724)
+2025-09-30 00:51:59,833 - TradingBot - INFO - [start_bot.py:252] - Starting Strategy Optimizer...
+2025-09-30 00:51:59,853 - TradingBot - INFO - [start_bot.py:262] - [OK] Strategy Optimizer started (PID: 11512)
+2025-09-30 00:51:59,853 - TradingBot - INFO - [start_bot.py:277] - Starting Enhanced Risk Manager...
+2025-09-30 00:51:59,872 - TradingBot - INFO - [start_bot.py:287] - [OK] Enhanced Risk Manager started (PID: 22476)
+2025-09-30 00:51:59,873 - TradingBot - INFO - [start_bot.py:334] - Starting Real-time Monitor...
+2025-09-30 00:51:59,890 - TradingBot - INFO - [start_bot.py:344] - [OK] Real-time Monitor started (PID: 27384)
+2025-09-30 00:51:59,891 - TradingBot - INFO - [start_bot.py:302] - Starting Main Trading Bot...
+2025-09-30 00:51:59,909 - TradingBot - INFO - [start_bot.py:319] - [OK] Main Trading Bot started (PID: 5976)
+2025-09-30 00:51:59,909 - TradingBot - INFO - [start_bot.py:387] - Waiting for systems to initialize...
+2025-09-30 00:52:09,910 - TradingBot - INFO - [start_bot.py:394] - === System Monitoring Started ===
+2025-09-30 00:52:09,910 - TradingBot - WARNING - [start_bot.py:407] - AI process ai_engine has terminated
+2025-09-30 00:52:09,910 - TradingBot - WARNING - [start_bot.py:407] - AI process risk_manager has terminated
+2025-09-30 00:52:09,910 - TradingBot - INFO - [start_bot.py:541] - Trading bot systems started successfully. Monitoring...
+2025-09-30 00:54:04,928 - TradingBot - WARNING - [start_bot.py:407] - AI process monitor has terminated
+2025-09-30 01:05:00,006 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:05:00.006356",
+  "uptime_hours": 0.21672175444444444,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 148,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:10:00,028 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:10:00.028101",
+  "uptime_hours": 0.30006112805555557,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:15:00,051 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:15:00.051179",
+  "uptime_hours": 0.38340087194444444,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:20:00,076 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:20:00.076961",
+  "uptime_hours": 0.46674136694444446,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:25:00,104 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:25:00.104412",
+  "uptime_hours": 0.5500823255555556,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:30:00,135 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:30:00.135301",
+  "uptime_hours": 0.6334242391666667,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:35:00,162 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:35:00.162758",
+  "uptime_hours": 0.7167651994444445,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:40:00,185 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:40:00.185816",
+  "uptime_hours": 0.8001049377777777,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:45:00,211 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:45:00.211887",
+  "uptime_hours": 0.8834455130555555,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:50:00,235 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:50:00.235733",
+  "uptime_hours": 0.9667854702777778,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 01:55:00,262 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T01:55:00.262167",
+  "uptime_hours": 1.050126146388889,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:00:00,281 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:00:00.281376",
+  "uptime_hours": 1.1334648155555556,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:05:00,304 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:05:00.304329",
+  "uptime_hours": 1.2168045247222221,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:10:00,326 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:10:00.326010",
+  "uptime_hours": 1.3001438805555556,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:15:00,350 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:15:00.350507",
+  "uptime_hours": 1.3834840186111113,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:20:00,374 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:20:00.374142",
+  "uptime_hours": 1.4668239172222222,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:25:00,395 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:25:00.395429",
+  "uptime_hours": 1.5501631636111113,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:30:00,417 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:30:00.417192",
+  "uptime_hours": 1.6335025422222222,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:35:00,440 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:35:00.440655",
+  "uptime_hours": 1.7168423930555556,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:40:00,465 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:40:00.465952",
+  "uptime_hours": 1.8001827533333332,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:45:00,489 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:45:00.489396",
+  "uptime_hours": 1.8835225988888888,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:50:00,508 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:50:00.508681",
+  "uptime_hours": 1.9668612891666668,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 02:55:00,532 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T02:55:00.532362",
+  "uptime_hours": 2.0502012005555557,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:00:00,560 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:00:00.559301",
+  "uptime_hours": 2.1335420169444443,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:05:00,584 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:05:00.584921",
+  "uptime_hours": 2.2168824669444445,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:10:00,609 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:10:00.609136",
+  "uptime_hours": 2.3002225266666665,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:15:00,635 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:15:00.635216",
+  "uptime_hours": 2.3835631044444447,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:20:00,670 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:20:00.670437",
+  "uptime_hours": 2.4669062213888893,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:25:00,693 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:25:00.693748",
+  "uptime_hours": 2.55024603,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:30:00,721 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:30:00.721726",
+  "uptime_hours": 2.633587135,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:35:00,746 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:35:00.746410",
+  "uptime_hours": 2.716927325,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:40:00,770 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:40:00.770282",
+  "uptime_hours": 2.8002672894444443,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:45:00,795 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:45:00.795800",
+  "uptime_hours": 2.883607711111111,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:50:00,818 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:50:00.818885",
+  "uptime_hours": 2.9669474569444447,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 03:55:00,842 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T03:55:00.842101",
+  "uptime_hours": 3.050287239166667,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 04:00:00,866 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T04:00:00.866932",
+  "uptime_hours": 3.13362747,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 04:05:00,891 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T04:05:00.891023",
+  "uptime_hours": 3.216967495277778,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 04:10:00,913 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T04:10:00.913522",
+  "uptime_hours": 3.3003070783333337,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 04:15:00,937 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T04:15:00.936124",
+  "uptime_hours": 3.38364669,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 04:20:00,967 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T04:20:00.967233",
+  "uptime_hours": 3.466988664722222,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}
+2025-09-30 04:25:00,995 - TradingBot - INFO - [start_bot.py:453] - System Status: {
+  "timestamp": "2025-09-30T04:25:00.995735",
+  "uptime_hours": 3.550329915277778,
+  "main_bot_status": "running",
+  "ai_processes": 1,
+  "dry_run_mode": true,
+  "memory_usage_mb": 146,
+  "cpu_percent": 0.0
+}

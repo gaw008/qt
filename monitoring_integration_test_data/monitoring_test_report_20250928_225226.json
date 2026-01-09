@@ -1,0 +1,72 @@
+{
+  "test_run_info": {
+    "timestamp": "2025-09-28T22:52:26.398129",
+    "test_environment": "Monitoring System Integration Test",
+    "monitoring_interval": 1.0
+  },
+  "test_summary": {
+    "total_metrics_collected": 18,
+    "total_alerts_generated": 0,
+    "average_performance_score": 1.0,
+    "average_response_time": 0.0
+  },
+  "monitoring_test_results": [
+    {
+      "test_name": "realtime_metrics_collection",
+      "component": "RealTimeMonitor",
+      "metrics_collected": 18,
+      "alerts_generated": 0,
+      "performance_score": 1.0,
+      "health_status": "HEALTHY",
+      "response_time": 0.0,
+      "status": "PASSED",
+      "timestamp": "2025-09-28T22:52:25.382104"
+    }
+  ],
+  "generated_alerts": [
+    {
+      "alert_id": "ALERT_HIGH_CPU_USAGE_1759125145382",
+      "alert_type": "HIGH_CPU_USAGE",
+      "severity": "HIGH",
+      "message": "CPU usage exceeded 90%",
+      "component": "system_monitor",
+      "resolved": true,
+      "timestamp": "2025-09-28T22:52:25.382104",
+      "resolution_time": "2025-09-28T22:52:25.382104"
+    },
+    {
+      "alert_id": "ALERT_MEMORY_PRESSURE_1759125145382",
+      "alert_type": "MEMORY_PRESSURE",
+      "severity": "MEDIUM",
+      "message": "Memory usage approaching limit",
+      "component": "system_monitor",
+      "resolved": true,
+      "timestamp": "2025-09-28T22:52:25.382104",
+      "resolution_time": "2025-09-28T22:52:25.382104"
+    },
+    {
+      "alert_id": "ALERT_PORTFOLIO_DRAWDOWN_1759125145382",
+      "alert_type": "PORTFOLIO_DRAWDOWN",
+      "severity": "CRITICAL",
+      "message": "Portfolio drawdown exceeds risk limit",
+      "component": "risk_monitor",
+      "resolved": false,
+      "timestamp": "2025-09-28T22:52:25.382104",
+      "resolution_time": null
+    },
+    {
+      "alert_id": "ALERT_API_RESPONSE_SLOW_1759125145382",
+      "alert_type": "API_RESPONSE_SLOW",
+      "severity": "MEDIUM",
+      "message": "API response time degraded",
+      "component": "api_monitor",
+      "resolved": false,
+      "timestamp": "2025-09-28T22:52:25.382104",
+      "resolution_time": null
+    }
+  ],
+  "recommendations": [
+    "Address 2 unresolved alerts",
+    "Monitoring system integration testing completed"
+  ]
+}

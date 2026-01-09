@@ -1,0 +1,17 @@
+{
+  "test_summary": {
+    "timestamp": "20250928_225622",
+    "total_tests": 6,
+    "successful_tests": 0,
+    "failed_tests": 6,
+    "success_rate_percent": 0.0,
+    "total_duration_seconds": 61.496430999999994
+  },
+  "performance_metrics": {
+    "average_test_duration_seconds": 0,
+    "total_memory_usage_mb": 0,
+    "average_throughput_ops_per_sec": 0,
+    "average_latency_ms": 0
+  },
+  "system_baseline": {
+    "timestamp": 

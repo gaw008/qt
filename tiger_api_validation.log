@@ -1,0 +1,30 @@
+2025-09-28 22:01:59,620 - INFO - Loading configuration from C:/quant_system_v2/quant_system_full/.env
+2025-09-28 22:01:59,621 - INFO - Configuration loaded - Tiger ID: 20550012, Account: 41169270
+2025-09-28 22:01:59,621 - INFO - Private key path: C:/quant_system_v2/quant_system_full/private_key.pem
+2025-09-28 22:01:59,621 - INFO - Dry run mode: False
+2025-09-28 22:01:59,621 - INFO - === STARTING COMPREHENSIVE TIGER API VALIDATION ===
+2025-09-28 22:01:59,621 - INFO - === Validating Private Key File ===
+2025-09-28 22:01:59,621 - INFO - Private key file size: 886 bytes
+2025-09-28 22:01:59,622 - INFO - Private key format validation: PASSED
+2025-09-28 22:01:59,622 - INFO - === Initializing Tiger API Clients ===
+2025-09-28 22:02:00,048 - INFO - Tiger SDK imported successfully
+2025-09-28 22:02:01,034 - INFO - Client config created - Tiger ID: 20550012
+2025-09-28 22:02:01,034 - INFO - Account: 41169270
+2025-09-28 22:02:01,034 - INFO - sdk version: 3.4.5
+2025-09-28 22:02:02,059 - ERROR - failed to query license, response: {'code': 1000, 'message': 'common param error(failed to get developer information)', 'timestamp': 1759122121953}
+2025-09-28 22:02:02,264 - ERROR - Client initialization error: code=1000 msg=common param error(failed to get developer information)
+2025-09-28 22:02:02,278 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\quant_system_v2\tiger_api_validation.py", line 194, in initialize_tiger_clients
+    self.quote_client = QuoteClient(client_config)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wgy20\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tigeropen\quote\quote_client.py", line 122, in __init__
+    self.permissions = self.grab_quote_permission()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wgy20\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\tigeropen\quote\quote_client.py", line 2529, in grab_quote_permission
+    raise ApiException(response.code, response.message)
+tigeropen.common.exceptions.ApiException: code=1000 msg=common param error(failed to get developer information)
+
+2025-09-28 22:02:02,278 - INFO - === VALIDATION COMPLETE ===
+2025-09-28 22:02:02,278 - INFO - Overall Status: FAILED
+2025-09-28 22:02:02,278 - INFO - Duration: 2.66 seconds
+2025-09-28 22:02:02,279 - INFO - Errors: 1

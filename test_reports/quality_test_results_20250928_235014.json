@@ -1,0 +1,122 @@
+{
+  "import_structure": {
+    "risk_calculation_services": {
+      "importable": true,
+      "error": null
+    },
+    "risk_assessment_orchestrator": {
+      "importable": false,
+      "error": "attempted relative import with no known parent package"
+    },
+    "scoring_services": {
+      "importable": true,
+      "error": null
+    },
+    "scoring_orchestrator": {
+      "importable": false,
+      "error": "attempted relative import with no known parent package"
+    }
+  },
+  "unit_tests": {
+    "modules": {
+      "risk_services": {
+        "success": true,
+        "output": "\nTest Results:\nTests run: 28\nFailures: 0\nErrors: 0\nSuccess rate: 100.0%\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:457: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestTailRiskCalculator))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:458: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestRegimeDetectionService))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:459: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestDrawdownManager))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:460: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestCorrelationAnalyzer))\nC:\\quant_system_v2\\tests\\test_risk_calculation_services.py:461: DeprecationWarning: unittest.makeSuite() is deprecated and will be removed in Python 3.13. Please use unittest.TestLoader.loadTestsFromTestCase() instead.\n  test_suite.addTest(unittest.makeSuite(TestIntegrationTests))\ntest_comprehensive_tail_metrics (__main__.TestTailRiskCalculator.test_comprehensive_tail_metrics)\nTest comprehensive tail metrics calculation. ... ok\ntest_comprehensive_tail_metrics_insufficient_data (__main__.TestTailRiskCalculator.test_comprehensive_tail_metrics_insufficient_data)\nTest tail metrics with insufficient data. ... ok\ntest_expected_shortfall_calculation (__main__.TestTailRiskCalculator.test_expected_shortfall_calculation)\nTest Expected Shortfall calculation. ... ok\ntest_expected_shortfall_edge_cases (__main__.TestTailRiskCalculator.test_expected_shortfall_edge_cases)\nTest ES calculation edge cases. ... ok\ntest_tail_dependence_calculation (__main__.TestTailRiskCalculator.test_tail_dependence_calculation)\nTest tail dependence calculation. ... ok\ntest_tail_dependence_edge_cases (__main__.TestTailRiskCalculator.test_tail_dependence_edge_cases)\nTest tail dependence edge cases. ... ok\ntest_missing_market_data (__main__.TestRegimeDetectionService.test_missing_market_data)\nTest regime detection with missing data. ... ok\ntest_regime_adjustments (__main__.TestRegimeDetectionService.test_regime_adjustments)\nTest regime-based limit adjustments. ... ok\ntest_regime_detection_crisis (__main__.TestRegimeDetectionService.test_regime_detection_crisis)\nTest crisis market regime detection. ... ok\ntest_regime_detection_normal (__main__.TestRegimeDetectionService.test_regime_detection_normal)\nTest normal market regime detection. ... ok\ntest_regime_detection_trending (__main__.TestRegimeDetectionService.test_regime_detection_trending)\nTest trending market regime detection. ... ok\ntest_regime_detection_volatile (__main__.TestRegimeDetectionService.test_regime_detection_volatile)\nTest volatile market regime detection. ... ok\ntest_regime_multipliers (__main__.TestRegimeDetectionService.test_regime_multipliers)\nTest regime multiplier retrieval. ... ok\ntest_tier_1_activation (__main__.TestDrawdownManager.test_tier_1_activation)\nTest Tier 1 activation. ... ok\ntest_tier_2_activation (__main__.TestDrawdownManager.test_tier_2_activation)\nTest Tier 2 activation. ... ok\ntest_tier_3_activation (__main__.TestDrawdownManager.test_tier_3_activation)\nTest Tier 3 activation. ... ok\ntest_tier_configuration (__main__.TestDrawdownManager.test_tier_configuration)\nTest tier configuration retrieval. ... ok\ntest_tier_detection_normal (__main__.TestDrawdownManager.test_tier_detection_normal)\nTest normal conditions (no tier activation). ... ok\ntest_tier_threshold_update (__main__.TestDrawdownManager.test_tier_threshold_update)\nTest updating tier thresholds. ... ok\ntest_concentration_risk_analysis (__main__.TestCorrelationAnalyzer.test_concentration_risk_analysis)\nTest concentration risk analysis. ... ok\ntest_concentration_risk_no_sectors (__main__.TestCorrelationAnalyzer.test_concentration_risk_no_sectors)\nTest concentration risk without sector data. ... ok\ntest_correlation_matrix_calculation (__main__.TestCorrelationAnalyzer.test_correlation_matrix_calculation)\nTest correlation matrix calculation. ... ok\ntest_correlation_matrix_empty_data (__main__.TestCorrelationAnalyzer.test_correlation_matrix_empty_data)\nTest correlation matrix with empty data. ... ok\ntest_diversification_ratio (__main__.TestCorrelationAnalyzer.test_diversification_ratio)\nTest diversification ratio calculation. ... ok\ntest_diversification_ratio_edge_cases (__main__.TestCorrelationAnalyzer.test_diversification_ratio_edge_cases)\nTest diversification ratio edge cases. ... ok\ntest_high_correlation_detection (__main__.TestCorrelationAnalyzer.test_high_correlation_detection)\nTest high correlation pair detection. ... ok\ntest_complete_risk_assessment_workflow (__main__.TestIntegrationTests.test_complete_risk_assessment_workflow)\nTest complete risk assessment workflow. ... ok\ntest_performance_under_stress (__main__.TestIntegrationTests.test_performance_under_stress)\nTest performance with large datasets. ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.005s\n\nOK\n",
+        "return_code": 0,
+        "tests_run": 0,
+        "failures": 0,
+        "errors": 0
+      },
+      "scoring_services": {
+        "success": false,
+        "output": "Traceback (most recent call last):\n  File \"C:\\quant_system_v2\\tests\\test_scoring_services.py\", line 35, in <module>\n    from scoring_orchestrator import (\n  File \"C:\\quant_system_v2\\tests\\..\\quant_system_full\\bot\\scoring_orchestrator.py\", line 24, in <module>\n    from .scoring_services import (\nImportError: attempted relative import with no known parent package\n",
+        "return_code": 1,
+        "tests_run": 0,
+        "failures": 0,
+        "errors": 0
+      }
+    },
+    "summary": {
+      "total_tests": 0,
+      "total_failures": 0,
+      "total_errors": 0,
+      "success_rate": 0
+    }
+  },
+  "code_complexity": {
+    "quant_system_full/bot/risk_calculation_services.py": {
+      "total_lines": 492,
+      "code_lines": 366,
+      "comment_lines": 21,
+      "comment_ratio": 0.042682926829268296,
+      "functions": 16,
+      "classes": 7,
+      "complexity_score": 75,
+      "avg_function_length": 22.875,
+      "longest_function_lines": 31,
+      "complexity_per_line": 0.20491803278688525,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    },
+    "quant_system_full/bot/risk_assessment_orchestrator.py": {
+      "total_lines": 533,
+      "code_lines": 415,
+      "comment_lines": 34,
+      "comment_ratio": 0.06378986866791744,
+      "functions": 10,
+      "classes": 5,
+      "complexity_score": 54,
+      "avg_function_length": 41.5,
+      "longest_function_lines": 67,
+      "complexity_per_line": 0.13012048192771083,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    },
+    "quant_system_full/bot/scoring_services.py": {
+      "total_lines": 619,
+      "code_lines": 457,
+      "comment_lines": 23,
+      "comment_ratio": 0.03715670436187399,
+      "functions": 43,
+      "classes": 13,
+      "complexity_score": 116,
+      "avg_function_length": 10.627906976744185,
+      "longest_function_lines": 28,
+      "complexity_per_line": 0.2538293216630197,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    },
+    "quant_system_full/bot/scoring_orchestrator.py": {
+      "total_lines": 627,
+      "code_lines": 456,
+      "comment_lines": 48,
+      "comment_ratio": 0.07655502392344497,
+      "functions": 18,
+      "classes": 3,
+      "complexity_score": 96,
+      "avg_function_length": 25.333333333333332,
+      "longest_function_lines": 46,
+      "complexity_per_line": 0.21052631578947367,
+      "meets_targets": {
+        "avg_function_length_under_50": true,
+        "longest_function_under_100": true,
+        "good_comment_ratio": false
+      }
+    }
+  },
+  "performance_benchmarks": {
+    "success": false,
+    "output": "",
+    "errors": "Traceback (most recent call last):\n  File \"C:\\quant_system_v2\\tests\\performance_benchmarks.py\", line 39, in <module>\n    from risk_assessment_orchestrator import RiskAssessmentOrchestrator\n  File \"C:\\quant_system_v2\\tests\\..\\quant_system_full\\bot\\risk_assessment_orchestrator.py\", line 25, in <module>\n    from .risk_calculation_services import (\nImportError: attempted relative import with no known parent package\n",
+    "return_code": 1
+  }
+}
